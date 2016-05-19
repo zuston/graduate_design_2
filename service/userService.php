@@ -381,4 +381,7 @@ class userService
         return $array;
     }
 
+    public function test(){
+        echo 'test this is the vim test';
+    }
 }
