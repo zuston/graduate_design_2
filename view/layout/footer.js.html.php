@@ -23,3 +23,4 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="view/static/js/sb-admin-2.js"></script>
+

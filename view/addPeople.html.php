@@ -53,7 +53,7 @@ $user_type_name = array(
                     </div>
                     <div class="form-group">
                         <label>公司名称</label>
-                        <input class="form-control"  name="company_name">
+                        <input class="form-control"  name="company_name" class="required" id="string">
                         <p class="help-block">Example block-level help text here.</p>
                     </div>
                     <div class="form-group">
@@ -114,6 +114,7 @@ $user_type_name = array(
         $('#dataTables-example').DataTable({
             responsive: true
         });
+
     });
 </script>
 

@@ -1,0 +1,1361 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	Development	//
+ActiveRecord	extension/ActiveRecord/ActiveRecord.php	/^abstract class ActiveRecord extends Base {$/;"	c	language:PHP	inherits:Base	implementation:abstract
+ActiveRecordTest	extension/ActiveRecord/test/ActiveRecordTest.php	/^class ActiveRecordTest extends \\PHPUnit_Framework_TestCase {$/;"	c	language:PHP	inherits:PHPUnit_Framework_TestCase
+AutoloadTest	extension/Flight/tests/AutoloadTest.php	/^class AutoloadTest extends PHPUnit_Framework_TestCase$/;"	c	language:PHP	inherits:PHPUnit_Framework_TestCase
+BELONGS_TO	extension/ActiveRecord/ActiveRecord.php	/^    const BELONGS_TO = 'belongs_to';$/;"	d	language:PHP	class:ActiveRecord
+BROKEN	extension/xunsearch/lib/XS.php	/^	const BROKEN = 0x02;$/;"	d	language:PHP	class:XSServer
+Base	extension/ActiveRecord/ActiveRecord.php	/^abstract class Base {$/;"	c	language:PHP	implementation:abstract
+Collection	extension/Flight/flight/util/Collection.php	/^class Collection implements \\ArrayAccess, \\Iterator, \\Countable {$/;"	c	language:PHP	namespace:flight\util	inherits:ArrayAccess,Iterator,Countable
+Contact	extension/ActiveRecord/test.php	/^class Contact extends ActiveRecord{$/;"	c	language:PHP	inherits:ActiveRecord
+Contact	extension/ActiveRecord/test/ActiveRecordTest.php	/^class Contact extends ActiveRecord{$/;"	c	language:PHP	inherits:ActiveRecord
+Core	core/Core.php	/^class Core$/;"	c	language:PHP
+DFL	extension/xunsearch/lib/XS.php	/^	const DFL = 0;$/;"	d	language:PHP	class:XSTokenizer
+Db	core/Db.php	/^class Db$/;"	c	language:PHP
+Dispatcher	extension/Flight/flight/core/Dispatcher.php	/^class Dispatcher {$/;"	c	language:PHP	namespace:flight\core
+DispatcherTest	extension/Flight/tests/DispatcherTest.php	/^class DispatcherTest extends PHPUnit_Framework_TestCase$/;"	c	language:PHP	inherits:PHPUnit_Framework_TestCase
+Engine	extension/Flight/flight/Engine.php	/^class Engine {$/;"	c	language:PHP	namespace:flight
+ErrorMap	core/ErrorMap.php	/^class ErrorMap{$/;"	c	language:PHP
+Expressions	extension/ActiveRecord/ActiveRecord.php	/^class Expressions extends Base {$/;"	c	language:PHP	inherits:Base
+FILE	extension/xunsearch/lib/XS.php	/^	const FILE = 0x01;$/;"	d	language:PHP	class:XSServer
+FLAG_INDEX_BOTH	extension/xunsearch/lib/XS.php	/^	const FLAG_INDEX_BOTH = 0x03;$/;"	d	language:PHP	class:XSFieldMeta
+FLAG_INDEX_MIXED	extension/xunsearch/lib/XS.php	/^	const FLAG_INDEX_MIXED = 0x02;$/;"	d	language:PHP	class:XSFieldMeta
+FLAG_INDEX_SELF	extension/xunsearch/lib/XS.php	/^	const FLAG_INDEX_SELF = 0x01;$/;"	d	language:PHP	class:XSFieldMeta
+FLAG_NON_BOOL	extension/xunsearch/lib/XS.php	/^	const FLAG_NON_BOOL = 0x80; \/\/ 强制让该字段参与权重计算 (非布尔)$/;"	d	language:PHP	class:XSFieldMeta
+FLAG_WITH_POSITION	extension/xunsearch/lib/XS.php	/^	const FLAG_WITH_POSITION = 0x10;$/;"	d	language:PHP	class:XSFieldMeta
+Factory	extension/Flight/tests/classes/Factory.php	/^class Factory {$/;"	c	language:PHP
+FilterTest	extension/Flight/tests/FilterTest.php	/^class FilterTest extends PHPUnit_Framework_TestCase$/;"	c	language:PHP	inherits:PHPUnit_Framework_TestCase
+Flight	extension/Flight/flight/Flight.php	/^class Flight {$/;"	c	language:PHP
+FlightTest	extension/Flight/tests/FlightTest.php	/^class FlightTest extends PHPUnit_Framework_TestCase$/;"	c	language:PHP	inherits:PHPUnit_Framework_TestCase
+HAS_MANY	extension/ActiveRecord/ActiveRecord.php	/^    const HAS_MANY = 'has_many';$/;"	d	language:PHP	class:ActiveRecord
+HAS_ONE	extension/ActiveRecord/ActiveRecord.php	/^    const HAS_ONE = 'has_one';$/;"	d	language:PHP	class:ActiveRecord
+Hello	extension/Flight/tests/classes/Hello.php	/^class Hello {$/;"	c	language:PHP
+LOG_DB	extension/xunsearch/lib/XS.php	/^	const LOG_DB = 'log_db';$/;"	d	language:PHP	class:XSSearch
+Loader	extension/Flight/flight/core/Loader.php	/^class Loader {$/;"	c	language:PHP	namespace:flight\core
+LoaderTest	extension/Flight/tests/LoaderTest.php	/^class LoaderTest extends PHPUnit_Framework_TestCase$/;"	c	language:PHP	inherits:PHPUnit_Framework_TestCase
+MAX_WDF	extension/xunsearch/lib/XS.php	/^	const MAX_WDF = 0x3f;$/;"	d	language:PHP	class:XSFieldMeta
+MIXED_VNO	extension/xunsearch/lib/XS.php	/^	const MIXED_VNO = 255;$/;"	d	language:PHP	class:XSFieldScheme
+MULTI_MASK	extension/xunsearch/lib/XS.php	/^	const MULTI_MASK = 15;$/;"	d	language:PHP	class:XSTokenizerScws
+MapTest	extension/Flight/tests/MapTest.php	/^class MapTest extends PHPUnit_Framework_TestCase$/;"	c	language:PHP	inherits:PHPUnit_Framework_TestCase
+PAGE_SIZE	extension/xunsearch/lib/XS.php	/^	const PAGE_SIZE = 10;$/;"	d	language:PHP	class:XSSearch
+PARAM_ERROR	core/ErrorMap.php	/^    const PARAM_ERROR = 100;$/;"	d	language:PHP	class:ErrorMap
+PLIMIT	extension/xunsearch/util/XSDataSource.class.php	/^	const PLIMIT = 1000;$/;"	d	language:PHP	class:XSDatabaseDataSource
+PREFIX	extension/ActiveRecord/ActiveRecord.php	/^    const PREFIX = ':ph';$/;"	d	language:PHP	class:ActiveRecord
+RedirectTest	extension/Flight/tests/RedirectTest.php	/^class RedirectTest extends PHPUnit_Framework_TestCase$/;"	c	language:PHP	inherits:PHPUnit_Framework_TestCase
+RegisterTest	extension/Flight/tests/RegisterTest.php	/^class RegisterTest extends PHPUnit_Framework_TestCase$/;"	c	language:PHP	inherits:PHPUnit_Framework_TestCase
+RenderTest	extension/Flight/tests/RenderTest.php	/^class RenderTest extends PHPUnit_Framework_TestCase$/;"	c	language:PHP	inherits:PHPUnit_Framework_TestCase
+Request	extension/Flight/flight/net/Request.php	/^class Request {$/;"	c	language:PHP	namespace:flight\net
+RequestTest	extension/Flight/tests/RequestTest.php	/^class RequestTest extends PHPUnit_Framework_TestCase$/;"	c	language:PHP	inherits:PHPUnit_Framework_TestCase
+Response	extension/Flight/flight/net/Response.php	/^class Response {$/;"	c	language:PHP	namespace:flight\net
+Route	extension/Flight/flight/net/Route.php	/^class Route {$/;"	c	language:PHP	namespace:flight\net
+Router	extension/Flight/flight/net/Router.php	/^class Router {$/;"	c	language:PHP	namespace:flight\net
+RouterTest	extension/Flight/tests/RouterTest.php	/^class RouterTest extends PHPUnit_Framework_TestCase$/;"	c	language:PHP	inherits:PHPUnit_Framework_TestCase
+SCWS_MULTI_DUALITY	extension/xunsearch/lib/XS.php	/^				define('SCWS_MULTI_DUALITY', 2);$/;"	d	language:PHP	function:XSTokenizerScws::__construct
+SCWS_MULTI_NONE	extension/xunsearch/lib/XS.php	/^				define('SCWS_MULTI_NONE', 0);$/;"	d	language:PHP	function:XSTokenizerScws::__construct
+SCWS_MULTI_SHORT	extension/xunsearch/lib/XS.php	/^				define('SCWS_MULTI_SHORT', 1);$/;"	d	language:PHP	function:XSTokenizerScws::__construct
+SCWS_MULTI_ZALL	extension/xunsearch/lib/XS.php	/^				define('SCWS_MULTI_ZALL', 8);$/;"	d	language:PHP	function:XSTokenizerScws::__construct
+SCWS_MULTI_ZMAIN	extension/xunsearch/lib/XS.php	/^				define('SCWS_MULTI_ZMAIN', 4);$/;"	d	language:PHP	function:XSTokenizerScws::__construct
+SCWS_XDICT_MEM	extension/xunsearch/lib/XS.php	/^				define('SCWS_XDICT_MEM', 2);$/;"	d	language:PHP	function:XSTokenizerScws::__construct
+SCWS_XDICT_TXT	extension/xunsearch/lib/XS.php	/^				define('SCWS_XDICT_TXT', 4);$/;"	d	language:PHP	function:XSTokenizerScws::__construct
+SCWS_XDICT_XDB	extension/xunsearch/lib/XS.php	/^				define('SCWS_XDICT_XDB', 1);$/;"	d	language:PHP	function:XSTokenizerScws::__construct
+SUCCESS	core/ErrorMap.php	/^    const SUCCESS = 1;$/;"	d	language:PHP	class:ErrorMap
+TEMPLATE_HTML_ERROR	core/ErrorMap.php	/^    const TEMPLATE_HTML_ERROR = 404;$/;"	d	language:PHP	class:ErrorMap
+TYPE_BODY	extension/xunsearch/lib/XS.php	/^	const TYPE_BODY = 12;$/;"	d	language:PHP	class:XSFieldMeta
+TYPE_DATE	extension/xunsearch/lib/XS.php	/^	const TYPE_DATE = 2;$/;"	d	language:PHP	class:XSFieldMeta
+TYPE_ID	extension/xunsearch/lib/XS.php	/^	const TYPE_ID = 10;$/;"	d	language:PHP	class:XSFieldMeta
+TYPE_NUMERIC	extension/xunsearch/lib/XS.php	/^	const TYPE_NUMERIC = 1;$/;"	d	language:PHP	class:XSFieldMeta
+TYPE_STRING	extension/xunsearch/lib/XS.php	/^	const TYPE_STRING = 0;$/;"	d	language:PHP	class:XSFieldMeta
+TYPE_TITLE	extension/xunsearch/lib/XS.php	/^	const TYPE_TITLE = 11;$/;"	d	language:PHP	class:XSFieldMeta
+User	extension/ActiveRecord/test.php	/^class User extends ActiveRecord{$/;"	c	language:PHP	inherits:ActiveRecord
+User	extension/ActiveRecord/test/ActiveRecordTest.php	/^class User extends ActiveRecord{$/;"	c	language:PHP	inherits:ActiveRecord
+User	extension/Flight/tests/classes/User.php	/^    public function User($name = ''){$/;"	f	language:PHP	class:User	access:public	signature:($name = '')
+User	extension/Flight/tests/classes/User.php	/^class User {$/;"	c	language:PHP
+VariableTest	extension/Flight/tests/VariableTest.php	/^class VariableTest extends PHPUnit_Framework_TestCase$/;"	c	language:PHP	inherits:PHPUnit_Framework_TestCase
+View	extension/Flight/flight/template/View.php	/^class View {$/;"	c	language:PHP	namespace:flight\template
+ViewTest	extension/Flight/tests/ViewTest.php	/^class ViewTest extends PHPUnit_Framework_TestCase$/;"	c	language:PHP	inherits:PHPUnit_Framework_TestCase
+WrapExpressions	extension/ActiveRecord/ActiveRecord.php	/^class WrapExpressions extends Expressions {$/;"	c	language:PHP	inherits:Expressions
+XS	extension/xunsearch/lib/XS.php	/^class XS extends XSComponent$/;"	c	language:PHP	inherits:XSComponent
+XSCommand	extension/xunsearch/lib/XS.php	/^class XSCommand extends XSComponent$/;"	c	language:PHP	inherits:XSComponent
+XSComponent	extension/xunsearch/lib/XS.php	/^class XSComponent$/;"	c	language:PHP
+XSCsvDataSource	extension/xunsearch/util/XSDataSource.class.php	/^class XSCsvDataSource extends XSDataSource$/;"	c	language:PHP	inherits:XSDataSource
+XSDataFilter	extension/xunsearch/util/XSDataSource.class.php	/^interface XSDataFilter$/;"	i	language:PHP
+XSDataSource	extension/xunsearch/util/XSDataSource.class.php	/^abstract class XSDataSource$/;"	c	language:PHP	implementation:abstract
+XSDatabase	extension/xunsearch/util/XSDataSource.class.php	/^abstract class XSDatabase$/;"	c	language:PHP	implementation:abstract
+XSDatabaseDataSource	extension/xunsearch/util/XSDataSource.class.php	/^class XSDatabaseDataSource extends XSDataSource$/;"	c	language:PHP	inherits:XSDataSource
+XSDatabaseMySQL	extension/xunsearch/util/XSDataSource.class.php	/^class XSDatabaseMySQL extends XSDatabase$/;"	c	language:PHP	inherits:XSDatabase
+XSDatabaseMySQLI	extension/xunsearch/util/XSDataSource.class.php	/^class XSDatabaseMySQLI extends XSDatabase$/;"	c	language:PHP	inherits:XSDatabase
+XSDatabasePDO	extension/xunsearch/util/XSDataSource.class.php	/^abstract class XSDatabasePDO extends XSDatabase$/;"	c	language:PHP	inherits:XSDatabase	implementation:abstract
+XSDatabasePDO_MySQL	extension/xunsearch/util/XSDataSource.class.php	/^class XSDatabasePDO_MySQL extends XSDatabasePDO$/;"	c	language:PHP	inherits:XSDatabasePDO
+XSDatabasePDO_PgSQL	extension/xunsearch/util/XSDataSource.class.php	/^class XSDatabasePDO_PgSQL extends XSDatabasePDO$/;"	c	language:PHP	inherits:XSDatabasePDO
+XSDatabasePDO_SQLite	extension/xunsearch/util/XSDataSource.class.php	/^class XSDatabasePDO_SQLite extends XSDatabasePDO$/;"	c	language:PHP	inherits:XSDatabasePDO
+XSDatabasePgSQL	extension/xunsearch/util/XSDataSource.class.php	/^class XSDatabasePgSQL extends XSDatabase$/;"	c	language:PHP	inherits:XSDatabase
+XSDatabaseSQLite	extension/xunsearch/util/XSDataSource.class.php	/^class XSDatabaseSQLite extends XSDatabase$/;"	c	language:PHP	inherits:XSDatabase
+XSDatabaseSQLite3	extension/xunsearch/util/XSDataSource.class.php	/^class XSDatabaseSQLite3 extends XSDatabase$/;"	c	language:PHP	inherits:XSDatabase
+XSDebugFilter	extension/xunsearch/util/XSDataSource.class.php	/^class XSDebugFilter implements XSDataFilter$/;"	c	language:PHP	inherits:XSDataFilter
+XSDocument	extension/xunsearch/lib/XS.php	/^class XSDocument implements ArrayAccess, IteratorAggregate$/;"	c	language:PHP	inherits:ArrayAccess,IteratorAggregate
+XSErrorException	extension/xunsearch/lib/XS.php	/^class XSErrorException extends XSException$/;"	c	language:PHP	inherits:XSException
+XSException	extension/xunsearch/lib/XS.php	/^class XSException extends Exception$/;"	c	language:PHP	inherits:Exception
+XSFieldMeta	extension/xunsearch/lib/XS.php	/^class XSFieldMeta$/;"	c	language:PHP
+XSFieldScheme	extension/xunsearch/lib/XS.php	/^class XSFieldScheme implements IteratorAggregate$/;"	c	language:PHP	inherits:IteratorAggregate
+XSIndex	extension/xunsearch/lib/XS.php	/^class XSIndex extends XSServer$/;"	c	language:PHP	inherits:XSServer
+XSJsonDataSource	extension/xunsearch/util/XSDataSource.class.php	/^class XSJsonDataSource extends XSDataSource$/;"	c	language:PHP	inherits:XSDataSource
+XSSearch	extension/xunsearch/lib/XS.php	/^class XSSearch extends XSServer$/;"	c	language:PHP	inherits:XSServer
+XSServer	extension/xunsearch/lib/XS.php	/^class XSServer extends XSComponent$/;"	c	language:PHP	inherits:XSComponent
+XSTokenizer	extension/xunsearch/lib/XS.php	/^interface XSTokenizer$/;"	i	language:PHP
+XSTokenizerFull	extension/xunsearch/lib/XS.php	/^class XSTokenizerFull implements XSTokenizer$/;"	c	language:PHP	inherits:XSTokenizer
+XSTokenizerNone	extension/xunsearch/lib/XS.php	/^class XSTokenizerNone implements XSTokenizer$/;"	c	language:PHP	inherits:XSTokenizer
+XSTokenizerScws	extension/xunsearch/lib/XS.php	/^class XSTokenizerScws implements XSTokenizer$/;"	c	language:PHP	inherits:XSTokenizer
+XSTokenizerSplit	extension/xunsearch/lib/XS.php	/^class XSTokenizerSplit implements XSTokenizer$/;"	c	language:PHP	inherits:XSTokenizer
+XSTokenizerXlen	extension/xunsearch/lib/XS.php	/^class XSTokenizerXlen implements XSTokenizer$/;"	c	language:PHP	inherits:XSTokenizer
+XSTokenizerXstep	extension/xunsearch/lib/XS.php	/^class XSTokenizerXstep implements XSTokenizer$/;"	c	language:PHP	inherits:XSTokenizer
+XSUtil	extension/xunsearch/util/XSUtil.class.php	/^class XSUtil$/;"	c	language:PHP
+XS_CMD_DEBUG	extension/xunsearch/lib/XS.php	/^define('XS_CMD_DEBUG',	2);$/;"	d	language:PHP
+XS_CMD_DEFAULT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_DEFAULT',	XS_CMD_NONE);$/;"	d	language:PHP
+XS_CMD_DELETE_PROJECT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_DELETE_PROJECT',	38);$/;"	d	language:PHP
+XS_CMD_DOC_INDEX	extension/xunsearch/lib/XS.php	/^define('XS_CMD_DOC_INDEX',	162);$/;"	d	language:PHP
+XS_CMD_DOC_TERM	extension/xunsearch/lib/XS.php	/^define('XS_CMD_DOC_TERM',	160);$/;"	d	language:PHP
+XS_CMD_DOC_VALUE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_DOC_VALUE',	161);$/;"	d	language:PHP
+XS_CMD_ERR	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR',	129);$/;"	d	language:PHP
+XS_CMD_ERR_BUSY	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_BUSY',	504);$/;"	d	language:PHP
+XS_CMD_ERR_CREATE_HOME	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_CREATE_HOME',	508);$/;"	d	language:PHP
+XS_CMD_ERR_DBLOCKED	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_DBLOCKED',	507);$/;"	d	language:PHP
+XS_CMD_ERR_EMPTY	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_EMPTY',	404);$/;"	d	language:PHP
+XS_CMD_ERR_EMPTYQUERY	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_EMPTYQUERY',	452);$/;"	d	language:PHP
+XS_CMD_ERR_INVALIDCHAR	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_INVALIDCHAR',	403);$/;"	d	language:PHP
+XS_CMD_ERR_INVALID_HOME	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_INVALID_HOME',	509);$/;"	d	language:PHP
+XS_CMD_ERR_IOERR	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_IOERR',	502);$/;"	d	language:PHP
+XS_CMD_ERR_NOACTION	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_NOACTION',	405);$/;"	d	language:PHP
+XS_CMD_ERR_NODB	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_NODB',	506);$/;"	d	language:PHP
+XS_CMD_ERR_NOMEM	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_NOMEM',	503);$/;"	d	language:PHP
+XS_CMD_ERR_NOPROJECT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_NOPROJECT',	401);$/;"	d	language:PHP
+XS_CMD_ERR_OPEN_FILE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_OPEN_FILE',	513);$/;"	d	language:PHP
+XS_CMD_ERR_REBUILDING	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_REBUILDING',	407);$/;"	d	language:PHP
+XS_CMD_ERR_REMOVE_DB	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_REMOVE_DB',	511);$/;"	d	language:PHP
+XS_CMD_ERR_REMOVE_HOME	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_REMOVE_HOME',	510);$/;"	d	language:PHP
+XS_CMD_ERR_RUNNING	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_RUNNING',	406);$/;"	d	language:PHP
+XS_CMD_ERR_STAT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_STAT',	512);$/;"	d	language:PHP
+XS_CMD_ERR_TASK_CANCELED	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_TASK_CANCELED',	514);$/;"	d	language:PHP
+XS_CMD_ERR_TIMEOUT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_TIMEOUT',	501);$/;"	d	language:PHP
+XS_CMD_ERR_TOOLONG	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_TOOLONG',	402);$/;"	d	language:PHP
+XS_CMD_ERR_UNIMP	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_UNIMP',	505);$/;"	d	language:PHP
+XS_CMD_ERR_UNKNOWN	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_UNKNOWN',	600);$/;"	d	language:PHP
+XS_CMD_ERR_WRONGFORMAT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_WRONGFORMAT',	451);$/;"	d	language:PHP
+XS_CMD_ERR_WRONGPLACE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_WRONGPLACE',	450);$/;"	d	language:PHP
+XS_CMD_ERR_XAPIAN	extension/xunsearch/lib/XS.php	/^define('XS_CMD_ERR_XAPIAN',	515);$/;"	d	language:PHP
+XS_CMD_FLUSH_LOGGING	extension/xunsearch/lib/XS.php	/^define('XS_CMD_FLUSH_LOGGING',	41);$/;"	d	language:PHP
+XS_CMD_HELLO	extension/xunsearch/lib/XS.php	/^define('XS_CMD_HELLO',	1);$/;"	d	language:PHP
+XS_CMD_IMPORT_HEADER	extension/xunsearch/lib/XS.php	/^define('XS_CMD_IMPORT_HEADER',	191);$/;"	d	language:PHP
+XS_CMD_INDEX_CLEAN_DB	extension/xunsearch/lib/XS.php	/^define('XS_CMD_INDEX_CLEAN_DB',	37);$/;"	d	language:PHP
+XS_CMD_INDEX_COMMIT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_INDEX_COMMIT',	39);$/;"	d	language:PHP
+XS_CMD_INDEX_EXDATA	extension/xunsearch/lib/XS.php	/^define('XS_CMD_INDEX_EXDATA',	36);$/;"	d	language:PHP
+XS_CMD_INDEX_FLAG_CHECKSTEM	extension/xunsearch/lib/XS.php	/^define('XS_CMD_INDEX_FLAG_CHECKSTEM',	0x80);$/;"	d	language:PHP
+XS_CMD_INDEX_FLAG_SAVEVALUE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_INDEX_FLAG_SAVEVALUE',	0x80);$/;"	d	language:PHP
+XS_CMD_INDEX_FLAG_WITHPOS	extension/xunsearch/lib/XS.php	/^define('XS_CMD_INDEX_FLAG_WITHPOS',	0x40);$/;"	d	language:PHP
+XS_CMD_INDEX_GET_DB	extension/xunsearch/lib/XS.php	/^define('XS_CMD_INDEX_GET_DB',	33);$/;"	d	language:PHP
+XS_CMD_INDEX_REBUILD	extension/xunsearch/lib/XS.php	/^define('XS_CMD_INDEX_REBUILD',	40);$/;"	d	language:PHP
+XS_CMD_INDEX_REMOVE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_INDEX_REMOVE',	35);$/;"	d	language:PHP
+XS_CMD_INDEX_REQUEST	extension/xunsearch/lib/XS.php	/^define('XS_CMD_INDEX_REQUEST',	163);$/;"	d	language:PHP
+XS_CMD_INDEX_REQUEST_ADD	extension/xunsearch/lib/XS.php	/^define('XS_CMD_INDEX_REQUEST_ADD',	0);$/;"	d	language:PHP
+XS_CMD_INDEX_REQUEST_UPDATE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_INDEX_REQUEST_UPDATE',	1);$/;"	d	language:PHP
+XS_CMD_INDEX_SET_DB	extension/xunsearch/lib/XS.php	/^define('XS_CMD_INDEX_SET_DB',	32);$/;"	d	language:PHP
+XS_CMD_INDEX_SUBMIT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_INDEX_SUBMIT',	34);$/;"	d	language:PHP
+XS_CMD_INDEX_SYNONYMS	extension/xunsearch/lib/XS.php	/^define('XS_CMD_INDEX_SYNONYMS',	42);$/;"	d	language:PHP
+XS_CMD_INDEX_SYNONYMS_ADD	extension/xunsearch/lib/XS.php	/^define('XS_CMD_INDEX_SYNONYMS_ADD',	0);$/;"	d	language:PHP
+XS_CMD_INDEX_SYNONYMS_DEL	extension/xunsearch/lib/XS.php	/^define('XS_CMD_INDEX_SYNONYMS_DEL',	1);$/;"	d	language:PHP
+XS_CMD_INDEX_USER_DICT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_INDEX_USER_DICT',	43);$/;"	d	language:PHP
+XS_CMD_INDEX_WEIGHT_MASK	extension/xunsearch/lib/XS.php	/^define('XS_CMD_INDEX_WEIGHT_MASK',	0x3f);$/;"	d	language:PHP
+XS_CMD_NONE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_NONE',	0);$/;"	d	language:PHP
+XS_CMD_OK	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK',	128);$/;"	d	language:PHP
+XS_CMD_OK_DB_CHANGED	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_DB_CHANGED',	251);$/;"	d	language:PHP
+XS_CMD_OK_DB_CLEAN	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_DB_CLEAN',	253);$/;"	d	language:PHP
+XS_CMD_OK_DB_COMMITED	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_DB_COMMITED',	256);$/;"	d	language:PHP
+XS_CMD_OK_DB_INFO	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_DB_INFO',	252);$/;"	d	language:PHP
+XS_CMD_OK_DB_REBUILD	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_DB_REBUILD',	257);$/;"	d	language:PHP
+XS_CMD_OK_DB_TOTAL	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_DB_TOTAL',	203);$/;"	d	language:PHP
+XS_CMD_OK_DICT_SAVED	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_DICT_SAVED',	259);$/;"	d	language:PHP
+XS_CMD_OK_FINISHED	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_FINISHED',	209);$/;"	d	language:PHP
+XS_CMD_OK_INFO	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_INFO',	200);$/;"	d	language:PHP
+XS_CMD_OK_LOGGED	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_LOGGED',	210);$/;"	d	language:PHP
+XS_CMD_OK_LOG_FLUSHED	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_LOG_FLUSHED',	258);$/;"	d	language:PHP
+XS_CMD_OK_PROJECT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_PROJECT',	201);$/;"	d	language:PHP
+XS_CMD_OK_PROJECT_ADD	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_PROJECT_ADD',	254);$/;"	d	language:PHP
+XS_CMD_OK_PROJECT_DEL	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_PROJECT_DEL',	255);$/;"	d	language:PHP
+XS_CMD_OK_QUERY_CORRECTED	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_QUERY_CORRECTED',	205);$/;"	d	language:PHP
+XS_CMD_OK_QUERY_STRING	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_QUERY_STRING',	202);$/;"	d	language:PHP
+XS_CMD_OK_QUERY_TERMS	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_QUERY_TERMS',	204);$/;"	d	language:PHP
+XS_CMD_OK_RESULT_BEGIN	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_RESULT_BEGIN',	XS_CMD_OK_SEARCH_TOTAL);$/;"	d	language:PHP
+XS_CMD_OK_RESULT_END	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_RESULT_END',	207);$/;"	d	language:PHP
+XS_CMD_OK_RESULT_SYNONYMS	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_RESULT_SYNONYMS',	280);$/;"	d	language:PHP
+XS_CMD_OK_RQST_FINISHED	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_RQST_FINISHED',	250);$/;"	d	language:PHP
+XS_CMD_OK_SCWS_RESULT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_SCWS_RESULT',	290);$/;"	d	language:PHP
+XS_CMD_OK_SCWS_TOPS	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_SCWS_TOPS',	291);$/;"	d	language:PHP
+XS_CMD_OK_SEARCH_TOTAL	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_SEARCH_TOTAL',	206);$/;"	d	language:PHP
+XS_CMD_OK_TIMEOUT_SET	extension/xunsearch/lib/XS.php	/^define('XS_CMD_OK_TIMEOUT_SET',	208);$/;"	d	language:PHP
+XS_CMD_PARSE_FLAG_AUTO_MULTIWORD_SYNONYMS	extension/xunsearch/lib/XS.php	/^define('XS_CMD_PARSE_FLAG_AUTO_MULTIWORD_SYNONYMS',	1536);$/;"	d	language:PHP
+XS_CMD_PARSE_FLAG_AUTO_SYNONYMS	extension/xunsearch/lib/XS.php	/^define('XS_CMD_PARSE_FLAG_AUTO_SYNONYMS',	512);$/;"	d	language:PHP
+XS_CMD_PARSE_FLAG_BOOLEAN	extension/xunsearch/lib/XS.php	/^define('XS_CMD_PARSE_FLAG_BOOLEAN',	1);$/;"	d	language:PHP
+XS_CMD_PARSE_FLAG_BOOLEAN_ANY_CASE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_PARSE_FLAG_BOOLEAN_ANY_CASE',	8);$/;"	d	language:PHP
+XS_CMD_PARSE_FLAG_LOVEHATE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_PARSE_FLAG_LOVEHATE',	4);$/;"	d	language:PHP
+XS_CMD_PARSE_FLAG_PARTIAL	extension/xunsearch/lib/XS.php	/^define('XS_CMD_PARSE_FLAG_PARTIAL',	64);$/;"	d	language:PHP
+XS_CMD_PARSE_FLAG_PHRASE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_PARSE_FLAG_PHRASE',	2);$/;"	d	language:PHP
+XS_CMD_PARSE_FLAG_PURE_NOT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_PARSE_FLAG_PURE_NOT',	32);$/;"	d	language:PHP
+XS_CMD_PARSE_FLAG_SPELLING_CORRECTION	extension/xunsearch/lib/XS.php	/^define('XS_CMD_PARSE_FLAG_SPELLING_CORRECTION',	128);$/;"	d	language:PHP
+XS_CMD_PARSE_FLAG_SYNONYM	extension/xunsearch/lib/XS.php	/^define('XS_CMD_PARSE_FLAG_SYNONYM',	256);$/;"	d	language:PHP
+XS_CMD_PARSE_FLAG_WILDCARD	extension/xunsearch/lib/XS.php	/^define('XS_CMD_PARSE_FLAG_WILDCARD',	16);$/;"	d	language:PHP
+XS_CMD_PREFIX_BOOLEAN	extension/xunsearch/lib/XS.php	/^define('XS_CMD_PREFIX_BOOLEAN',	1);$/;"	d	language:PHP
+XS_CMD_PREFIX_NORMAL	extension/xunsearch/lib/XS.php	/^define('XS_CMD_PREFIX_NORMAL',	0);$/;"	d	language:PHP
+XS_CMD_PROTOCOL	extension/xunsearch/lib/XS.php	/^define('XS_CMD_PROTOCOL',	20110707);$/;"	d	language:PHP
+XS_CMD_QUERY_GET_CORRECTED	extension/xunsearch/lib/XS.php	/^define('XS_CMD_QUERY_GET_CORRECTED',	98);$/;"	d	language:PHP
+XS_CMD_QUERY_GET_EXPANDED	extension/xunsearch/lib/XS.php	/^define('XS_CMD_QUERY_GET_EXPANDED',	99);$/;"	d	language:PHP
+XS_CMD_QUERY_GET_STRING	extension/xunsearch/lib/XS.php	/^define('XS_CMD_QUERY_GET_STRING',	96);$/;"	d	language:PHP
+XS_CMD_QUERY_GET_TERMS	extension/xunsearch/lib/XS.php	/^define('XS_CMD_QUERY_GET_TERMS',	97);$/;"	d	language:PHP
+XS_CMD_QUERY_INIT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_QUERY_INIT',	224);$/;"	d	language:PHP
+XS_CMD_QUERY_OP_AND	extension/xunsearch/lib/XS.php	/^define('XS_CMD_QUERY_OP_AND',	0);$/;"	d	language:PHP
+XS_CMD_QUERY_OP_AND_MAYBE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_QUERY_OP_AND_MAYBE',	4);$/;"	d	language:PHP
+XS_CMD_QUERY_OP_AND_NOT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_QUERY_OP_AND_NOT',	2);$/;"	d	language:PHP
+XS_CMD_QUERY_OP_FILTER	extension/xunsearch/lib/XS.php	/^define('XS_CMD_QUERY_OP_FILTER',	5);$/;"	d	language:PHP
+XS_CMD_QUERY_OP_OR	extension/xunsearch/lib/XS.php	/^define('XS_CMD_QUERY_OP_OR',	1);$/;"	d	language:PHP
+XS_CMD_QUERY_OP_XOR	extension/xunsearch/lib/XS.php	/^define('XS_CMD_QUERY_OP_XOR',	3);$/;"	d	language:PHP
+XS_CMD_QUERY_PARSE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_QUERY_PARSE',	225);$/;"	d	language:PHP
+XS_CMD_QUERY_PARSEFLAG	extension/xunsearch/lib/XS.php	/^define('XS_CMD_QUERY_PARSEFLAG',	231);$/;"	d	language:PHP
+XS_CMD_QUERY_PREFIX	extension/xunsearch/lib/XS.php	/^define('XS_CMD_QUERY_PREFIX',	230);$/;"	d	language:PHP
+XS_CMD_QUERY_RANGE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_QUERY_RANGE',	228);$/;"	d	language:PHP
+XS_CMD_QUERY_RANGEPROC	extension/xunsearch/lib/XS.php	/^define('XS_CMD_QUERY_RANGEPROC',	227);$/;"	d	language:PHP
+XS_CMD_QUERY_TERM	extension/xunsearch/lib/XS.php	/^define('XS_CMD_QUERY_TERM',	226);$/;"	d	language:PHP
+XS_CMD_QUERY_VALCMP	extension/xunsearch/lib/XS.php	/^define('XS_CMD_QUERY_VALCMP',	229);$/;"	d	language:PHP
+XS_CMD_QUIT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_QUIT',	4);$/;"	d	language:PHP
+XS_CMD_RANGE_PROC_DATE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_RANGE_PROC_DATE',	1);$/;"	d	language:PHP
+XS_CMD_RANGE_PROC_NUMBER	extension/xunsearch/lib/XS.php	/^define('XS_CMD_RANGE_PROC_NUMBER',	2);$/;"	d	language:PHP
+XS_CMD_RANGE_PROC_STRING	extension/xunsearch/lib/XS.php	/^define('XS_CMD_RANGE_PROC_STRING',	0);$/;"	d	language:PHP
+XS_CMD_SCWS_ADD_DICT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SCWS_ADD_DICT',	54);$/;"	d	language:PHP
+XS_CMD_SCWS_GET_MULTI	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SCWS_GET_MULTI',	5);$/;"	d	language:PHP
+XS_CMD_SCWS_GET_RESULT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SCWS_GET_RESULT',	2);$/;"	d	language:PHP
+XS_CMD_SCWS_GET_TOPS	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SCWS_GET_TOPS',	3);$/;"	d	language:PHP
+XS_CMD_SCWS_GET_VERSION	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SCWS_GET_VERSION',	1);$/;"	d	language:PHP
+XS_CMD_SCWS_HAS_WORD	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SCWS_HAS_WORD',	4);$/;"	d	language:PHP
+XS_CMD_SCWS_SET_DICT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SCWS_SET_DICT',	53);$/;"	d	language:PHP
+XS_CMD_SCWS_SET_DUALITY	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SCWS_SET_DUALITY',	52);$/;"	d	language:PHP
+XS_CMD_SCWS_SET_IGNORE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SCWS_SET_IGNORE',	50);$/;"	d	language:PHP
+XS_CMD_SCWS_SET_MULTI	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SCWS_SET_MULTI',	51);$/;"	d	language:PHP
+XS_CMD_SEARCH_ADD_DB	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_ADD_DB',	68);$/;"	d	language:PHP
+XS_CMD_SEARCH_ADD_LOG	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_ADD_LOG',	71);$/;"	d	language:PHP
+XS_CMD_SEARCH_DB_TOTAL	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_DB_TOTAL',	64);$/;"	d	language:PHP
+XS_CMD_SEARCH_DRAW_TPOOL	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_DRAW_TPOOL',	70);$/;"	d	language:PHP
+XS_CMD_SEARCH_FINISH	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_FINISH',	69);$/;"	d	language:PHP
+XS_CMD_SEARCH_GET_DB	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_GET_DB',	XS_CMD_INDEX_GET_DB);$/;"	d	language:PHP
+XS_CMD_SEARCH_GET_RESULT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_GET_RESULT',	66);$/;"	d	language:PHP
+XS_CMD_SEARCH_GET_SYNONYMS	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_GET_SYNONYMS',	72);$/;"	d	language:PHP
+XS_CMD_SEARCH_GET_TOTAL	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_GET_TOTAL',	65);$/;"	d	language:PHP
+XS_CMD_SEARCH_KEEPALIVE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_KEEPALIVE',	196);$/;"	d	language:PHP
+XS_CMD_SEARCH_MISC_MATCHED_TERM	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_MISC_MATCHED_TERM',	2);$/;"	d	language:PHP
+XS_CMD_SEARCH_MISC_SYN_SCALE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_MISC_SYN_SCALE',	1);$/;"	d	language:PHP
+XS_CMD_SEARCH_RESULT_DOC	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_RESULT_DOC',	140);$/;"	d	language:PHP
+XS_CMD_SEARCH_RESULT_FACETS	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_RESULT_FACETS',	142);$/;"	d	language:PHP
+XS_CMD_SEARCH_RESULT_FIELD	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_RESULT_FIELD',	141);$/;"	d	language:PHP
+XS_CMD_SEARCH_RESULT_MATCHED	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_RESULT_MATCHED',	143);$/;"	d	language:PHP
+XS_CMD_SEARCH_SCWS_GET	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_SCWS_GET',	73);$/;"	d	language:PHP
+XS_CMD_SEARCH_SCWS_SET	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_SCWS_SET',	198);$/;"	d	language:PHP
+XS_CMD_SEARCH_SET_COLLAPSE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_SET_COLLAPSE',	195);$/;"	d	language:PHP
+XS_CMD_SEARCH_SET_CUT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_SET_CUT',	193);$/;"	d	language:PHP
+XS_CMD_SEARCH_SET_CUTOFF	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_SET_CUTOFF',	199);$/;"	d	language:PHP
+XS_CMD_SEARCH_SET_DB	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_SET_DB',	XS_CMD_INDEX_SET_DB);$/;"	d	language:PHP
+XS_CMD_SEARCH_SET_FACETS	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_SET_FACETS',	197);$/;"	d	language:PHP
+XS_CMD_SEARCH_SET_MISC	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_SET_MISC',	200);$/;"	d	language:PHP
+XS_CMD_SEARCH_SET_NUMERIC	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_SET_NUMERIC',	194);$/;"	d	language:PHP
+XS_CMD_SEARCH_SET_SORT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SEARCH_SET_SORT',	192);$/;"	d	language:PHP
+XS_CMD_SORT_FLAG_ASCENDING	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SORT_FLAG_ASCENDING',	0x80);$/;"	d	language:PHP
+XS_CMD_SORT_FLAG_RELEVANCE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SORT_FLAG_RELEVANCE',	0x40);$/;"	d	language:PHP
+XS_CMD_SORT_TYPE_DOCID	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SORT_TYPE_DOCID',	1);$/;"	d	language:PHP
+XS_CMD_SORT_TYPE_MASK	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SORT_TYPE_MASK',	0x3f);$/;"	d	language:PHP
+XS_CMD_SORT_TYPE_MULTI	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SORT_TYPE_MULTI',	3);$/;"	d	language:PHP
+XS_CMD_SORT_TYPE_RELEVANCE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SORT_TYPE_RELEVANCE',	0);$/;"	d	language:PHP
+XS_CMD_SORT_TYPE_VALUE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_SORT_TYPE_VALUE',	2);$/;"	d	language:PHP
+XS_CMD_TIMEOUT	extension/xunsearch/lib/XS.php	/^define('XS_CMD_TIMEOUT',	3);$/;"	d	language:PHP
+XS_CMD_USE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_USE',	1);$/;"	d	language:PHP
+XS_CMD_VALCMP_GE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_VALCMP_GE',	1);$/;"	d	language:PHP
+XS_CMD_VALCMP_LE	extension/xunsearch/lib/XS.php	/^define('XS_CMD_VALCMP_LE',	0);$/;"	d	language:PHP
+XS_CMD_VALUE_FLAG_NUMERIC	extension/xunsearch/lib/XS.php	/^define('XS_CMD_VALUE_FLAG_NUMERIC',	0x80);$/;"	d	language:PHP
+XS_LIB_ROOT	extension/xunsearch/lib/XS.php	/^define('XS_LIB_ROOT', dirname(__FILE__));$/;"	d	language:PHP
+XS_PACKAGE_BUGREPORT	extension/xunsearch/lib/XS.php	/^define('XS_PACKAGE_BUGREPORT',	"http:\/\/www.xunsearch.com\/bugs");$/;"	d	language:PHP
+XS_PACKAGE_NAME	extension/xunsearch/lib/XS.php	/^define('XS_PACKAGE_NAME',	"xunsearch");$/;"	d	language:PHP
+XS_PACKAGE_TARNAME	extension/xunsearch/lib/XS.php	/^define('XS_PACKAGE_TARNAME',	"xunsearch");$/;"	d	language:PHP
+XS_PACKAGE_URL	extension/xunsearch/lib/XS.php	/^define('XS_PACKAGE_URL',	"");$/;"	d	language:PHP
+XS_PACKAGE_VERSION	extension/xunsearch/lib/XS.php	/^define('XS_PACKAGE_VERSION',	"1.4.9");$/;"	d	language:PHP
+_	extension/xunsearch/util/Quest.php	/^		$$_ = XSUtil::getOpt(null, $_);$/;"	v	language:PHP
+__autoload	core/AutoLoad.php	/^function __autoload($classname){$/;"	f	language:PHP	signature:($classname)
+__call	extension/ActiveRecord/ActiveRecord.php	/^    public function __call($name, $args) {$/;"	f	language:PHP	class:ActiveRecord	access:public	signature:($name, $args)
+__call	extension/Flight/flight/Engine.php	/^    public function __call($name, $params) {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($name, $params)
+__call	extension/xunsearch/lib/XS.php	/^	public function __call($name, $args)$/;"	f	language:PHP	class:XSDocument	access:public	signature:($name, $args)
+__callStatic	extension/Flight/flight/Flight.php	/^    public static function __callStatic($name, $params) {$/;"	f	language:PHP	class:Flight	access:public	signature:($name, $params)
+__clone	extension/Flight/flight/Flight.php	/^    private function __clone() {}$/;"	f	language:PHP	class:Flight	access:private	signature:()
+__construct	extension/ActiveRecord/ActiveRecord.php	/^    public function __construct($config = array()) {$/;"	f	language:PHP	class:Base	access:public	signature:($config = array())
+__construct	extension/Flight/flight/Engine.php	/^    public function __construct() {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:()
+__construct	extension/Flight/flight/Flight.php	/^    private function __construct() {}$/;"	f	language:PHP	class:Flight	access:private	signature:()
+__construct	extension/Flight/flight/net/Request.php	/^    public function __construct($config = array()) {$/;"	f	language:PHP	class:flight\net::Request	access:public	signature:($config = array())
+__construct	extension/Flight/flight/net/Route.php	/^    public function __construct($pattern, $callback, $methods, $pass) {$/;"	f	language:PHP	class:flight\net::Route	access:public	signature:($pattern, $callback, $methods, $pass)
+__construct	extension/Flight/flight/template/View.php	/^    public function __construct($path = '.') {$/;"	f	language:PHP	class:flight\template::View	access:public	signature:($path = '.')
+__construct	extension/Flight/flight/util/Collection.php	/^    public function __construct(array $data = array()) {$/;"	f	language:PHP	class:flight\util::Collection	access:public	signature:(array $data = array())
+__construct	extension/Flight/tests/classes/Factory.php	/^    private function __construct() {$/;"	f	language:PHP	class:Factory	access:private	signature:()
+__construct	extension/xunsearch/lib/XS.php	/^	public function __construct($arg = null)$/;"	f	language:PHP	class:XSTokenizerScws	access:public	signature:($arg = null)
+__construct	extension/xunsearch/lib/XS.php	/^	public function __construct($arg = null)$/;"	f	language:PHP	class:XSTokenizerSplit	access:public	signature:($arg = null)
+__construct	extension/xunsearch/lib/XS.php	/^	public function __construct($arg = null)$/;"	f	language:PHP	class:XSTokenizerXlen	access:public	signature:($arg = null)
+__construct	extension/xunsearch/lib/XS.php	/^	public function __construct($arg = null)$/;"	f	language:PHP	class:XSTokenizerXstep	access:public	signature:($arg = null)
+__construct	extension/xunsearch/lib/XS.php	/^	public function __construct($cmd, $arg1 = 0, $arg2 = 0, $buf = '', $buf1 = '')$/;"	f	language:PHP	class:XSCommand	access:public	signature:($cmd, $arg1 = 0, $arg2 = 0, $buf = '', $buf1 = '')
+__construct	extension/xunsearch/lib/XS.php	/^	public function __construct($code, $message, $file, $line, $previous = null)$/;"	f	language:PHP	class:XSErrorException	access:public	signature:($code, $message, $file, $line, $previous = null)
+__construct	extension/xunsearch/lib/XS.php	/^	public function __construct($conn = null, $xs = null)$/;"	f	language:PHP	class:XSServer	access:public	signature:($conn = null, $xs = null)
+__construct	extension/xunsearch/lib/XS.php	/^	public function __construct($file)$/;"	f	language:PHP	class:XS	access:public	signature:($file)
+__construct	extension/xunsearch/lib/XS.php	/^	public function __construct($name, $config = null)$/;"	f	language:PHP	class:XSFieldMeta	access:public	signature:($name, $config = null)
+__construct	extension/xunsearch/lib/XS.php	/^	public function __construct($p = null, $d = null)$/;"	f	language:PHP	class:XSDocument	access:public	signature:($p = null, $d = null)
+__construct	extension/xunsearch/util/XSDataSource.class.php	/^	public function __construct($type, $arg)$/;"	f	language:PHP	class:XSDataSource	access:public	signature:($type, $arg)
+__destruct	extension/Flight/flight/Flight.php	/^    private function __destruct() {}$/;"	f	language:PHP	class:Flight	access:private	signature:()
+__destruct	extension/xunsearch/lib/XS.php	/^	public function __destruct()$/;"	f	language:PHP	class:XS	access:public	signature:()
+__destruct	extension/xunsearch/lib/XS.php	/^	public function __destruct()$/;"	f	language:PHP	class:XSIndex	access:public	signature:()
+__destruct	extension/xunsearch/lib/XS.php	/^	public function __destruct()$/;"	f	language:PHP	class:XSServer	access:public	signature:()
+__get	extension/ActiveRecord/ActiveRecord.php	/^    public function & __get($var) {$/;"	f	language:PHP	class:ActiveRecord	access:public	signature:($var)
+__get	extension/ActiveRecord/ActiveRecord.php	/^    public function & __get($var) {$/;"	f	language:PHP	class:Base	access:public	signature:($var)
+__get	extension/Flight/flight/util/Collection.php	/^    public function __get($key) {$/;"	f	language:PHP	class:flight\util::Collection	access:public	signature:($key)
+__get	extension/xunsearch/lib/XS.php	/^	public function __get($name)$/;"	f	language:PHP	class:XSComponent	access:public	signature:($name)
+__get	extension/xunsearch/lib/XS.php	/^	public function __get($name)$/;"	f	language:PHP	class:XSDocument	access:public	signature:($name)
+__isset	extension/Flight/flight/util/Collection.php	/^    public function __isset($key) {$/;"	f	language:PHP	class:flight\util::Collection	access:public	signature:($key)
+__isset	extension/xunsearch/lib/XS.php	/^	public function __isset($name)$/;"	f	language:PHP	class:XSComponent	access:public	signature:($name)
+__set	extension/ActiveRecord/ActiveRecord.php	/^    public function __set($var, $val) {$/;"	f	language:PHP	class:ActiveRecord	access:public	signature:($var, $val)
+__set	extension/ActiveRecord/ActiveRecord.php	/^    public function __set($var, $val) {$/;"	f	language:PHP	class:Base	access:public	signature:($var, $val)
+__set	extension/Flight/flight/util/Collection.php	/^    public function __set($key, $value) {$/;"	f	language:PHP	class:flight\util::Collection	access:public	signature:($key, $value)
+__set	extension/xunsearch/lib/XS.php	/^	public function __set($name, $value)$/;"	f	language:PHP	class:XSComponent	access:public	signature:($name, $value)
+__set	extension/xunsearch/lib/XS.php	/^	public function __set($name, $value)$/;"	f	language:PHP	class:XSDocument	access:public	signature:($name, $value)
+__toString	extension/ActiveRecord/ActiveRecord.php	/^    public function __toString() {$/;"	f	language:PHP	class:Expressions	access:public	signature:()
+__toString	extension/ActiveRecord/ActiveRecord.php	/^    public function __toString() {$/;"	f	language:PHP	class:WrapExpressions	access:public	signature:()
+__toString	extension/xunsearch/lib/XS.php	/^	public function __toString()$/;"	f	language:PHP	class:XSCommand	access:public	signature:()
+__toString	extension/xunsearch/lib/XS.php	/^	public function __toString()$/;"	f	language:PHP	class:XSErrorException	access:public	signature:()
+__toString	extension/xunsearch/lib/XS.php	/^	public function __toString()$/;"	f	language:PHP	class:XSException	access:public	signature:()
+__toString	extension/xunsearch/lib/XS.php	/^	public function __toString()$/;"	f	language:PHP	class:XSFieldMeta	access:public	signature:()
+__toString	extension/xunsearch/lib/XS.php	/^	public function __toString()$/;"	f	language:PHP	class:XSFieldScheme	access:public	signature:()
+__unset	extension/ActiveRecord/ActiveRecord.php	/^    public function __unset($var) { $/;"	f	language:PHP	class:ActiveRecord	access:public	signature:($var)
+__unset	extension/Flight/flight/util/Collection.php	/^    public function __unset($key) {$/;"	f	language:PHP	class:flight\util::Collection	access:public	signature:($key)
+__unset	extension/xunsearch/lib/XS.php	/^	public function __unset($name)$/;"	f	language:PHP	class:XSComponent	access:public	signature:($name)
+_addCondition	extension/ActiveRecord/ActiveRecord.php	/^    protected function _addCondition($exp, $operator, $name ='where' ) {$/;"	f	language:PHP	class:ActiveRecord	access:protected	signature:($exp, $operator, $name = 'where')
+_addExpression	extension/ActiveRecord/ActiveRecord.php	/^    protected function _addExpression($exp, $operator) {$/;"	f	language:PHP	class:ActiveRecord	access:protected	signature:($exp, $operator)
+_adds	extension/xunsearch/lib/XS.php	/^	private static $_adds = array();$/;"	v	language:PHP	class:XSIndex	access:private
+_bindScheme	extension/xunsearch/lib/XS.php	/^	private $_scheme, $_bindScheme;$/;"	v	language:PHP	class:XS	access:private
+_buf	extension/xunsearch/lib/XS.php	/^	private $_buf = '';$/;"	v	language:PHP	class:XSIndex	access:private
+_bufSize	extension/xunsearch/lib/XS.php	/^	private $_bufSize = 0;$/;"	v	language:PHP	class:XSIndex	access:private
+_buildSql	extension/ActiveRecord/ActiveRecord.php	/^    protected function _buildSql($sqls = array()) {$/;"	f	language:PHP	class:ActiveRecord	access:protected	signature:($sqls = array())
+_buildSqlCallback	extension/ActiveRecord/ActiveRecord.php	/^    private function _buildSqlCallback(&$n, $i, $o){$/;"	f	language:PHP	class:ActiveRecord	access:private	signature:(& $n, $i, $o)
+_charset	extension/xunsearch/lib/XS.php	/^	private $_charset = 'UTF-8';$/;"	v	language:PHP	class:XSSearch	access:private
+_charset	extension/xunsearch/lib/XS.php	/^	private static $_charset;$/;"	v	language:PHP	class:XSTokenizerScws	access:private
+_config	extension/xunsearch/lib/XS.php	/^	private $_config;$/;"	v	language:PHP	class:XS	access:private
+_conn	extension/xunsearch/lib/XS.php	/^	protected $_sock, $_conn;$/;"	v	language:PHP	class:XSServer	access:protected
+_count	extension/xunsearch/lib/XS.php	/^	private $_query, $_terms, $_count;$/;"	v	language:PHP	class:XSSearch	access:private
+_curDbs	extension/xunsearch/lib/XS.php	/^	private $_curDb, $_curDbs = array();$/;"	v	language:PHP	class:XSSearch	access:private
+_data	extension/xunsearch/lib/XS.php	/^	private $_data;$/;"	v	language:PHP	class:XSDocument	access:private
+_defaultOp	extension/xunsearch/lib/XS.php	/^	private $_defaultOp = XS_CMD_QUERY_OP_AND;$/;"	v	language:PHP	class:XSSearch	access:private
+_error	extension/Flight/flight/Engine.php	/^    public function _error(\\Exception $e) {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:(Exception $e)
+_etag	extension/Flight/flight/Engine.php	/^    public function _etag($id, $type = 'strong') {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($id, $type = 'strong')
+_facets	extension/xunsearch/lib/XS.php	/^	private $_facets = array();$/;"	v	language:PHP	class:XSSearch	access:private
+_fields	extension/xunsearch/lib/XS.php	/^	private $_fields = array();$/;"	v	language:PHP	class:XSFieldScheme	access:private
+_filterParam	extension/ActiveRecord/ActiveRecord.php	/^    protected function _filterParam($value) {$/;"	f	language:PHP	class:ActiveRecord	access:protected	signature:($value)
+_flag	extension/xunsearch/lib/XS.php	/^	protected $_flag;$/;"	v	language:PHP	class:XSServer	access:protected
+_halt	extension/Flight/flight/Engine.php	/^    public function _halt($code = 200, $message = '') {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($code = 200, $message = '')
+_highlight	extension/xunsearch/lib/XS.php	/^	private $_lastCount, $_highlight;$/;"	v	language:PHP	class:XSSearch	access:private
+_index	extension/xunsearch/lib/XS.php	/^	private $_index;$/;"	v	language:PHP	class:XS	access:private
+_json	extension/Flight/flight/Engine.php	/^    public function _json($data, $code = 200, $encode = true, $charset = 'utf-8') {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($data, $code = 200, $encode = true, $charset = 'utf-8')
+_jsonp	extension/Flight/flight/Engine.php	/^    public function _jsonp($data, $param = 'jsonp', $code = 200, $encode = true, $charset = 'utf-8') {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($data, $param = 'jsonp', $code = 200, $encode = true, $charset = 'utf-8')
+_lastDbs	extension/xunsearch/lib/XS.php	/^	private $_lastDb, $_lastDbs = array();$/;"	v	language:PHP	class:XSSearch	access:private
+_lastModified	extension/Flight/flight/Engine.php	/^    public function _lastModified($time) {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($time)
+_lastXS	extension/xunsearch/lib/XS.php	/^	private static $_lastXS;$/;"	v	language:PHP	class:XS	access:private
+_limit	extension/xunsearch/lib/XS.php	/^	private $_limit = 0, $_offset = 0;$/;"	v	language:PHP	class:XSSearch	access:private
+_line	extension/xunsearch/lib/XS.php	/^	private $_file, $_line;$/;"	v	language:PHP	class:XSErrorException	access:private
+_logger	extension/xunsearch/lib/XS.php	/^	private static $_logger;$/;"	v	language:PHP	class:XSFieldScheme	access:private
+_meta	extension/xunsearch/lib/XS.php	/^	private $_charset, $_meta;$/;"	v	language:PHP	class:XSDocument	access:private
+_notFound	extension/Flight/flight/Engine.php	/^    public function _notFound() {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:()
+_offset	extension/xunsearch/lib/XS.php	/^	private $_limit = 0, $_offset = 0;$/;"	v	language:PHP	class:XSSearch	access:private
+_project	extension/xunsearch/lib/XS.php	/^	protected $_project;$/;"	v	language:PHP	class:XSServer	access:protected
+_query	extension/ActiveRecord/ActiveRecord.php	/^    public static function _query($sql, $param = array(), $obj = null, $single=false) {$/;"	f	language:PHP	class:ActiveRecord	access:public	signature:($sql, $param = array(), $obj = null, $single = false)
+_rebuild	extension/xunsearch/lib/XS.php	/^	private $_rebuild = false;$/;"	v	language:PHP	class:XSIndex	access:private
+_redirect	extension/Flight/flight/Engine.php	/^    public function _redirect($url, $code = 303) {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($url, $code = 303)
+_render	extension/Flight/flight/Engine.php	/^    public function _render($file, $data = null, $key = null) {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($file, $data = null, $key = null)
+_resFormat	extension/xunsearch/lib/XS.php	/^	private static $_resFormat = 'Idocid\/Irank\/Iccount\/ipercent\/fweight';$/;"	v	language:PHP	class:XSDocument	access:private
+_resSize	extension/xunsearch/lib/XS.php	/^	private static $_resSize = 20;$/;"	v	language:PHP	class:XSDocument	access:private
+_resetScheme	extension/xunsearch/lib/XS.php	/^	private $_prefix, $_fieldSet, $_resetScheme = false;$/;"	v	language:PHP	class:XSSearch	access:private
+_route	extension/Flight/flight/Engine.php	/^    public function _route($pattern, $callback, $pass_route = false) {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($pattern, $callback, $pass_route = false)
+_scws	extension/xunsearch/lib/XS.php	/^	private $_scws;$/;"	v	language:PHP	class:XS	access:private
+_search	extension/xunsearch/lib/XS.php	/^	private $_search;$/;"	v	language:PHP	class:XS	access:private
+_sendBuffer	extension/xunsearch/lib/XS.php	/^	protected $_sendBuffer;$/;"	v	language:PHP	class:XSServer	access:protected
+_server	extension/xunsearch/lib/XS.php	/^	private static $_server;$/;"	v	language:PHP	class:XSTokenizerScws	access:private
+_setting	extension/xunsearch/lib/XS.php	/^	private $_setting = array();$/;"	v	language:PHP	class:XSTokenizerScws	access:private
+_start	extension/Flight/flight/Engine.php	/^    public function _start() {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:()
+_stop	extension/Flight/flight/Engine.php	/^    public function _stop($code = 200) {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($code = 200)
+_texts	extension/xunsearch/lib/XS.php	/^	private $_terms, $_texts;$/;"	v	language:PHP	class:XSDocument	access:private
+_tokenizers	extension/xunsearch/lib/XS.php	/^	private static $_tokenizers = array();$/;"	v	language:PHP	class:XSFieldMeta	access:private
+_typeMap	extension/xunsearch/lib/XS.php	/^	private $_typeMap = array();$/;"	v	language:PHP	class:XSFieldScheme	access:private
+_vnoMap	extension/xunsearch/lib/XS.php	/^	private $_vnoMap = array();$/;"	v	language:PHP	class:XSFieldScheme	access:private
+accept	extension/Flight/flight/net/Request.php	/^    public $accept;$/;"	v	language:PHP	class:flight\net::Request	access:public
+accountingService	service/accountingService.php	/^class accountingService$/;"	c	language:PHP
+add	extension/xunsearch/lib/XS.php	/^	public function add(XSDocument $doc)$/;"	f	language:PHP	class:XSIndex	access:public	signature:(XSDocument $doc)
+addCondition	extension/ActiveRecord/ActiveRecord.php	/^    public function addCondition($field, $operator, $value, $op = 'AND', $name = 'where') {$/;"	f	language:PHP	class:ActiveRecord	access:public	signature:($field, $operator, $value, $op = 'AND', $name = 'where')
+addDb	extension/xunsearch/lib/XS.php	/^	public function addDb($name)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($name)
+addDict	extension/xunsearch/lib/XS.php	/^	public function addDict($fpath, $mode = null)$/;"	f	language:PHP	class:XSTokenizerScws	access:public	signature:($fpath, $mode = null)
+addDirectory	extension/Flight/flight/core/Loader.php	/^    public static function addDirectory($dir) {$/;"	f	language:PHP	class:flight\core::Loader	access:public	signature:($dir)
+addExdata	extension/xunsearch/lib/XS.php	/^	public function addExdata($data, $check_file = true)$/;"	f	language:PHP	class:XSIndex	access:public	signature:($data, $check_file = true)
+addField	extension/xunsearch/lib/XS.php	/^	public function addField($field, $config = null)$/;"	f	language:PHP	class:XSFieldScheme	access:public	signature:($field, $config = null)
+addHavePurchase	service/userService.php	/^    public static function addHavePurchase($user_id,$purchase_count,$purchase_order_id,$product_id){$/;"	f	language:PHP	class:userService	access:public	signature:($user_id, $purchase_count, $purchase_order_id, $product_id)
+addIndex	extension/xunsearch/lib/XS.php	/^	public function addIndex($field, $text)$/;"	f	language:PHP	class:XSDocument	access:public	signature:($field, $text)
+addPeople	service/userService.php	/^    public static function addPeople($type,$company_name,$company_phone,$contact_name$/;"	f	language:PHP	class:userService	access:public	signature:($type, $company_name, $company_phone, $contact_name, $contact_address, $contact_qq, $contact_phone)
+addPurchase	service/userService.php	/^    public static function addPurchase($user_id,$/;"	f	language:PHP	class:userService	access:public	signature:($user_id, $purchase_count, $purchase_order_id, $product_code, $product_name, $product_type, $provider_id, $product_brand, $product_cost)
+addQueryString	extension/xunsearch/lib/XS.php	/^	public function addQueryString($query, $addOp = XS_CMD_QUERY_OP_AND, $scale = 1)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($query, $addOp = XS_CMD_QUERY_OP_AND, $scale = 1)
+addQueryTerm	extension/xunsearch/lib/XS.php	/^	public function addQueryTerm($field, $term, $addOp = XS_CMD_QUERY_OP_AND, $scale = 1)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($field, $term, $addOp = XS_CMD_QUERY_OP_AND, $scale = 1)
+addRange	extension/xunsearch/lib/XS.php	/^	public function addRange($field, $from, $to)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($field, $from, $to)
+addSearchLog	extension/xunsearch/lib/XS.php	/^	public function addSearchLog($query, $wdf = 1)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($query, $wdf = 1)
+addSearchLog	extension/xunsearch/util/Logger.php	/^function addSearchLog($word, $wdf)$/;"	f	language:PHP	signature:($word, $wdf)
+addSellInfo	service/userService.php	/^    public static function addSellInfo($user_id,$sell_count,$sell_order_id,$product_id,$product_name)$/;"	f	language:PHP	class:userService	access:public	signature:($user_id, $sell_count, $sell_order_id, $product_id, $product_name)
+addServer	extension/xunsearch/lib/XS.php	/^	public function addServer($conn)$/;"	f	language:PHP	class:XSIndex	access:public	signature:($conn)
+addSynonym	extension/xunsearch/lib/XS.php	/^	public function addSynonym($raw, $synonym)$/;"	f	language:PHP	class:XSIndex	access:public	signature:($raw, $synonym)
+addTerm	extension/xunsearch/lib/XS.php	/^	public function addTerm($field, $term, $weight = 1)$/;"	f	language:PHP	class:XSDocument	access:public	signature:($field, $term, $weight = 1)
+addUser	service/userService.php	/^    public static function addUser($user_name,$user_password,$type){$/;"	f	language:PHP	class:userService	access:public	signature:($user_name, $user_password, $type)
+addWeight	extension/xunsearch/lib/XS.php	/^	public function addWeight($field, $term, $weight = 1)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($field, $term, $weight = 1)
+adminService	service/adminService.php	/^class adminService$/;"	c	language:PHP
+after	extension/Flight/flight/Engine.php	/^    public function after($name, $callback) {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($name, $callback)
+afterSubmit	extension/xunsearch/lib/XS.php	/^	public function afterSubmit($index)$/;"	f	language:PHP	class:XSDocument	access:public	signature:($index)
+ajax	extension/Flight/flight/net/Request.php	/^    public $ajax;$/;"	v	language:PHP	class:flight\net::Request	access:public
+app	extension/Flight/flight/Flight.php	/^    public static function app() {$/;"	f	language:PHP	class:Flight	access:public	signature:()
+app	extension/Flight/tests/AutoloadTest.php	/^    private $app;$/;"	v	language:PHP	class:AutoloadTest	access:private
+app	extension/Flight/tests/FilterTest.php	/^    private $app;$/;"	v	language:PHP	class:FilterTest	access:private
+app	extension/Flight/tests/MapTest.php	/^    private $app;$/;"	v	language:PHP	class:MapTest	access:private
+app	extension/Flight/tests/RedirectTest.php	/^    private $app;$/;"	v	language:PHP	class:RedirectTest	access:private
+app	extension/Flight/tests/RegisterTest.php	/^    private $app;$/;"	v	language:PHP	class:RegisterTest	access:private
+app	extension/Flight/tests/RenderTest.php	/^    private $app;$/;"	v	language:PHP	class:RenderTest	access:private
+app	extension/Flight/tests/VariableTest.php	/^    private $app;$/;"	v	language:PHP	class:VariableTest	access:private
+appendBuffer	extension/xunsearch/lib/XS.php	/^	private function appendBuffer($buf)$/;"	f	language:PHP	class:XSIndex	access:private	signature:($buf)
+applySetting	extension/xunsearch/lib/XS.php	/^	private function applySetting($text)$/;"	f	language:PHP	class:XSTokenizerScws	access:private	signature:($text)
+arg	extension/xunsearch/lib/XS.php	/^	private $arg = ' ';$/;"	v	language:PHP	class:XSTokenizerSplit	access:private
+arg	extension/xunsearch/lib/XS.php	/^	private $arg = 2;$/;"	v	language:PHP	class:XSTokenizerXlen	access:private
+arg	extension/xunsearch/lib/XS.php	/^	private $arg = 2;$/;"	v	language:PHP	class:XSTokenizerXstep	access:private
+arg	extension/xunsearch/util/XSDataSource.class.php	/^	protected $type, $arg;$/;"	v	language:PHP	class:XSDataSource	access:protected
+arg1	extension/xunsearch/lib/XS.php	/^	public $arg1 = 0;$/;"	v	language:PHP	class:XSCommand	access:public
+arg2	extension/xunsearch/lib/XS.php	/^	public $arg2 = 0;$/;"	v	language:PHP	class:XSCommand	access:public
+array	index.php	/^    $array = array($/;"	v	language:PHP
+arrayObject	index.php	/^        $arrayObject = array($/;"	v	language:PHP
+array_object	index.php	/^    $array_object = array($/;"	v	language:PHP
+arrayobject	index.php	/^    $arrayobject = array($/;"	v	language:PHP
+autoConvert	extension/xunsearch/lib/XS.php	/^	private function autoConvert($value)$/;"	f	language:PHP	class:XSDocument	access:private	signature:($value)
+autoload	extension/Flight/flight/core/Loader.php	/^    public static function autoload($enabled = true, $dirs = array()) {$/;"	f	language:PHP	class:flight\core::Loader	access:public	signature:($enabled = true, $dirs = array())
+autoload	extension/xunsearch/lib/XS.php	/^	public static function autoload($name)$/;"	f	language:PHP	class:XS	access:public	signature:($name)
+base	extension/Flight/flight/net/Request.php	/^    public $base;$/;"	v	language:PHP	class:flight\net::Request	access:public
+before	extension/Flight/flight/Engine.php	/^    public function before($name, $callback) {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($name, $callback)
+beforeSubmit	extension/xunsearch/lib/XS.php	/^	public function beforeSubmit(XSIndex $index)$/;"	f	language:PHP	class:XSDocument	access:public	signature:(XSIndex $index)
+begin	extension/xunsearch/util/Quest.php	/^		$begin = microtime(true);$/;"	v	language:PHP
+beginRebuild	extension/xunsearch/lib/XS.php	/^	public function beginRebuild()$/;"	f	language:PHP	class:XSIndex	access:public	signature:()
+body	extension/Flight/flight/net/Response.php	/^    protected $body;$/;"	v	language:PHP	class:flight\net::Response	access:protected
+body	extension/xunsearch/util/Quest.php	/^				$body = cliHighlight($doc->f($fbody)) . "\\n";$/;"	v	language:PHP
+body	extension/xunsearch/util/Quest.php	/^			$body = $title = '';$/;"	v	language:PHP
+buf	extension/xunsearch/lib/XS.php	/^	public $buf = '';$/;"	v	language:PHP	class:XSCommand	access:public
+buf1	extension/xunsearch/lib/XS.php	/^	public $buf1 = '';$/;"	v	language:PHP	class:XSCommand	access:public
+cache	extension/Flight/flight/net/Response.php	/^    public function cache($expires) {$/;"	f	language:PHP	class:flight\net::Response	access:public	signature:($expires)
+callFunction	extension/Flight/flight/core/Dispatcher.php	/^    public static function callFunction($func, array &$params = array()) {$/;"	f	language:PHP	class:flight\core::Dispatcher	access:public	signature:($func, array& $params = array())
+callback	extension/Flight/flight/net/Route.php	/^    public $callback;$/;"	v	language:PHP	class:flight\net::Route	access:public
+cancelInfoModel	model/cancelInfoModel.php	/^class cancelInfoModel extends ActiveRecord$/;"	c	language:PHP	inherits:ActiveRecord
+case_sensitive	extension/Flight/flight/net/Router.php	/^    public $case_sensitive = false;$/;"	v	language:PHP	class:flight\net::Router	access:public
+char	extension/xunsearch/util/Indexer.php	/^		$char = substr($csv_delimiter, 1, 1);$/;"	v	language:PHP
+charset	extension/xunsearch/util/Indexer.php	/^$charset = XSUtil::getOpt('c', 'charset');$/;"	v	language:PHP
+charset	extension/xunsearch/util/Logger.php	/^$charset = XSUtil::getOpt('c', 'charset');$/;"	v	language:PHP
+charset	extension/xunsearch/util/Quest.php	/^$charset = XSUtil::getOpt('c', 'charset');$/;"	v	language:PHP
+charset	extension/xunsearch/util/RequiredCheck.php	/^$charset = XSUtil::getOpt('c', 'charset');$/;"	v	language:PHP
+charset	extension/xunsearch/util/XSUtil.class.php	/^	private static $charset = null;$/;"	v	language:PHP	class:XSUtil	access:private
+chartdata	index.php	/^    $chartdata = userService::getChartDataByType($userModel->id, $userModel->user_type, $gaptime);$/;"	v	language:PHP
+check	extension/Flight/tests/RouterTest.php	/^    function check($str = '') {$/;"	f	language:PHP	class:RouterTest	signature:($str = '')
+check	extension/xunsearch/lib/XS.php	/^	protected function check()$/;"	f	language:PHP	class:XSServer	access:protected	signature:()
+checkValid	extension/xunsearch/lib/XS.php	/^	public function checkValid($throw = false)$/;"	f	language:PHP	class:XSFieldScheme	access:public	signature:($throw = false)
+check_cache	extension/xunsearch/util/RequiredCheck.php	/^function check_cache()$/;"	f	language:PHP	signature:()
+check_conv	extension/xunsearch/util/RequiredCheck.php	/^function check_conv()$/;"	f	language:PHP	signature:()
+check_mysql	extension/xunsearch/util/RequiredCheck.php	/^function check_mysql()$/;"	f	language:PHP	signature:()
+check_sqlite	extension/xunsearch/util/RequiredCheck.php	/^function check_sqlite()$/;"	f	language:PHP	signature:()
+class	extension/xunsearch/util/Indexer.php	/^			$class = basename($filter);$/;"	v	language:PHP
+class	extension/xunsearch/util/Indexer.php	/^	$class = 'XS' . ucfirst(strtolower($filter)) . 'Filter';$/;"	v	language:PHP
+classes	extension/Flight/flight/core/Loader.php	/^    protected $classes = array();$/;"	v	language:PHP	class:flight\core::Loader	access:protected
+clean	extension/xunsearch/lib/XS.php	/^	public function clean()$/;"	f	language:PHP	class:XSIndex	access:public	signature:()
+cleanFieldCallback	extension/xunsearch/lib/XS.php	/^	private function cleanFieldCallback($match)$/;"	f	language:PHP	class:XSSearch	access:private	signature:($match)
+cleanFieldQuery	extension/xunsearch/lib/XS.php	/^	private function cleanFieldQuery($query)$/;"	f	language:PHP	class:XSSearch	access:private	signature:($query)
+clear	extension/Flight/flight/Engine.php	/^    public function clear($key = null) {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($key = null)
+clear	extension/Flight/flight/core/Dispatcher.php	/^    public function clear($name = null) {$/;"	f	language:PHP	class:flight\core::Dispatcher	access:public	signature:($name = null)
+clear	extension/Flight/flight/net/Response.php	/^    public function clear() {$/;"	f	language:PHP	class:flight\net::Response	access:public	signature:()
+clear	extension/Flight/flight/net/Router.php	/^    public function clear() {$/;"	f	language:PHP	class:flight\net::Router	access:public	signature:()
+clear	extension/Flight/flight/template/View.php	/^    public function clear($key = null) {$/;"	f	language:PHP	class:flight\template::View	access:public	signature:($key = null)
+clear	extension/Flight/flight/util/Collection.php	/^    public function clear() {$/;"	f	language:PHP	class:flight\util::Collection	access:public	signature:()
+clearQuery	extension/xunsearch/lib/XS.php	/^	private function clearQuery()$/;"	f	language:PHP	class:XSSearch	access:private	signature:()
+cliHighlight	extension/xunsearch/util/Quest.php	/^function cliHighlight($str)$/;"	f	language:PHP	signature:($str)
+close	extension/xunsearch/lib/XS.php	/^	public function close($ioerr = false)$/;"	f	language:PHP	class:XSIndex	access:public	signature:($ioerr = false)
+close	extension/xunsearch/lib/XS.php	/^	public function close($ioerr = false)$/;"	f	language:PHP	class:XSServer	access:public	signature:($ioerr = false)
+close	extension/xunsearch/util/XSDataSource.class.php	/^	abstract public function close();$/;"	f	language:PHP	class:XSDatabase	access:public	implementation:abstract	signature:()
+close	extension/xunsearch/util/XSDataSource.class.php	/^	public function close()$/;"	f	language:PHP	class:XSDatabaseMySQL	access:public	signature:()
+close	extension/xunsearch/util/XSDataSource.class.php	/^	public function close()$/;"	f	language:PHP	class:XSDatabaseMySQLI	access:public	signature:()
+close	extension/xunsearch/util/XSDataSource.class.php	/^	public function close()$/;"	f	language:PHP	class:XSDatabasePDO	access:public	signature:()
+close	extension/xunsearch/util/XSDataSource.class.php	/^	public function close()$/;"	f	language:PHP	class:XSDatabasePgSQL	access:public	signature:()
+close	extension/xunsearch/util/XSDataSource.class.php	/^	public function close()$/;"	f	language:PHP	class:XSDatabaseSQLite	access:public	signature:()
+close	extension/xunsearch/util/XSDataSource.class.php	/^	public function close()$/;"	f	language:PHP	class:XSDatabaseSQLite3	access:public	signature:()
+closeBuffer	extension/xunsearch/lib/XS.php	/^	public function closeBuffer()$/;"	f	language:PHP	class:XSIndex	access:public	signature:()
+cmd	extension/xunsearch/lib/XS.php	/^	public $cmd = XS_CMD_NONE;$/;"	v	language:PHP	class:XSCommand	access:public
+cmd	extension/xunsearch/util/xs	/^$cmd = isset($_SERVER['argv'][1]) ? $_SERVER['argv'][1] : 'help';$/;"	v	language:PHP
+codes	extension/Flight/flight/net/Response.php	/^    public static $codes = array($/;"	v	language:PHP	class:flight\net::Response	access:public
+commands	extension/xunsearch/util/xs	/^$commands = array($/;"	v	language:PHP
+company_name	index.php	/^    $company_name = Core::r('company_name');$/;"	v	language:PHP
+company_phone	index.php	/^    $company_phone = Core::r("company_phone");$/;"	v	language:PHP
+connect	extension/xunsearch/lib/XS.php	/^	protected function connect()$/;"	f	language:PHP	class:XSServer	access:protected	signature:()
+connect	extension/xunsearch/util/XSDataSource.class.php	/^	abstract public function connect($param);$/;"	f	language:PHP	class:XSDatabase	access:public	implementation:abstract	signature:($param)
+connect	extension/xunsearch/util/XSDataSource.class.php	/^	public function connect($param)$/;"	f	language:PHP	class:XSDatabaseMySQL	access:public	signature:($param)
+connect	extension/xunsearch/util/XSDataSource.class.php	/^	public function connect($param)$/;"	f	language:PHP	class:XSDatabaseMySQLI	access:public	signature:($param)
+connect	extension/xunsearch/util/XSDataSource.class.php	/^	public function connect($param)$/;"	f	language:PHP	class:XSDatabasePDO	access:public	signature:($param)
+connect	extension/xunsearch/util/XSDataSource.class.php	/^	public function connect($param)$/;"	f	language:PHP	class:XSDatabasePgSQL	access:public	signature:($param)
+connect	extension/xunsearch/util/XSDataSource.class.php	/^	public function connect($param)$/;"	f	language:PHP	class:XSDatabaseSQLite	access:public	signature:($param)
+connect	extension/xunsearch/util/XSDataSource.class.php	/^	public function connect($param)$/;"	f	language:PHP	class:XSDatabaseSQLite3	access:public	signature:($param)
+contact	extension/ActiveRecord/test.php	/^$contact = new Contact();$/;"	v	language:PHP
+contact_address	index.php	/^    $contact_address = Core::r("contact_address");$/;"	v	language:PHP
+contact_name	index.php	/^    $contact_name = Core::r("contact_name");$/;"	v	language:PHP
+contact_phone	index.php	/^    $contact_phone = Core::r("contact_phone");$/;"	v	language:PHP
+contact_qq	index.php	/^    $contact_qq = Core::r("contact_qq");$/;"	v	language:PHP
+content	extension/xunsearch/util/Indexer.php	/^				$content = file_get_contents($file);$/;"	v	language:PHP
+content	extension/xunsearch/util/Indexer.php	/^			$content = $index->getCustomDict();$/;"	v	language:PHP
+content	extension/xunsearch/util/SearchSkel.php	/^				$content = XS::convert($content, $vars['@charset@'], 'UTF-8');$/;"	v	language:PHP
+content	extension/xunsearch/util/SearchSkel.php	/^			$content = file_get_contents($input . '\/' . $entry);$/;"	v	language:PHP
+content	extension/xunsearch/util/SearchSkel.php	/^			$content = strtr($content, $vars);$/;"	v	language:PHP
+content	index.php	/^            $content = 2;$/;"	v	language:PHP
+content	index.php	/^        $content = 1;$/;"	v	language:PHP
+content	index.php	/^    $content = 0;$/;"	v	language:PHP
+convert	extension/xunsearch/lib/XS.php	/^	public static function convert($data, $to, $from)$/;"	f	language:PHP	class:XS	access:public	signature:($data, $to, $from)
+convertIn	extension/xunsearch/util/XSUtil.class.php	/^	public static function convertIn($buf)$/;"	f	language:PHP	class:XSUtil	access:public	signature:($buf)
+convertOut	extension/xunsearch/util/XSUtil.class.php	/^	public static function convertOut($buf)$/;"	f	language:PHP	class:XSUtil	access:public	signature:($buf)
+cookies	extension/Flight/flight/net/Request.php	/^    public $cookies;$/;"	v	language:PHP	class:flight\net::Request	access:public
+copyDir	extension/xunsearch/util/XSUtil.class.php	/^	public static function copyDir($src, $dst)$/;"	f	language:PHP	class:XSUtil	access:public	signature:($src, $dst)
+correct	extension/xunsearch/util/Quest.php	/^		$correct = $search->getCorrectedQuery();$/;"	v	language:PHP
+cost	extension/xunsearch/util/Quest.php	/^		$cost = microtime(true) - $begin;$/;"	v	language:PHP
+count	extension/ActiveRecord/ActiveRecord.php	/^    public static $count = 0;$/;"	v	language:PHP	class:ActiveRecord	access:public
+count	extension/Flight/flight/util/Collection.php	/^    public function count() {$/;"	f	language:PHP	class:flight\util::Collection	access:public	signature:()
+count	extension/xunsearch/lib/XS.php	/^	public function count($query = null)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($query = null)
+create	extension/Flight/tests/classes/Factory.php	/^    public static function create() {$/;"	f	language:PHP	class:Factory	access:public	signature:()
+csvTransform	extension/xunsearch/util/Indexer.php	/^function csvTransform($data)$/;"	f	language:PHP	signature:($data)
+csv_delimiter	extension/xunsearch/util/Indexer.php	/^				$csv_delimiter = "\\t";$/;"	v	language:PHP
+csv_delimiter	extension/xunsearch/util/Indexer.php	/^				$csv_delimiter = ',';$/;"	v	language:PHP
+csv_delimiter	extension/xunsearch/util/Indexer.php	/^				$csv_delimiter = '\\\\';$/;"	v	language:PHP
+csv_delimiter	extension/xunsearch/util/Indexer.php	/^				$csv_delimiter = chr(hexdec(substr($csv_delimiter, 2)));$/;"	v	language:PHP
+csv_delimiter	extension/xunsearch/util/Indexer.php	/^		$csv_delimiter = substr($csv_delimiter, 0, 1);$/;"	v	language:PHP
+current	extension/Flight/flight/net/Router.php	/^    public function current() {$/;"	f	language:PHP	class:flight\net::Router	access:public	signature:()
+current	extension/Flight/flight/util/Collection.php	/^    public function current() {$/;"	f	language:PHP	class:flight\util::Collection	access:public	signature:()
+customerModel	model/customerModel.php	/^class customerModel extends ActiveRecord$/;"	c	language:PHP	inherits:ActiveRecord
+customer_company_name	index.php	/^    $customer_company_name = Core::r('customer_company_name');$/;"	v	language:PHP
+customer_company_phone	index.php	/^    $customer_company_phone = Core::r('customer_company_phone');$/;"	v	language:PHP
+customer_contact_address	index.php	/^    $customer_contact_address = Core::r('customer_contact_address');$/;"	v	language:PHP
+customer_contact_name	index.php	/^    $customer_contact_name = Core::r('customer_contact_name');$/;"	v	language:PHP
+customer_contact_phone	index.php	/^    $customer_contact_phone = Core::r('customer_contact_phone');$/;"	v	language:PHP
+customer_contact_qq	index.php	/^    $customer_contact_qq = Core::r('customer_contact_qq');$/;"	v	language:PHP
+customer_id	index.php	/^    $customer_id = Core::r('customer_id');$/;"	v	language:PHP
+customers	index.php	/^    $customers = userService::getAllCustomers();$/;"	v	language:PHP
+cut_off	extension/xunsearch/util/Quest.php	/^$cut_off = XSUtil::getOpt(null, 'cut-off');$/;"	v	language:PHP
+cutlen	extension/xunsearch/lib/XS.php	/^	public $cutlen = 0;$/;"	v	language:PHP	class:XSFieldMeta	access:public
+data	extension/ActiveRecord/ActiveRecord.php	/^    public $data = array();$/;"	v	language:PHP	class:Base	access:public
+data	extension/Flight/flight/net/Request.php	/^    public $data;$/;"	v	language:PHP	class:flight\net::Request	access:public
+data	extension/Flight/flight/util/Collection.php	/^    private $data;$/;"	v	language:PHP	class:flight\util::Collection	access:private
+data	extension/xunsearch/util/Indexer.php	/^					$data = csvTransform($data);$/;"	v	language:PHP
+data	extension/xunsearch/util/Indexer.php	/^				if ($filter !== null && ($data = $filter->process($data, $dcs)) === false) {$/;"	v	language:PHP
+data	extension/xunsearch/util/Indexer.php	/^			while ($data = $src->getData()) {$/;"	v	language:PHP
+data	index.php	/^        $data = userService::getDataByCustomer(Core::getSessionId());$/;"	v	language:PHP
+data	index.php	/^        $data = userService::getDataByProvider(Core::getSessionId());$/;"	v	language:PHP
+dataPos	extension/xunsearch/util/XSDataSource.class.php	/^	private $dataList, $dataPos;$/;"	v	language:PHP	class:XSDataSource	access:private
+db	core/Db.php	/^    public static $db = null;$/;"	v	language:PHP	class:Db	access:public
+db	extension/ActiveRecord/ActiveRecord.php	/^    public static $db;$/;"	v	language:PHP	class:ActiveRecord	access:public
+db	extension/xunsearch/util/Indexer.php	/^$db = XSUtil::getOpt('d', 'db');$/;"	v	language:PHP
+db	extension/xunsearch/util/Logger.php	/^	$db = XSSearch::LOG_DB;$/;"	v	language:PHP
+db	extension/xunsearch/util/Quest.php	/^	$db = XSUtil::getOpt('d', 'db');$/;"	v	language:PHP
+db	extension/xunsearch/util/XSDataSource.class.php	/^	private $db; \/* @var $db XSDatabase *\/$/;"	v	language:PHP	class:XSDatabaseDataSource	access:private
+dbs	extension/xunsearch/util/Quest.php	/^		$dbs = explode(',', $db);$/;"	v	language:PHP
+dcs	extension/xunsearch/util/Indexer.php	/^				$dcs = $charset === null ? 'UTF-8' : $charset;$/;"	v	language:PHP
+dcs	extension/xunsearch/util/Indexer.php	/^			$dcs = $src->getCharset();$/;"	v	language:PHP
+defaultSqlExpressions	extension/ActiveRecord/ActiveRecord.php	/^    public static $defaultSqlExpressions = array('expressions' => array(), 'wrap' => false,$/;"	v	language:PHP	class:ActiveRecord	access:public
+deinit	extension/xunsearch/util/XSDataSource.class.php	/^	protected function deinit()$/;"	f	language:PHP	class:XSCsvDataSource	access:protected	signature:()
+deinit	extension/xunsearch/util/XSDataSource.class.php	/^	protected function deinit()$/;"	f	language:PHP	class:XSDataSource	access:protected	signature:()
+deinit	extension/xunsearch/util/XSDataSource.class.php	/^	protected function deinit()$/;"	f	language:PHP	class:XSDatabaseDataSource	access:protected	signature:()
+deinit	extension/xunsearch/util/XSDataSource.class.php	/^	protected function deinit()$/;"	f	language:PHP	class:XSJsonDataSource	access:protected	signature:()
+del	extension/xunsearch/lib/XS.php	/^	public function del($term, $field = null)$/;"	f	language:PHP	class:XSIndex	access:public	signature:($term, $field = null)
+del	extension/xunsearch/util/Logger.php	/^			$del = XSUtil::convertIn($del);$/;"	v	language:PHP
+delSynonym	extension/xunsearch/lib/XS.php	/^	public function delSynonym($raw, $synonym = null)$/;"	f	language:PHP	class:XSIndex	access:public	signature:($raw, $synonym = null)
+delete	extension/ActiveRecord/ActiveRecord.php	/^    public function delete() {$/;"	f	language:PHP	class:ActiveRecord	access:public	signature:()
+deleteCustomerById	service/userService.php	/^    public static function deleteCustomerById($uid){$/;"	f	language:PHP	class:userService	access:public	signature:($uid)
+deleteProviderById	service/userService.php	/^    public static function deleteProviderById($uid){$/;"	f	language:PHP	class:userService	access:public	signature:($uid)
+deleteUserById	service/userService.php	/^    public static function deleteUserById($uid){$/;"	f	language:PHP	class:userService	access:public	signature:($uid)
+delim	extension/xunsearch/util/XSDataSource.class.php	/^	private $delim = ',', $line;$/;"	v	language:PHP	class:XSCsvDataSource	access:private
+dir	extension/xunsearch/util/SearchSkel.php	/^	$dir = dir($input);$/;"	v	language:PHP
+dirs	extension/Flight/flight/core/Loader.php	/^    protected static $dirs = array();$/;"	v	language:PHP	class:flight\core::Loader	access:protected
+dirty	extension/ActiveRecord/ActiveRecord.php	/^    public $dirty = array();$/;"	v	language:PHP	class:ActiveRecord	access:public
+dirty	extension/ActiveRecord/ActiveRecord.php	/^    public function dirty($dirty = array()){$/;"	f	language:PHP	class:ActiveRecord	access:public	signature:($dirty = array())
+dispatcher	extension/Flight/flight/Engine.php	/^    protected $dispatcher;$/;"	v	language:PHP	class:flight::Engine	access:protected
+dispatcher	extension/Flight/tests/DispatcherTest.php	/^    private $dispatcher;$/;"	v	language:PHP	class:DispatcherTest	access:private
+doc	extension/xunsearch/util/Indexer.php	/^				$doc = new XSDocument($dcs);$/;"	v	language:PHP
+docs	extension/xunsearch/util/Logger.php	/^				$docs = $log_ready ? $search->setFuzzy()->setLimit($limit)->search($word) : array();$/;"	v	language:PHP
+e	extension/Flight/flight/template/View.php	/^    public function e($str) {$/;"	f	language:PHP	class:flight\template::View	access:public	signature:($str)
+endRebuild	extension/xunsearch/lib/XS.php	/^	public function endRebuild()$/;"	f	language:PHP	class:XSIndex	access:public	signature:()
+engine	extension/Flight/flight/Flight.php	/^    private static $engine;$/;"	v	language:PHP	class:Flight	access:private
+entry	extension/xunsearch/util/SearchSkel.php	/^	while (($entry = $dir->read()) !== false) {$/;"	v	language:PHP
+error_map_msg	core/ErrorMap.php	/^    public static $error_map_msg = array($/;"	v	language:PHP	class:ErrorMap	access:public
+events	extension/Flight/flight/core/Dispatcher.php	/^    protected $events = array();$/;"	v	language:PHP	class:flight\core::Dispatcher	access:protected
+execCommand	extension/xunsearch/lib/XS.php	/^	public function execCommand($cmd, $res_arg = XS_CMD_NONE, $res_cmd = XS_CMD_OK)$/;"	f	language:PHP	class:XSIndex	access:public	signature:($cmd, $res_arg = XS_CMD_NONE, $res_cmd = XS_CMD_OK)
+execCommand	extension/xunsearch/lib/XS.php	/^	public function execCommand($cmd, $res_arg = XS_CMD_NONE, $res_cmd = XS_CMD_OK)$/;"	f	language:PHP	class:XSServer	access:public	signature:($cmd, $res_arg = XS_CMD_NONE, $res_cmd = XS_CMD_OK)
+execute	extension/ActiveRecord/ActiveRecord.php	/^    public static function execute($sql, $param = array()) {$/;"	f	language:PHP	class:ActiveRecord	access:public	signature:($sql, $param = array())
+execute	extension/Flight/flight/core/Dispatcher.php	/^    public static function execute($callback, array &$params = array()) {$/;"	f	language:PHP	class:flight\core::Dispatcher	access:public	signature:($callback, array& $params = array())
+exists	extension/Flight/flight/template/View.php	/^    public function exists($file) {$/;"	f	language:PHP	class:flight\template::View	access:public	signature:($file)
+extension	extension/Flight/flight/template/View.php	/^    public $extension = '.php';$/;"	v	language:PHP	class:flight\template::View	access:public
+f	extension/xunsearch/lib/XS.php	/^	public function f($name)$/;"	f	language:PHP	class:XSDocument	access:public	signature:($name)
+fbody	extension/xunsearch/util/Quest.php	/^		$fbody = $xs->getFieldBody();$/;"	v	language:PHP
+fd	extension/xunsearch/util/Logger.php	/^			if (!file_exists($import) || !($fd = @fopen($import, "r"))) {$/;"	v	language:PHP
+fetch	extension/Flight/flight/template/View.php	/^    public function fetch($file, $data = null) {$/;"	f	language:PHP	class:flight\template::View	access:public	signature:($file, $data = null)
+fid	extension/xunsearch/util/Indexer.php	/^		$fid = $xs->getFieldId();$/;"	v	language:PHP
+fid	extension/xunsearch/util/Quest.php	/^		$fid = $xs->getFieldId();$/;"	v	language:PHP
+field	extension/xunsearch/util/SearchSkel.php	/^	if (($field = $xs->getFieldBody()) !== false) {$/;"	v	language:PHP
+field	extension/xunsearch/util/SearchSkel.php	/^	if (($field = $xs->getFieldTitle()) !== false) {$/;"	v	language:PHP
+fields	extension/xunsearch/util/Quest.php	/^			$fields = array();$/;"	v	language:PHP
+file	extension/xunsearch/util/Indexer.php	/^$file = XSUtil::getOpt(null, 'file', true);$/;"	v	language:PHP
+file	extension/xunsearch/util/SearchSkel.php	/^			$file = $output . '\/' . $entry;$/;"	v	language:PHP
+file	extension/xunsearch/util/SearchSkel.php	/^			$file = $output . '\/' . substr($entry, 0, -3);$/;"	v	language:PHP
+files	extension/Flight/flight/net/Request.php	/^    public $files;$/;"	v	language:PHP	class:flight\net::Request	access:public
+filter	extension/Flight/flight/core/Dispatcher.php	/^    public function filter($filters, &$params, &$output) {$/;"	f	language:PHP	class:flight\core::Dispatcher	access:public	signature:($filters, & $params, & $output)
+filter	extension/xunsearch/util/Indexer.php	/^				$filter = new $class;$/;"	v	language:PHP
+filter	extension/xunsearch/util/Indexer.php	/^		$filter = new $class;$/;"	v	language:PHP
+filter	extension/xunsearch/util/Indexer.php	/^		$filter = null;$/;"	v	language:PHP
+filters	extension/Flight/flight/core/Dispatcher.php	/^    protected $filters = array();$/;"	v	language:PHP	class:flight\core::Dispatcher	access:protected
+find	extension/ActiveRecord/ActiveRecord.php	/^    public function find($id = null) {$/;"	f	language:PHP	class:ActiveRecord	access:public	signature:($id = null)
+findAll	extension/ActiveRecord/ActiveRecord.php	/^    public function findAll() {$/;"	f	language:PHP	class:ActiveRecord	access:public	signature:()
+findUserById	service/userService.php	/^    public static function findUserById($uid){$/;"	f	language:PHP	class:userService	access:public	signature:($uid)
+fixWidth	extension/xunsearch/util/XSUtil.class.php	/^	public static function fixWidth($text, $size, $pad = ' ')$/;"	f	language:PHP	class:XSUtil	access:public	signature:($text, $size, $pad = ' ')
+flag	extension/xunsearch/lib/XS.php	/^	private $flag = 0;$/;"	v	language:PHP	class:XSFieldMeta	access:private
+flight	extension/Flight/flight/Engine.php	/^namespace flight;$/;"	n	language:PHP
+flight\core	extension/Flight/flight/core/Dispatcher.php	/^namespace flight\\core;$/;"	n	language:PHP
+flight\core	extension/Flight/flight/core/Loader.php	/^namespace flight\\core;$/;"	n	language:PHP
+flight\net	extension/Flight/flight/net/Request.php	/^namespace flight\\net;$/;"	n	language:PHP
+flight\net	extension/Flight/flight/net/Response.php	/^namespace flight\\net;$/;"	n	language:PHP
+flight\net	extension/Flight/flight/net/Route.php	/^namespace flight\\net;$/;"	n	language:PHP
+flight\net	extension/Flight/flight/net/Router.php	/^namespace flight\\net;$/;"	n	language:PHP
+flight\template	extension/Flight/flight/template/View.php	/^namespace flight\\template;$/;"	n	language:PHP
+flight\util	extension/Flight/flight/util/Collection.php	/^namespace flight\\util;$/;"	n	language:PHP
+flush	extension/xunsearch/util/XSUtil.class.php	/^	public static function flush()$/;"	f	language:PHP	class:XSUtil	access:public	signature:()
+flushIndex	extension/xunsearch/lib/XS.php	/^	public function flushIndex()$/;"	f	language:PHP	class:XSIndex	access:public	signature:()
+flushLogging	extension/xunsearch/lib/XS.php	/^	public function flushLogging()$/;"	f	language:PHP	class:XSIndex	access:public	signature:()
+formatValueRange	extension/xunsearch/lib/XS.php	/^	private function formatValueRange($match)$/;"	f	language:PHP	class:XSSearch	access:private	signature:($match)
+fromConfig	extension/xunsearch/lib/XS.php	/^	public function fromConfig($config)$/;"	f	language:PHP	class:XSFieldMeta	access:public	signature:($config)
+ftitle	extension/xunsearch/util/Quest.php	/^		$ftitle = $xs->getFieldTitle();$/;"	v	language:PHP
+gaptime	index.php	/^        $gaptime = $_GET['gaptime'];$/;"	v	language:PHP
+gaptime	index.php	/^    $gaptime = 30;$/;"	v	language:PHP
+get	extension/Flight/flight/Engine.php	/^    public function get($key = null) {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($key = null)
+get	extension/Flight/flight/core/Dispatcher.php	/^    public function get($name) {$/;"	f	language:PHP	class:flight\core::Dispatcher	access:public	signature:($name)
+get	extension/Flight/flight/template/View.php	/^    public function get($key) {$/;"	f	language:PHP	class:flight\template::View	access:public	signature:($key)
+getAddIndex	extension/xunsearch/lib/XS.php	/^	public function getAddIndex($field)$/;"	f	language:PHP	class:XSDocument	access:public	signature:($field)
+getAddTerms	extension/xunsearch/lib/XS.php	/^	public function getAddTerms($field)$/;"	f	language:PHP	class:XSDocument	access:public	signature:($field)
+getAllCustomers	service/userService.php	/^    public static function getAllCustomers(){$/;"	f	language:PHP	class:userService	access:public	signature:()
+getAllFields	extension/xunsearch/lib/XS.php	/^	public function getAllFields()$/;"	f	language:PHP	class:XS	access:public	signature:()
+getAllFields	extension/xunsearch/lib/XS.php	/^	public function getAllFields()$/;"	f	language:PHP	class:XSFieldScheme	access:public	signature:()
+getAllProduct	service/userService.php	/^    public static function getAllProduct($productInfo){$/;"	f	language:PHP	class:userService	access:public	signature:($productInfo)
+getAllProviders	service/userService.php	/^    public static function getAllProviders(){$/;"	f	language:PHP	class:userService	access:public	signature:()
+getAllSynonyms	extension/xunsearch/lib/XS.php	/^	public function getAllSynonyms($limit = 0, $offset = 0, $stemmed = false)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($limit = 0, $offset = 0, $stemmed = false)
+getArg	extension/xunsearch/lib/XS.php	/^	public function getArg()$/;"	f	language:PHP	class:XSCommand	access:public	signature:()
+getBaseUrl	extension/Flight/tests/RedirectTest.php	/^    function getBaseUrl($base, $url){$/;"	f	language:PHP	class:RedirectTest	signature:($base, $url)
+getBody	extension/Flight/flight/net/Request.php	/^    public static function getBody() {$/;"	f	language:PHP	class:flight\net::Request	access:public	signature:()
+getCharset	extension/xunsearch/lib/XS.php	/^	public function getCharset()$/;"	f	language:PHP	class:XSDocument	access:public	signature:()
+getCharset	extension/xunsearch/util/XSDataSource.class.php	/^	public function getCharset()$/;"	f	language:PHP	class:XSDataSource	access:public	signature:()
+getCharset	extension/xunsearch/util/XSDataSource.class.php	/^	public function getCharset()$/;"	f	language:PHP	class:XSDatabaseDataSource	access:public	signature:()
+getChartDataByType	service/userService.php	/^    public static function getChartDataByType($user_id,$userType,$gaptime){$/;"	f	language:PHP	class:userService	access:public	signature:($user_id, $userType, $gaptime)
+getConfig	extension/xunsearch/lib/XS.php	/^	public function getConfig()$/;"	f	language:PHP	class:XS	access:public	signature:()
+getConnString	extension/xunsearch/lib/XS.php	/^	public function getConnString()$/;"	f	language:PHP	class:XSServer	access:public	signature:()
+getCorrectedQuery	extension/xunsearch/lib/XS.php	/^	public function getCorrectedQuery($query = null)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($query = null)
+getCustomDict	extension/xunsearch/lib/XS.php	/^	public function getCustomDict()$/;"	f	language:PHP	class:XSIndex	access:public	signature:()
+getCustomTokenizer	extension/xunsearch/lib/XS.php	/^	public function getCustomTokenizer()$/;"	f	language:PHP	class:XSFieldMeta	access:public	signature:()
+getCustomerByPk	service/userService.php	/^    public static function getCustomerByPk($uid){$/;"	f	language:PHP	class:userService	access:public	signature:($uid)
+getCustomers	service/userService.php	/^    public static function getCustomers(){$/;"	f	language:PHP	class:userService	access:public	signature:()
+getData	extension/Flight/flight/util/Collection.php	/^    public function getData() {$/;"	f	language:PHP	class:flight\util::Collection	access:public	signature:()
+getData	extension/xunsearch/util/XSDataSource.class.php	/^	final public function getData()$/;"	f	language:PHP	class:XSDataSource	access:public	signature:()
+getDataByCustomer	service/userService.php	/^    public static function getDataByCustomer($uid){$/;"	f	language:PHP	class:userService	access:public	signature:($uid)
+getDataByProvider	service/userService.php	/^    public static function getDataByProvider($uid){$/;"	f	language:PHP	class:userService	access:public	signature:($uid)
+getDataList	extension/xunsearch/util/XSDataSource.class.php	/^	protected function getDataList()$/;"	f	language:PHP	class:XSCsvDataSource	access:protected	signature:()
+getDataList	extension/xunsearch/util/XSDataSource.class.php	/^	protected function getDataList()$/;"	f	language:PHP	class:XSDataSource	access:protected	signature:()
+getDataList	extension/xunsearch/util/XSDataSource.class.php	/^	protected function getDataList()$/;"	f	language:PHP	class:XSDatabaseDataSource	access:protected	signature:()
+getDataList	extension/xunsearch/util/XSDataSource.class.php	/^	protected function getDataList()$/;"	f	language:PHP	class:XSJsonDataSource	access:protected	signature:()
+getDbTotal	extension/xunsearch/lib/XS.php	/^	public function getDbTotal()$/;"	f	language:PHP	class:XSSearch	access:public	signature:()
+getDefaultCharset	extension/xunsearch/lib/XS.php	/^	public function getDefaultCharset()$/;"	f	language:PHP	class:XS	access:public	signature:()
+getDriverName	extension/xunsearch/util/XSDataSource.class.php	/^	private static function getDriverName($scheme)$/;"	f	language:PHP	class:XSDatabaseDataSource	access:private	signature:($scheme)
+getExpandedQuery	extension/xunsearch/lib/XS.php	/^	public function getExpandedQuery($query, $limit = 10)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($query, $limit = 10)
+getFacets	extension/xunsearch/lib/XS.php	/^	public function getFacets($field = null)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($field = null)
+getField	extension/xunsearch/lib/XS.php	/^	public function getField($name, $throw = true)$/;"	f	language:PHP	class:XS	access:public	signature:($name, $throw = true)
+getField	extension/xunsearch/lib/XS.php	/^	public function getField($name, $throw = true)$/;"	f	language:PHP	class:XSFieldScheme	access:public	signature:($name, $throw = true)
+getFieldBody	extension/xunsearch/lib/XS.php	/^	public function getFieldBody()$/;"	f	language:PHP	class:XS	access:public	signature:()
+getFieldBody	extension/xunsearch/lib/XS.php	/^	public function getFieldBody()$/;"	f	language:PHP	class:XSFieldScheme	access:public	signature:()
+getFieldId	extension/xunsearch/lib/XS.php	/^	public function getFieldId()$/;"	f	language:PHP	class:XS	access:public	signature:()
+getFieldId	extension/xunsearch/lib/XS.php	/^	public function getFieldId()$/;"	f	language:PHP	class:XSFieldScheme	access:public	signature:()
+getFieldTitle	extension/xunsearch/lib/XS.php	/^	public function getFieldTitle()$/;"	f	language:PHP	class:XS	access:public	signature:()
+getFieldTitle	extension/xunsearch/lib/XS.php	/^	public function getFieldTitle()$/;"	f	language:PHP	class:XSFieldScheme	access:public	signature:()
+getFields	extension/xunsearch/lib/XS.php	/^	public function getFields()$/;"	f	language:PHP	class:XSDocument	access:public	signature:()
+getHotQuery	extension/xunsearch/lib/XS.php	/^	public function getHotQuery($limit = 6, $type = 'total')$/;"	f	language:PHP	class:XSSearch	access:public	signature:($limit = 6, $type = 'total')
+getIndex	extension/xunsearch/lib/XS.php	/^	public function getIndex()$/;"	f	language:PHP	class:XS	access:public	signature:()
+getInstance	core/Db.php	/^    public static function getInstance()$/;"	f	language:PHP	class:Db	access:public	signature:()
+getInstance	extension/Flight/flight/core/Loader.php	/^    public function getInstance($name) {$/;"	f	language:PHP	class:flight\core::Loader	access:public	signature:($name)
+getIterator	extension/xunsearch/lib/XS.php	/^	public function getIterator()$/;"	f	language:PHP	class:XSDocument	access:public	signature:()
+getIterator	extension/xunsearch/lib/XS.php	/^	public function getIterator()$/;"	f	language:PHP	class:XSFieldScheme	access:public	signature:()
+getLastCount	extension/xunsearch/lib/XS.php	/^	public function getLastCount()$/;"	f	language:PHP	class:XSSearch	access:public	signature:()
+getLastXS	extension/xunsearch/lib/XS.php	/^	public static function getLastXS()$/;"	f	language:PHP	class:XS	access:public	signature:()
+getMethod	extension/Flight/flight/net/Request.php	/^    public static function getMethod() {$/;"	f	language:PHP	class:flight\net::Request	access:public	signature:()
+getName	extension/xunsearch/lib/XS.php	/^	public function getName()$/;"	f	language:PHP	class:XS	access:public	signature:()
+getNoticeModels	service/userService.php	/^    public static function getNoticeModels(){$/;"	f	language:PHP	class:userService	access:public	signature:()
+getOpt	extension/xunsearch/util/XSUtil.class.php	/^	public static function getOpt($short, $long = null, $extra = false)$/;"	f	language:PHP	class:XSUtil	access:public	signature:($short, $long = null, $extra = false)
+getPredictModels	service/userService.php	/^    public static function getPredictModels(){$/;"	f	language:PHP	class:userService	access:public	signature:()
+getProject	extension/xunsearch/lib/XS.php	/^	public function getProject()$/;"	f	language:PHP	class:XSServer	access:public	signature:()
+getProviderByPk	service/userService.php	/^    public static function getProviderByPk($uid){$/;"	f	language:PHP	class:userService	access:public	signature:($uid)
+getProviders	service/userService.php	/^    public static function getProviders(){$/;"	f	language:PHP	class:userService	access:public	signature:()
+getProxyIpAddress	extension/Flight/flight/net/Request.php	/^    public static function getProxyIpAddress() {$/;"	f	language:PHP	class:flight\net::Request	access:public	signature:()
+getQuery	extension/xunsearch/lib/XS.php	/^	public function getQuery($query = null)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($query = null)
+getRelPath	extension/xunsearch/lib/XS.php	/^	public static function getRelPath($file)$/;"	f	language:PHP	class:XSException	access:public	signature:($file)
+getRelatedQuery	extension/xunsearch/lib/XS.php	/^	public function getRelatedQuery($query = null, $limit = 6)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($query = null, $limit = 6)
+getRelation	extension/ActiveRecord/ActiveRecord.php	/^    protected function & getRelation($name) {$/;"	f	language:PHP	class:ActiveRecord	access:protected	signature:($name)
+getRespond	extension/xunsearch/lib/XS.php	/^	public function getRespond()$/;"	f	language:PHP	class:XSServer	access:public	signature:()
+getResult	extension/xunsearch/lib/XS.php	/^	public function getResult($text)$/;"	f	language:PHP	class:XSTokenizerScws	access:public	signature:($text)
+getRoutes	extension/Flight/flight/net/Router.php	/^    public function getRoutes() {$/;"	f	language:PHP	class:flight\net::Router	access:public	signature:()
+getRows	core/Db.php	/^    public static function getRows($sql)$/;"	f	language:PHP	class:Db	access:public	signature:($sql)
+getRowsOfRankByBookType	service/accountingService.php	/^    public static function getRowsOfRankByBookType($book_type)$/;"	f	language:PHP	class:accountingService	access:public	signature:($book_type)
+getScheme	extension/xunsearch/lib/XS.php	/^	public function getScheme()$/;"	f	language:PHP	class:XS	access:public	signature:()
+getScwsMulti	extension/xunsearch/lib/XS.php	/^	public function getScwsMulti()$/;"	f	language:PHP	class:XSIndex	access:public	signature:()
+getScwsServer	extension/xunsearch/lib/XS.php	/^	public function getScwsServer()$/;"	f	language:PHP	class:XS	access:public	signature:()
+getSearch	extension/xunsearch/lib/XS.php	/^	public function getSearch()$/;"	f	language:PHP	class:XS	access:public	signature:()
+getSearchRes	service/userService.php	/^    public static function getSearchRes($type,$keyword){$/;"	f	language:PHP	class:userService	access:public	signature:($type, $keyword)
+getSessionId	core/Core.php	/^    public static function getSessionId(){$/;"	f	language:PHP	class:Core	access:public	signature:()
+getSessionState	core/Core.php	/^    public static function getSessionState(){$/;"	f	language:PHP	class:Core	access:public	signature:()
+getSocket	extension/xunsearch/lib/XS.php	/^	public function getSocket()$/;"	f	language:PHP	class:XSServer	access:public	signature:()
+getSynonyms	extension/xunsearch/lib/XS.php	/^	public function getSynonyms($term)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($term)
+getTemplate	extension/Flight/flight/template/View.php	/^    public function getTemplate($file) {$/;"	f	language:PHP	class:flight\template::View	access:public	signature:($file)
+getTokens	extension/xunsearch/lib/XS.php	/^	public function getTokens($value, XSDocument $doc = null)$/;"	f	language:PHP	class:XSTokenizerFull	access:public	signature:($value, XSDocument $doc = null)
+getTokens	extension/xunsearch/lib/XS.php	/^	public function getTokens($value, XSDocument $doc = null)$/;"	f	language:PHP	class:XSTokenizerNone	access:public	signature:($value, XSDocument $doc = null)
+getTokens	extension/xunsearch/lib/XS.php	/^	public function getTokens($value, XSDocument $doc = null)$/;"	f	language:PHP	class:XSTokenizerScws	access:public	signature:($value, XSDocument $doc = null)
+getTokens	extension/xunsearch/lib/XS.php	/^	public function getTokens($value, XSDocument $doc = null)$/;"	f	language:PHP	class:XSTokenizerSplit	access:public	signature:($value, XSDocument $doc = null)
+getTokens	extension/xunsearch/lib/XS.php	/^	public function getTokens($value, XSDocument $doc = null)$/;"	f	language:PHP	class:XSTokenizerXlen	access:public	signature:($value, XSDocument $doc = null)
+getTokens	extension/xunsearch/lib/XS.php	/^	public function getTokens($value, XSDocument $doc = null)$/;"	f	language:PHP	class:XSTokenizerXstep	access:public	signature:($value, XSDocument $doc = null)
+getTokens	extension/xunsearch/lib/XS.php	/^	public function getTokens($value, XSDocument $doc = null);$/;"	f	language:PHP	class:XSTokenizer	access:public	signature:($value, XSDocument $doc = null)
+getTops	extension/xunsearch/lib/XS.php	/^	public function getTops($text, $limit = 10, $xattr = '')$/;"	f	language:PHP	class:XSTokenizerScws	access:public	signature:($text, $limit = 10, $xattr = '')
+getUser	service/userService.php	/^    public static function getUser($user_type){$/;"	f	language:PHP	class:userService	access:public	signature:($user_type)
+getUserModelByPk	service/userService.php	/^    public static function getUserModelByPk($user_id){$/;"	f	language:PHP	class:userService	access:public	signature:($user_id)
+getVar	extension/Flight/flight/net/Request.php	/^    public static function getVar($var, $default = '') {$/;"	f	language:PHP	class:flight\net::Request	access:public	signature:($var, $default = '')
+getVersion	extension/xunsearch/lib/XS.php	/^	public function getVersion()$/;"	f	language:PHP	class:XSTokenizerScws	access:public	signature:()
+getVnoMap	extension/xunsearch/lib/XS.php	/^	public function getVnoMap()$/;"	f	language:PHP	class:XSFieldScheme	access:public	signature:()
+handleError	extension/Flight/flight/Engine.php	/^    public function handleError($errno, $errstr, $errfile, $errline) {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($errno, $errstr, $errfile, $errline)
+handleErrors	extension/Flight/flight/Engine.php	/^    public function handleErrors($enabled)$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($enabled)
+handleException	extension/Flight/flight/Engine.php	/^    public function handleException(\\Exception $e) {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:(Exception $e)
+has	extension/Flight/flight/Engine.php	/^    public function has($key) {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($key)
+has	extension/Flight/flight/core/Dispatcher.php	/^    public function has($name) {$/;"	f	language:PHP	class:flight\core::Dispatcher	access:public	signature:($name)
+has	extension/Flight/flight/template/View.php	/^    public function has($key) {$/;"	f	language:PHP	class:flight\template::View	access:public	signature:($key)
+hasCustomTokenizer	extension/xunsearch/lib/XS.php	/^	public function hasCustomTokenizer()$/;"	f	language:PHP	class:XSFieldMeta	access:public	signature:()
+hasIndex	extension/xunsearch/lib/XS.php	/^	public function hasIndex()$/;"	f	language:PHP	class:XSFieldMeta	access:public	signature:()
+hasIndexMixed	extension/xunsearch/lib/XS.php	/^	public function hasIndexMixed()$/;"	f	language:PHP	class:XSFieldMeta	access:public	signature:()
+hasIndexSelf	extension/xunsearch/lib/XS.php	/^	public function hasIndexSelf()$/;"	f	language:PHP	class:XSFieldMeta	access:public	signature:()
+hasRespond	extension/xunsearch/lib/XS.php	/^	public function hasRespond()$/;"	f	language:PHP	class:XSServer	access:public	signature:()
+hasWord	extension/xunsearch/lib/XS.php	/^	public function hasWord($text, $xattr)$/;"	f	language:PHP	class:XSTokenizerScws	access:public	signature:($text, $xattr)
+header	extension/Flight/flight/net/Response.php	/^    public function header($name, $value = null) {$/;"	f	language:PHP	class:flight\net::Response	access:public	signature:($name, $value = null)
+headers	extension/Flight/flight/net/Response.php	/^    protected $headers = array();$/;"	v	language:PHP	class:flight\net::Response	access:protected
+headers	extension/Flight/flight/net/Response.php	/^    public function headers() {$/;"	f	language:PHP	class:flight\net::Response	access:public	signature:()
+highlight	extension/xunsearch/lib/XS.php	/^	public function highlight($value, $strtr = false)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($value, $strtr = false)
+hook	extension/Flight/flight/core/Dispatcher.php	/^    public function hook($name, $type, $callback) {$/;"	f	language:PHP	class:flight\core::Dispatcher	access:public	signature:($name, $type, $callback)
+hot	extension/xunsearch/util/Logger.php	/^	$hot = 'total';$/;"	v	language:PHP
+hot	extension/xunsearch/util/Quest.php	/^$hot = XSUtil::getOpt(null, 'hot');$/;"	v	language:PHP
+i	extension/xunsearch/util/Logger.php	/^			$i = 1;$/;"	v	language:PHP
+i	extension/xunsearch/util/Logger.php	/^			for ($i = 0, $total = count($result); $i < $total; $i++) {$/;"	v	language:PHP
+i	extension/xunsearch/util/Logger.php	/^			for ($i = 0; $i < 3 && $flush !== null; $i++) {$/;"	v	language:PHP
+i	extension/xunsearch/util/Quest.php	/^				for ($i = 0; $i < count($matches[0]); $i++) {$/;"	v	language:PHP
+i	extension/xunsearch/util/Quest.php	/^			$i = $offset + 1;$/;"	v	language:PHP
+i	extension/xunsearch/util/Quest.php	/^			$i = 1;$/;"	v	language:PHP
+i	extension/xunsearch/util/Quest.php	/^			for ($i = 0; $i < count($result); $i++) {$/;"	v	language:PHP
+i	extension/xunsearch/util/Quest.php	/^		for ($i = 1; $i < count($dbs); $i++) {$/;"	v	language:PHP
+inCli	extension/xunsearch/util/XSDataSource.class.php	/^	protected $inCli;$/;"	v	language:PHP	class:XSDataSource	access:protected
+index	extension/Flight/flight/net/Router.php	/^    protected $index = 0;$/;"	v	language:PHP	class:flight\net::Router	access:protected
+index	extension/xunsearch/util/Indexer.php	/^	$index = $xs->index;$/;"	v	language:PHP
+info	extension/xunsearch/util/Quest.php	/^$info = XSUtil::getOpt(null, 'info');$/;"	v	language:PHP
+ini	extension/xunsearch/util/Indexer.php	/^$ini = XSUtil::toProjectIni($project);$/;"	v	language:PHP
+ini	extension/xunsearch/util/Logger.php	/^$ini = XSUtil::toProjectIni($project);$/;"	v	language:PHP
+ini	extension/xunsearch/util/Quest.php	/^$ini = XSUtil::toProjectIni($project);$/;"	v	language:PHP
+ini	extension/xunsearch/util/SearchSkel.php	/^$ini = XSUtil::toProjectIni($project);$/;"	v	language:PHP
+init	extension/Flight/flight/Engine.php	/^    public function init() {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:()
+init	extension/Flight/flight/net/Request.php	/^    public function init($properties = array()) {$/;"	f	language:PHP	class:flight\net::Request	access:public	signature:($properties = array())
+init	extension/xunsearch/util/XSDataSource.class.php	/^	protected function init()$/;"	f	language:PHP	class:XSCsvDataSource	access:protected	signature:()
+init	extension/xunsearch/util/XSDataSource.class.php	/^	protected function init()$/;"	f	language:PHP	class:XSDataSource	access:protected	signature:()
+init	extension/xunsearch/util/XSDataSource.class.php	/^	protected function init()$/;"	f	language:PHP	class:XSDatabaseDataSource	access:protected	signature:()
+init	extension/xunsearch/util/XSDataSource.class.php	/^	protected function init()$/;"	f	language:PHP	class:XSJsonDataSource	access:protected	signature:()
+initHighlight	extension/xunsearch/lib/XS.php	/^	private function initHighlight()$/;"	f	language:PHP	class:XSSearch	access:private	signature:()
+initSpecialField	extension/xunsearch/lib/XS.php	/^	private function initSpecialField()$/;"	f	language:PHP	class:XSSearch	access:private	signature:()
+input	extension/xunsearch/util/SearchSkel.php	/^	$input = dirname(__FILE__) . '\/skel';$/;"	v	language:PHP
+insert	extension/ActiveRecord/ActiveRecord.php	/^    public function insert() {$/;"	f	language:PHP	class:ActiveRecord	access:public	signature:()
+instance	extension/xunsearch/util/XSDataSource.class.php	/^	public static function instance($type, $arg = null)$/;"	f	language:PHP	class:XSDataSource	access:public	signature:($type, $arg = null)
+instances	extension/Flight/flight/core/Loader.php	/^    protected $instances = array();$/;"	v	language:PHP	class:flight\core::Loader	access:protected
+invalidLines	extension/xunsearch/util/XSDataSource.class.php	/^	public $invalidLines = 0;$/;"	v	language:PHP	class:XSCsvDataSource	access:public
+invalidLines	extension/xunsearch/util/XSDataSource.class.php	/^	public $invalidLines = 0;$/;"	v	language:PHP	class:XSJsonDataSource	access:public
+invokeMethod	extension/Flight/flight/core/Dispatcher.php	/^    public static function invokeMethod($func, array &$params = array()) {$/;"	f	language:PHP	class:flight\core::Dispatcher	access:public	signature:($func, array& $params = array())
+ip	extension/Flight/flight/net/Request.php	/^    public $ip;$/;"	v	language:PHP	class:flight\net::Request	access:public
+isBoolIndex	extension/xunsearch/lib/XS.php	/^	public function isBoolIndex()$/;"	f	language:PHP	class:XSFieldMeta	access:public	signature:()
+isNumeric	extension/xunsearch/lib/XS.php	/^	public function isNumeric()$/;"	f	language:PHP	class:XSFieldMeta	access:public	signature:()
+isRobotAgent	extension/xunsearch/lib/XS.php	/^	private function isRobotAgent()$/;"	f	language:PHP	class:XSSearch	access:private	signature:()
+isSpeical	extension/xunsearch/lib/XS.php	/^	public function isSpeical()$/;"	f	language:PHP	class:XSFieldMeta	access:public	signature:()
+is_file_exist	core/AutoLoad.php	/^function is_file_exist($classname){$/;"	f	language:PHP	signature:($classname)
+k	extension/xunsearch/util/Indexer.php	/^	$$k = XSUtil::getOpt(null, $_);$/;"	v	language:PHP
+k	extension/xunsearch/util/Indexer.php	/^	$k = strtr($_, '-', '_');$/;"	v	language:PHP
+k	extension/xunsearch/util/Logger.php	/^	$$k = XSUtil::getOpt(null, $_);$/;"	v	language:PHP
+k	extension/xunsearch/util/Logger.php	/^	$k = strtr($_, '-', '_');$/;"	v	language:PHP
+keeplogin	index.php	/^    $keeplogin = Core::r('keeplogin');$/;"	v	language:PHP
+key	extension/Flight/flight/util/Collection.php	/^    public function key() {$/;"	f	language:PHP	class:flight\util::Collection	access:public	signature:()
+keys	extension/Flight/flight/util/Collection.php	/^    public function keys() {$/;"	f	language:PHP	class:flight\util::Collection	access:public	signature:()
+keyword	index.php	/^        $keyword = $_POST['keyword'];$/;"	v	language:PHP
+length	extension/Flight/flight/net/Request.php	/^    public $length;$/;"	v	language:PHP	class:flight\net::Request	access:public
+level	extension/xunsearch/util/Indexer.php	/^		$level = $index->getScwsMulti();$/;"	v	language:PHP
+lib_file	extension/xunsearch/util/Indexer.php	/^	$lib_file = dirname(__FILE__) . '\/..\/lib\/XS.class.php';$/;"	v	language:PHP
+lib_file	extension/xunsearch/util/Indexer.php	/^$lib_file = dirname(__FILE__) . '\/..\/lib\/XS.php';$/;"	v	language:PHP
+lib_file	extension/xunsearch/util/Logger.php	/^	$lib_file = dirname(__FILE__) . '\/..\/lib\/XS.class.php';$/;"	v	language:PHP
+lib_file	extension/xunsearch/util/Logger.php	/^$lib_file = dirname(__FILE__) . '\/..\/lib\/XS.php';$/;"	v	language:PHP
+lib_file	extension/xunsearch/util/Quest.php	/^	$lib_file = dirname(__FILE__) . '\/..\/lib\/XS.class.php';$/;"	v	language:PHP
+lib_file	extension/xunsearch/util/Quest.php	/^$lib_file = dirname(__FILE__) . '\/..\/lib\/XS.php';$/;"	v	language:PHP
+lib_file	extension/xunsearch/util/RequiredCheck.php	/^	$lib_file = dirname(__FILE__) . '\/..\/lib\/XS.class.php';$/;"	v	language:PHP
+lib_file	extension/xunsearch/util/RequiredCheck.php	/^$lib_file = dirname(__FILE__) . '\/..\/lib\/XS.php';$/;"	v	language:PHP
+lib_file	extension/xunsearch/util/SearchSkel.php	/^	$lib_file = dirname(__FILE__) . '\/..\/lib\/XS.class.php';$/;"	v	language:PHP
+lib_file	extension/xunsearch/util/SearchSkel.php	/^$lib_file = dirname(__FILE__) . '\/..\/lib\/XS.php';$/;"	v	language:PHP
+limit	extension/xunsearch/util/Logger.php	/^			$limit = $limit === null ? 3 : intval($limit);$/;"	v	language:PHP
+limit	extension/xunsearch/util/Logger.php	/^		$limit = $limit === null ? 10 : intval($limit);$/;"	v	language:PHP
+limit	extension/xunsearch/util/Logger.php	/^		$limit = $limit === null ? 6 : intval($limit);$/;"	v	language:PHP
+limit	extension/xunsearch/util/XSDataSource.class.php	/^	private $sql, $offset, $limit;$/;"	v	language:PHP	class:XSDatabaseDataSource	access:private
+limit1	extension/xunsearch/util/Quest.php	/^			$limit1 = intval(substr($limit, $pos + 1));$/;"	v	language:PHP
+limit1	extension/xunsearch/util/Quest.php	/^			$offset = $limit1 = 0;$/;"	v	language:PHP
+limit1	extension/xunsearch/util/Quest.php	/^	$limit1 = $limit === null ? 10 : intval($limit);$/;"	v	language:PHP
+line	extension/xunsearch/util/Logger.php	/^				while (($line = fgets($fd, 1024)) !== false) {$/;"	v	language:PHP
+line	extension/xunsearch/util/Quest.php	/^						$line = '';$/;"	v	language:PHP
+line	extension/xunsearch/util/Quest.php	/^			$line = '';$/;"	v	language:PHP
+line	extension/xunsearch/util/XSDataSource.class.php	/^	private $delim = ',', $line;$/;"	v	language:PHP	class:XSCsvDataSource	access:private
+line	extension/xunsearch/util/XSDataSource.class.php	/^	private $fd, $line;$/;"	v	language:PHP	class:XSJsonDataSource	access:private
+link	extension/xunsearch/util/XSDataSource.class.php	/^	private $link;$/;"	v	language:PHP	class:XSDatabaseMySQL	access:private
+link	extension/xunsearch/util/XSDataSource.class.php	/^	private $link;$/;"	v	language:PHP	class:XSDatabasePgSQL	access:private
+link	extension/xunsearch/util/XSDataSource.class.php	/^	private $link;$/;"	v	language:PHP	class:XSDatabaseSQLite	access:private
+load	extension/Flight/flight/core/Loader.php	/^    public function load($name, $shared = true) {$/;"	f	language:PHP	class:flight\core::Loader	access:public	signature:($name, $shared = true)
+loadClass	extension/Flight/flight/core/Loader.php	/^    public static function loadClass($class) {$/;"	f	language:PHP	class:flight\core::Loader	access:public	signature:($class)
+loadIniFile	extension/xunsearch/lib/XS.php	/^	private function loadIniFile($file)$/;"	f	language:PHP	class:XS	access:private	signature:($file)
+loader	extension/Flight/flight/Engine.php	/^    protected $loader;$/;"	v	language:PHP	class:flight::Engine	access:protected
+loader	extension/Flight/tests/LoaderTest.php	/^    private $loader;$/;"	v	language:PHP	class:LoaderTest	access:private
+logQuery	extension/xunsearch/lib/XS.php	/^	private function logQuery($query = null)$/;"	f	language:PHP	class:XSSearch	access:private	signature:($query = null)
+log_ready	extension/xunsearch/util/Logger.php	/^		$log_ready = true;$/;"	v	language:PHP
+log_ready	extension/xunsearch/util/Logger.php	/^	$log_ready = false;$/;"	v	language:PHP
+logger	extension/xunsearch/lib/XS.php	/^	public static function logger()$/;"	f	language:PHP	class:XSFieldScheme	access:public	signature:()
+loginService	service/loginService.php	/^class loginService$/;"	c	language:PHP
+loginSession	core/Core.php	/^    public static function loginSession($user_id){$/;"	f	language:PHP	class:Core	access:public	signature:($user_id)
+logoutSession	core/Core.php	/^    public static function logoutSession(){$/;"	f	language:PHP	class:Core	access:public	signature:()
+makeDsn	extension/xunsearch/util/XSDataSource.class.php	/^	abstract protected function makeDsn($param);$/;"	f	language:PHP	class:XSDatabasePDO	access:protected	implementation:abstract	signature:($param)
+makeDsn	extension/xunsearch/util/XSDataSource.class.php	/^	protected function makeDsn($param)$/;"	f	language:PHP	class:XSDatabasePDO_MySQL	access:protected	signature:($param)
+makeDsn	extension/xunsearch/util/XSDataSource.class.php	/^	protected function makeDsn($param)$/;"	f	language:PHP	class:XSDatabasePDO_PgSQL	access:protected	signature:($param)
+makeDsn	extension/xunsearch/util/XSDataSource.class.php	/^	protected function makeDsn($param)$/;"	f	language:PHP	class:XSDatabasePDO_SQLite	access:protected	signature:($param)
+map	extension/Flight/flight/Engine.php	/^    public function map($name, $callback) {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($name, $callback)
+map	extension/Flight/flight/net/Router.php	/^    public function map($pattern, $callback, $pass_route = false) {$/;"	f	language:PHP	class:flight\net::Router	access:public	signature:($pattern, $callback, $pass_route = false)
+map	index.php	/^    $map = array('管理员'=>1,'进货员'=>2,'销售员'=>3);$/;"	v	language:PHP
+markResetScheme	extension/xunsearch/lib/XS.php	/^	public function markResetScheme()$/;"	f	language:PHP	class:XSSearch	access:public	signature:()
+matchMethod	extension/Flight/flight/net/Route.php	/^    public function matchMethod($method) {$/;"	f	language:PHP	class:flight\net::Route	access:public	signature:($method)
+matchUrl	extension/Flight/flight/net/Route.php	/^    public function matchUrl($url, $case_sensitive = false) {$/;"	f	language:PHP	class:flight\net::Route	access:public	signature:($url, $case_sensitive = false)
+matched	extension/xunsearch/util/Quest.php	/^		$matched = $search->getLastCount();$/;"	v	language:PHP
+method	extension/Flight/flight/net/Request.php	/^    public $method;$/;"	v	language:PHP	class:flight\net::Request	access:public
+methods	extension/Flight/flight/net/Route.php	/^    public $methods = array();$/;"	v	language:PHP	class:flight\net::Route	access:public
+name	extension/Flight/tests/classes/User.php	/^    public $name;$/;"	v	language:PHP	class:User	access:public
+name	extension/xunsearch/lib/XS.php	/^	public $name;$/;"	v	language:PHP	class:XSFieldMeta	access:public
+newInstance	extension/Flight/flight/core/Loader.php	/^    public function newInstance($class, array $params = array()) {$/;"	f	language:PHP	class:flight\core::Loader	access:public	signature:($class, array $params = array())
+next	extension/Flight/flight/net/Router.php	/^    public function next() {$/;"	f	language:PHP	class:flight\net::Router	access:public	signature:()
+next	extension/Flight/flight/util/Collection.php	/^    public function next() $/;"	f	language:PHP	class:flight\util::Collection	access:public	signature:()
+noticeCount	index.php	/^    $noticeCount = userService::getNoticeModels();$/;"	v	language:PHP
+num_error	extension/xunsearch/util/RequiredCheck.php	/^$num_ok = $num_warning = $num_error = 0;$/;"	v	language:PHP
+num_ok	extension/xunsearch/util/RequiredCheck.php	/^$num_ok = $num_warning = $num_error = 0;$/;"	v	language:PHP
+num_warning	extension/xunsearch/util/RequiredCheck.php	/^$num_ok = $num_warning = $num_error = 0;$/;"	v	language:PHP
+numfromstr	extension/xunsearch/lib/XS.php	/^	private function numfromstr($str, $index)$/;"	f	language:PHP	class:XSSearch	access:private	signature:($str, $index)
+obj	extension/xunsearch/util/XSDataSource.class.php	/^	private $obj;$/;"	v	language:PHP	class:XSDatabaseMySQLI	access:private
+obj	extension/xunsearch/util/XSDataSource.class.php	/^	private $obj;$/;"	v	language:PHP	class:XSDatabaseSQLite3	access:private
+obj	extension/xunsearch/util/XSDataSource.class.php	/^	protected $obj;$/;"	v	language:PHP	class:XSDatabasePDO	access:protected
+object_array	service/userService.php	/^    private function object_array($array) {$/;"	f	language:PHP	class:userService	access:private	signature:($array)
+offset	extension/xunsearch/util/Quest.php	/^			$offset = $limit1 = 0;$/;"	v	language:PHP
+offset	extension/xunsearch/util/Quest.php	/^			$offset = 0;$/;"	v	language:PHP
+offset	extension/xunsearch/util/Quest.php	/^			$offset = intval($limit);$/;"	v	language:PHP
+offsetExists	extension/Flight/flight/util/Collection.php	/^    public function offsetExists($offset) {$/;"	f	language:PHP	class:flight\util::Collection	access:public	signature:($offset)
+offsetExists	extension/xunsearch/lib/XS.php	/^	public function offsetExists($name)$/;"	f	language:PHP	class:XSDocument	access:public	signature:($name)
+offsetGet	extension/Flight/flight/util/Collection.php	/^    public function offsetGet($offset) {$/;"	f	language:PHP	class:flight\util::Collection	access:public	signature:($offset)
+offsetGet	extension/xunsearch/lib/XS.php	/^	public function offsetGet($name)$/;"	f	language:PHP	class:XSDocument	access:public	signature:($name)
+offsetSet	extension/Flight/flight/util/Collection.php	/^    public function offsetSet($offset, $value) {$/;"	f	language:PHP	class:flight\util::Collection	access:public	signature:($offset, $value)
+offsetSet	extension/xunsearch/lib/XS.php	/^	public function offsetSet($name, $value)$/;"	f	language:PHP	class:XSDocument	access:public	signature:($name, $value)
+offsetUnset	extension/Flight/flight/util/Collection.php	/^    public function offsetUnset($offset) {$/;"	f	language:PHP	class:flight\util::Collection	access:public	signature:($offset)
+offsetUnset	extension/xunsearch/lib/XS.php	/^	public function offsetUnset($name)$/;"	f	language:PHP	class:XSDocument	access:public	signature:($name)
+ok	extension/Flight/tests/RouterTest.php	/^    function ok(){$/;"	f	language:PHP	class:RouterTest	signature:()
+open	extension/xunsearch/lib/XS.php	/^	public function open($conn)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($conn)
+open	extension/xunsearch/lib/XS.php	/^	public function open($conn)$/;"	f	language:PHP	class:XSServer	access:public	signature:($conn)
+openBuffer	extension/xunsearch/lib/XS.php	/^	public function openBuffer($size = 4)$/;"	f	language:PHP	class:XSIndex	access:public	signature:($size = 4)
+operators	extension/ActiveRecord/ActiveRecord.php	/^    public static $operators = array($/;"	v	language:PHP	class:ActiveRecord	access:public
+options	extension/xunsearch/util/XSUtil.class.php	/^	private static $optind, $options = null;$/;"	v	language:PHP	class:XSUtil	access:private
+original	extension/xunsearch/util/Indexer.php	/^	$original = $filter;$/;"	v	language:PHP
+out_line	extension/xunsearch/util/RequiredCheck.php	/^function out_line()$/;"	f	language:PHP	signature:()
+output	extension/xunsearch/util/SearchSkel.php	/^	$output = '.';$/;"	v	language:PHP
+output	extension/xunsearch/util/SearchSkel.php	/^$output = XSUtil::getOpt('o', 'output', true);$/;"	v	language:PHP
+params	extension/ActiveRecord/ActiveRecord.php	/^    public $params = array();$/;"	v	language:PHP	class:ActiveRecord	access:public
+params	extension/Flight/flight/net/Route.php	/^    public $params = array();$/;"	v	language:PHP	class:flight\net::Route	access:public
+params	extension/xunsearch/util/Indexer.php	/^$params = array('source', 'file', 'sql', 'rebuild', 'clean', 'flush', 'flush-log', 'info', 'csv-delimiter', 'filter');$/;"	v	language:PHP
+params	extension/xunsearch/util/Logger.php	/^$params = array('import', 'del', 'put', 'flush', 'hot', 'clean', 'limit');$/;"	v	language:PHP
+params	extension/xunsearch/util/Quest.php	/^	$params = array('hot', 'suggest', 'correct', 'related', 'output', 'limit');$/;"	v	language:PHP
+parseIniData	extension/xunsearch/lib/XS.php	/^	private function parseIniData($data)$/;"	f	language:PHP	class:XS	access:private	signature:($data)
+parseOpt	extension/xunsearch/util/XSUtil.class.php	/^	public static function parseOpt($valued = array())$/;"	f	language:PHP	class:XSUtil	access:public	signature:($valued = array())
+parseQuery	extension/Flight/flight/net/Request.php	/^    public static function parseQuery($url) {$/;"	f	language:PHP	class:flight\net::Request	access:public	signature:($url)
+pass	extension/Flight/flight/net/Route.php	/^    public $pass = false;$/;"	v	language:PHP	class:flight\net::Route	access:public
+password	index.php	/^    $password = Core::r('password');$/;"	v	language:PHP
+path	extension/Flight/flight/Engine.php	/^    public function path($dir) {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($dir)
+path	extension/Flight/flight/template/View.php	/^    public $path;$/;"	v	language:PHP	class:flight\template::View	access:public
+pattern	extension/Flight/flight/net/Route.php	/^    public $pattern;$/;"	v	language:PHP	class:flight\net::Route	access:public
+people	index.php	/^    $people = $_GET["type"];$/;"	v	language:PHP
+pk	extension/xunsearch/util/Indexer.php	/^				$pk = $data[$fid->name];$/;"	v	language:PHP
+pos	extension/xunsearch/util/Logger.php	/^					if (($pos = strpos($line, "\\t")) !== false) {$/;"	v	language:PHP
+pos	extension/xunsearch/util/Logger.php	/^				if (($pos = strpos($tmp, ':')) !== false) {$/;"	v	language:PHP
+pos	extension/xunsearch/util/Quest.php	/^			if (($pos = strpos($cut_off, ','))) {$/;"	v	language:PHP
+pos	extension/xunsearch/util/Quest.php	/^		if (($pos = strpos($limit, ',')) === false) {$/;"	v	language:PHP
+pos	extension/xunsearch/util/Quest.php	/^		} elseif (($pos = strpos($limit, ',')) === false) {$/;"	v	language:PHP
+preQueryString	extension/xunsearch/lib/XS.php	/^	private function preQueryString($query)$/;"	f	language:PHP	class:XSSearch	access:private	signature:($query)
+predictModel	index.php	/^    $predictModel = userService::getPredictModels();$/;"	v	language:PHP
+primaryKey	extension/ActiveRecord/ActiveRecord.php	/^    public $primaryKey = 'id';$/;"	v	language:PHP	class:ActiveRecord	access:public
+primaryKey	extension/ActiveRecord/test.php	/^	public $primaryKey = 'id';$/;"	v	language:PHP	class:Contact	access:public
+primaryKey	extension/ActiveRecord/test.php	/^	public $primaryKey = 'id';$/;"	v	language:PHP	class:User	access:public
+primaryKey	extension/ActiveRecord/test/ActiveRecordTest.php	/^    public $primaryKey = 'id';$/;"	v	language:PHP	class:Contact	access:public
+primaryKey	extension/ActiveRecord/test/ActiveRecordTest.php	/^    public $primaryKey = 'id';$/;"	v	language:PHP	class:User	access:public
+primaryKey	model/cancelInfoModel.php	/^    public $primaryKey = 'cancel_id';$/;"	v	language:PHP	class:cancelInfoModel	access:public
+primaryKey	model/customerModel.php	/^    public $primaryKey = 'customer_id';$/;"	v	language:PHP	class:customerModel	access:public
+primaryKey	model/productModel.php	/^    public $primaryKey = 'product_id';$/;"	v	language:PHP	class:productModel	access:public
+primaryKey	model/providerModel.php	/^    public $primaryKey = 'provider_id';$/;"	v	language:PHP	class:providerModel	access:public
+primaryKey	model/purchaseInfoModel.php	/^    public $primaryKey = 'purchase_id';$/;"	v	language:PHP	class:purchaseInfoModel	access:public
+primaryKey	model/sellInfoModel.php	/^    public $primaryKey = 'sell_id';$/;"	v	language:PHP	class:sellInfoModel	access:public
+primaryKey	model/userModel.php	/^    public $primaryKey = 'id';$/;"	v	language:PHP	class:userModel	access:public
+process	extension/xunsearch/util/XSDataSource.class.php	/^	public function process($data, $cs = false)$/;"	f	language:PHP	class:XSDebugFilter	access:public	signature:($data, $cs = false)
+process	extension/xunsearch/util/XSDataSource.class.php	/^	public function process($data, $cs = false);$/;"	f	language:PHP	class:XSDataFilter	access:public	signature:($data, $cs = false)
+processDoc	extension/xunsearch/util/XSDataSource.class.php	/^	public function processDoc($doc)$/;"	f	language:PHP	class:XSDebugFilter	access:public	signature:($doc)
+processDoc	extension/xunsearch/util/XSDataSource.class.php	/^	public function processDoc($doc);$/;"	f	language:PHP	class:XSDataFilter	access:public	signature:($doc)
+productModel	index.php	/^    $productModel = userService::getAllProduct($product_name);$/;"	v	language:PHP
+productModel	model/productModel.php	/^class productModel extends ActiveRecord{$/;"	c	language:PHP	inherits:ActiveRecord
+product_brand	index.php	/^    $product_brand = Core::r('product_brand');$/;"	v	language:PHP
+product_code	index.php	/^    $product_code = 'E'.time().rand(100,999);$/;"	v	language:PHP
+product_cost	index.php	/^    $product_cost = Core::r('product_cost');$/;"	v	language:PHP
+product_id	index.php	/^    $product_id = Core::r('product_id');$/;"	v	language:PHP
+product_name	index.php	/^    $product_name = Core::r('customer_company_name');$/;"	v	language:PHP
+product_name	index.php	/^    $product_name = Core::r('productInfo');$/;"	v	language:PHP
+product_name	index.php	/^    $product_name = Core::r('product_name');$/;"	v	language:PHP
+product_type	index.php	/^    $product_type = Core::r('product_type');$/;"	v	language:PHP
+project	extension/xunsearch/util/Indexer.php	/^$project = XSUtil::getOpt('p', 'project', true);$/;"	v	language:PHP
+project	extension/xunsearch/util/Logger.php	/^$project = XSUtil::getOpt('p', 'project', true);$/;"	v	language:PHP
+project	extension/xunsearch/util/Quest.php	/^$project = XSUtil::getOpt('p', 'project', true);$/;"	v	language:PHP
+project	extension/xunsearch/util/SearchSkel.php	/^$project = XSUtil::getOpt('p', 'project', true);$/;"	v	language:PHP
+providerAll	index.php	/^    $providerAll = userService::getAllProviders();$/;"	v	language:PHP
+providerArray	view/chart.html.php	/^                    $providerArray = array();$/;"	v	language:PHP
+providerModel	model/providerModel.php	/^class providerModel extends ActiveRecord$/;"	c	language:PHP	inherits:ActiveRecord
+provider_id	index.php	/^    $provider_id = Core::r('provider_id');$/;"	v	language:PHP
+proxy_ip	extension/Flight/flight/net/Request.php	/^    public $proxy_ip;$/;"	v	language:PHP	class:flight\net::Request	access:public
+purchaseInfoModel	model/purchaseInfoModel.php	/^class purchaseInfoModel extends ActiveRecord$/;"	c	language:PHP	inherits:ActiveRecord
+purchase_count	index.php	/^    $purchase_count = Core::r('purchase_count');$/;"	v	language:PHP
+purchase_order_id	index.php	/^    $purchase_order_id = 'F'.time().rand(100,999);$/;"	v	language:PHP
+put	extension/xunsearch/util/Logger.php	/^			$put = XSUtil::convertIn($put);$/;"	v	language:PHP
+query	extension/Flight/flight/net/Request.php	/^    public $query;$/;"	v	language:PHP	class:flight\net::Request	access:public
+query	extension/xunsearch/util/Logger.php	/^		$query = XSUtil::convertIn($query);$/;"	v	language:PHP
+query	extension/xunsearch/util/Logger.php	/^$query = XSUtil::getOpt(null, 'query', true);$/;"	v	language:PHP
+query	extension/xunsearch/util/Quest.php	/^					$query = str_replace($matches[0][$i], '', $query);$/;"	v	language:PHP
+query	extension/xunsearch/util/Quest.php	/^$query = XSUtil::convertIn($query);$/;"	v	language:PHP
+query	extension/xunsearch/util/Quest.php	/^$query = XSUtil::getOpt('q', 'query', true);$/;"	v	language:PHP
+query	extension/xunsearch/util/XSDataSource.class.php	/^	abstract public function query($sql);$/;"	f	language:PHP	class:XSDatabase	access:public	implementation:abstract	signature:($sql)
+query	extension/xunsearch/util/XSDataSource.class.php	/^	public function query($query)$/;"	f	language:PHP	class:XSDatabasePgSQL	access:public	signature:($query)
+query	extension/xunsearch/util/XSDataSource.class.php	/^	public function query($sql)$/;"	f	language:PHP	class:XSDatabaseMySQL	access:public	signature:($sql)
+query	extension/xunsearch/util/XSDataSource.class.php	/^	public function query($sql)$/;"	f	language:PHP	class:XSDatabaseMySQLI	access:public	signature:($sql)
+query	extension/xunsearch/util/XSDataSource.class.php	/^	public function query($sql)$/;"	f	language:PHP	class:XSDatabasePDO	access:public	signature:($sql)
+query	extension/xunsearch/util/XSDataSource.class.php	/^	public function query($sql)$/;"	f	language:PHP	class:XSDatabaseSQLite	access:public	signature:($sql)
+query	extension/xunsearch/util/XSDataSource.class.php	/^	public function query($sql)$/;"	f	language:PHP	class:XSDatabaseSQLite3	access:public	signature:($sql)
+query1	extension/xunsearch/util/XSDataSource.class.php	/^	public function query1($sql)$/;"	f	language:PHP	class:XSDatabase	access:public	signature:($sql)
+r	core/Core.php	/^    public static function r($key){$/;"	f	language:PHP	class:Core	access:public	signature:($key)
+ranges	extension/xunsearch/util/Quest.php	/^		$ranges = array();$/;"	v	language:PHP
+raw	extension/xunsearch/util/Indexer.php	/^					$raw = trim($raw);$/;"	v	language:PHP
+raw	extension/xunsearch/util/Indexer.php	/^					$raw = trim($tmp);$/;"	v	language:PHP
+raw	extension/xunsearch/util/Indexer.php	/^				$raw = trim($raw);$/;"	v	language:PHP
+read	extension/xunsearch/lib/XS.php	/^	protected function read($len)$/;"	f	language:PHP	class:XSServer	access:protected	signature:($len)
+rec	extension/xunsearch/util/Indexer.php	/^			$rec = array();$/;"	v	language:PHP
+referrer	extension/Flight/flight/net/Request.php	/^    public $referrer;$/;"	v	language:PHP	class:flight\net::Request	access:public
+regQueryPrefix	extension/xunsearch/lib/XS.php	/^	private function regQueryPrefix($name)$/;"	f	language:PHP	class:XSSearch	access:private	signature:($name)
+regex	extension/Flight/flight/net/Route.php	/^    public $regex;$/;"	v	language:PHP	class:flight\net::Route	access:public
+regex	extension/xunsearch/util/Quest.php	/^			$regex = '\/(\\S+?):(\\S*?)\\.\\.(\\S*)\/';$/;"	v	language:PHP
+register	extension/Flight/flight/Engine.php	/^    public function register($name, $class, array $params = array(), $callback = null) {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($name, $class, array $params = array(), $callback = null)
+register	extension/Flight/flight/core/Loader.php	/^    public function register($name, $class, array $params = array(), $callback = null) {$/;"	f	language:PHP	class:flight\core::Loader	access:public	signature:($name, $class, array $params = array(), $callback = null)
+related	extension/xunsearch/util/Quest.php	/^		$related = $search->getRelatedQuery();$/;"	v	language:PHP
+relations	extension/ActiveRecord/ActiveRecord.php	/^    public $relations = array();$/;"	v	language:PHP	class:ActiveRecord	access:public
+relations	extension/ActiveRecord/test.php	/^	public $relations = array($/;"	v	language:PHP	class:Contact	access:public
+relations	extension/ActiveRecord/test.php	/^	public $relations = array($/;"	v	language:PHP	class:User	access:public
+relations	extension/ActiveRecord/test/ActiveRecordTest.php	/^    public $relations = array($/;"	v	language:PHP	class:Contact	access:public
+relations	extension/ActiveRecord/test/ActiveRecordTest.php	/^    public $relations = array($/;"	v	language:PHP	class:User	access:public
+relations	model/productModel.php	/^    public $relations = array($/;"	v	language:PHP	class:productModel	access:public
+relations	model/purchaseInfoModel.php	/^    public $relations = array($/;"	v	language:PHP	class:purchaseInfoModel	access:public
+relations	model/sellInfoModel.php	/^    public $relations = array($/;"	v	language:PHP	class:sellInfoModel	access:public
+relations	model/userModel.php	/^    public $relations = array($/;"	v	language:PHP	class:userModel	access:public
+relative	extension/xunsearch/util/Indexer.php	/^	$relative = XSException::getRelPath($start);$/;"	v	language:PHP
+relative	extension/xunsearch/util/Logger.php	/^	$relative = XSException::getRelPath($start);$/;"	v	language:PHP
+relative	extension/xunsearch/util/Quest.php	/^	$relative = XSException::getRelPath($start);$/;"	v	language:PHP
+relative	extension/xunsearch/util/SearchSkel.php	/^	$relative = substr(XSException::getRelPath($start), 0, -1);$/;"	v	language:PHP
+render	core/Core.php	/^    public static function render($filename, $array = null)$/;"	f	language:PHP	class:Core	access:public	signature:($filename, $array = null)
+render	extension/Flight/flight/template/View.php	/^    public function render($file, $data = null) {$/;"	f	language:PHP	class:flight\template::View	access:public	signature:($file, $data = null)
+renderAll	core/Core.php	/^    public static function renderAll($layoutFilename, $layout_array, $filename, $array)$/;"	f	language:PHP	class:Core	access:public	signature:($layoutFilename, $layout_array, $filename, $array)
+renderArray	core/Core.php	/^    public static function renderArray($filename,$array){$/;"	f	language:PHP	class:Core	access:public	signature:($filename, $array)
+reopen	extension/xunsearch/lib/XS.php	/^	public function reopen($force = false)$/;"	f	language:PHP	class:XSServer	access:public	signature:($force = false)
+request	extension/Flight/tests/RequestTest.php	/^    private $request;$/;"	v	language:PHP	class:RequestTest	access:private
+request	extension/Flight/tests/RouterTest.php	/^    private $request;$/;"	v	language:PHP	class:RouterTest	access:private
+res	extension/xunsearch/util/Indexer.php	/^		$res = $index->execCommand(XS_CMD_DEBUG);$/;"	v	language:PHP
+res	extension/xunsearch/util/Indexer.php	/^		$res = $index->execCommand(XS_CMD_INDEX_GET_DB);$/;"	v	language:PHP
+res	extension/xunsearch/util/Indexer.php	/^		$res = json_decode($res->buf);$/;"	v	language:PHP
+res	extension/xunsearch/util/Indexer.php	/^		if (($res = $index->flushIndex()) === false) {$/;"	v	language:PHP
+res	extension/xunsearch/util/Indexer.php	/^		if (($res = $index->flushLogging()) === false) {$/;"	v	language:PHP
+res	extension/xunsearch/util/Logger.php	/^			$res = $xs->index->setDb($db)->flushIndex();$/;"	v	language:PHP
+res	extension/xunsearch/util/Quest.php	/^		$res = $search->execCommand(XS_CMD_DEBUG);$/;"	v	language:PHP
+res	extension/xunsearch/util/Quest.php	/^		$res = $search->execCommand(XS_CMD_SEARCH_DRAW_TPOOL);$/;"	v	language:PHP
+res	index.php	/^        $res = userService::getSearchRes($type,$keyword);$/;"	v	language:PHP
+res	index.php	/^    $res = null;$/;"	v	language:PHP
+res	index.php	/^    $res = userService::addHavePurchase($user_id,$purchase_count,$purchase_order_id,$product_id);$/;"	v	language:PHP
+res	index.php	/^    $res = userService::addPeople($type,$company_name,$company_phone,$contact_name$/;"	v	language:PHP
+res	index.php	/^    $res = userService::addPurchase($user_id,$/;"	v	language:PHP
+res	index.php	/^    $res = userService::addSellInfo($user_id,$sell_count,$sell_order_id,(int)$product_id,(int)$product_name);$/;"	v	language:PHP
+res	index.php	/^    $res = userService::addUser($user_name,$user_password,(int)$type);$/;"	v	language:PHP
+res	index.php	/^    $res = userService::deleteCustomerById((int)$uid);$/;"	v	language:PHP
+res	index.php	/^    $res = userService::deleteProviderById((int)$uid);$/;"	v	language:PHP
+res	index.php	/^    $res = userService::deleteUserById((int)$uid);$/;"	v	language:PHP
+res	index.php	/^    $res = userService::shotUserById((int)$uid);$/;"	v	language:PHP
+res	index.php	/^    $res = userService::unshotUserById((int)$uid);$/;"	v	language:PHP
+res	index.php	/^    $res = userService::updateCustomerInfo((int)$customer_id,$customer_company_name,$customer_company_phone,$customer_contact_address,$/;"	v	language:PHP
+res	index.php	/^    $res = userService::updateUserInfo((int)$user_id,$user_password,$user_name,$user_state);$/;"	v	language:PHP
+res	index.php	/^    $res = userService::updateUserInfo((int)Core::getSessionId(),$user_password,$user_name,null);$/;"	v	language:PHP
+reset	extension/ActiveRecord/ActiveRecord.php	/^    public function reset() {$/;"	f	language:PHP	class:ActiveRecord	access:public	signature:()
+reset	extension/Flight/flight/core/Dispatcher.php	/^    public function reset() {$/;"	f	language:PHP	class:flight\core::Dispatcher	access:public	signature:()
+reset	extension/Flight/flight/core/Loader.php	/^    public function reset() {$/;"	f	language:PHP	class:flight\core::Loader	access:public	signature:()
+reset	extension/Flight/flight/net/Router.php	/^    public  function reset() {$/;"	f	language:PHP	class:flight\net::Router	access:public	signature:()
+restoreDb	extension/xunsearch/lib/XS.php	/^	private function restoreDb()$/;"	f	language:PHP	class:XSSearch	access:private	signature:()
+restoreScheme	extension/xunsearch/lib/XS.php	/^	public function restoreScheme()$/;"	f	language:PHP	class:XS	access:public	signature:()
+result	extension/xunsearch/util/Logger.php	/^		$result = $log_ready ? $search->setFuzzy()->setLimit($limit)->search($query) : array();$/;"	v	language:PHP
+result	extension/xunsearch/util/Logger.php	/^		$result = $search->getHotQuery($limit, $type);$/;"	v	language:PHP
+result	extension/xunsearch/util/Quest.php	/^		$result = $search->getCorrectedQuery($query);$/;"	v	language:PHP
+result	extension/xunsearch/util/Quest.php	/^		$result = $search->getExpandedQuery($query, $limit1);$/;"	v	language:PHP
+result	extension/xunsearch/util/Quest.php	/^		$result = $search->getHotQuery($limit1, $type);$/;"	v	language:PHP
+result	extension/xunsearch/util/Quest.php	/^		$result = $search->getRelatedQuery($query, $limit1);$/;"	v	language:PHP
+result	extension/xunsearch/util/Quest.php	/^		$result = $search->setLimit($limit1, $offset)->search();$/;"	v	language:PHP
+result	extension/xunsearch/util/Quest.php	/^		$result = $search->terms($query);$/;"	v	language:PHP
+result	extension/xunsearch/util/RequiredCheck.php	/^$result = array($/;"	v	language:PHP
+rewind	extension/Flight/flight/util/Collection.php	/^    public function rewind() {$/;"	f	language:PHP	class:flight\util::Collection	access:public	signature:()
+route	extension/Flight/flight/net/Router.php	/^    public function route(Request $request) {$/;"	f	language:PHP	class:flight\net::Router	access:public	signature:(Request $request)
+routeRequest	extension/Flight/tests/RouterTest.php	/^    function routeRequest() {$/;"	f	language:PHP	class:RouterTest	signature:()
+router	extension/Flight/tests/RouterTest.php	/^    private $router;$/;"	v	language:PHP	class:RouterTest	access:private
+routes	extension/Flight/flight/net/Router.php	/^    protected $routes = array();$/;"	v	language:PHP	class:flight\net::Router	access:protected
+run	extension/Flight/flight/core/Dispatcher.php	/^    public function run($name, array $params = array()) {$/;"	f	language:PHP	class:flight\core::Dispatcher	access:public	signature:($name, array $params = array())
+sayBye	extension/Flight/tests/classes/Hello.php	/^    public static function sayBye() {$/;"	f	language:PHP	class:Hello	access:public	signature:()
+sayHi	extension/Flight/tests/classes/Hello.php	/^    public function sayHi() {$/;"	f	language:PHP	class:Hello	access:public	signature:()
+scheme	extension/Flight/flight/net/Request.php	/^    public $scheme;$/;"	v	language:PHP	class:flight\net::Request	access:public
+scws_multi	extension/xunsearch/util/Indexer.php	/^			$scws_multi = null;$/;"	v	language:PHP
+scws_multi	extension/xunsearch/util/Indexer.php	/^$scws_multi = XSUtil::getOpt(null, 'scws-multi');$/;"	v	language:PHP
+scws_multi	extension/xunsearch/util/Quest.php	/^$scws_multi = XSUtil::getOpt(null, 'scws-multi');$/;"	v	language:PHP
+search	extension/xunsearch/lib/XS.php	/^	public function search($query = null, $saveHighlight = true)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($query = null, $saveHighlight = true)
+search	extension/xunsearch/util/Logger.php	/^	$search = $xs->search;$/;"	v	language:PHP
+search	extension/xunsearch/util/Quest.php	/^	$search = $xs->search;$/;"	v	language:PHP
+secure	extension/Flight/flight/net/Request.php	/^    public $secure;$/;"	v	language:PHP	class:flight\net::Request	access:public
+sellInfoModel	model/sellInfoModel.php	/^class sellInfoModel extends ActiveRecord$/;"	c	language:PHP	inherits:ActiveRecord
+sell_count	index.php	/^    $sell_count = Core::r('sell_count');$/;"	v	language:PHP
+sell_order_id	index.php	/^    $sell_order_id = 'G'.time().rand(100,999);$/;"	v	language:PHP
+send	extension/Flight/flight/net/Response.php	/^    public function send() {$/;"	f	language:PHP	class:flight\net::Response	access:public	signature:()
+sendCommand	extension/xunsearch/lib/XS.php	/^	public function sendCommand($cmd)$/;"	f	language:PHP	class:XSServer	access:public	signature:($cmd)
+sendHeaders	extension/Flight/flight/net/Response.php	/^    public function sendHeaders() {$/;"	f	language:PHP	class:flight\net::Response	access:public	signature:()
+set	extension/Flight/flight/Engine.php	/^    public function set($key, $value = null) {$/;"	f	language:PHP	class:flight::Engine	access:public	signature:($key, $value = null)
+set	extension/Flight/flight/core/Dispatcher.php	/^    public function set($name, $callback) {$/;"	f	language:PHP	class:flight\core::Dispatcher	access:public	signature:($name, $callback)
+set	extension/Flight/flight/template/View.php	/^    public function set($key, $value = null) {$/;"	f	language:PHP	class:flight\template::View	access:public	signature:($key, $value = null)
+setArg	extension/xunsearch/lib/XS.php	/^	public function setArg($arg)$/;"	f	language:PHP	class:XSCommand	access:public	signature:($arg)
+setAutoSynonyms	extension/xunsearch/lib/XS.php	/^	public function setAutoSynonyms($value = true)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($value = true)
+setCharset	extension/xunsearch/lib/XS.php	/^	public function setCharset($charset)$/;"	f	language:PHP	class:XSDocument	access:public	signature:($charset)
+setCharset	extension/xunsearch/lib/XS.php	/^	public function setCharset($charset)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($charset)
+setCharset	extension/xunsearch/lib/XS.php	/^	public function setCharset($charset)$/;"	f	language:PHP	class:XSTokenizerScws	access:public	signature:($charset)
+setCharset	extension/xunsearch/util/XSUtil.class.php	/^	public static function setCharset($charset)$/;"	f	language:PHP	class:XSUtil	access:public	signature:($charset)
+setCollapse	extension/xunsearch/lib/XS.php	/^	public function setCollapse($field, $num = 1)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($field, $num = 1)
+setCustomDict	extension/xunsearch/lib/XS.php	/^	public function setCustomDict($content)$/;"	f	language:PHP	class:XSIndex	access:public	signature:($content)
+setCutOff	extension/xunsearch/lib/XS.php	/^	public function setCutOff($percent, $weight = 0)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($percent, $weight = 0)
+setData	extension/Flight/flight/util/Collection.php	/^    public function setData(array $data) {$/;"	f	language:PHP	class:flight\util::Collection	access:public	signature:(array $data)
+setDb	extension/ActiveRecord/ActiveRecord.php	/^    public static function setDb($db) {$/;"	f	language:PHP	class:ActiveRecord	access:public	signature:($db)
+setDb	extension/xunsearch/lib/XS.php	/^	public function setDb($name)$/;"	f	language:PHP	class:XSIndex	access:public	signature:($name)
+setDb	extension/xunsearch/lib/XS.php	/^	public function setDb($name)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($name)
+setDefaultCharset	extension/xunsearch/lib/XS.php	/^	public function setDefaultCharset($charset)$/;"	f	language:PHP	class:XS	access:public	signature:($charset)
+setDict	extension/xunsearch/lib/XS.php	/^	public function setDict($fpath, $mode = null)$/;"	f	language:PHP	class:XSTokenizerScws	access:public	signature:($fpath, $mode = null)
+setDocOrder	extension/xunsearch/lib/XS.php	/^	public function setDocOrder($asc = false)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($asc = false)
+setDuality	extension/xunsearch/lib/XS.php	/^	public function setDuality($yes = true)$/;"	f	language:PHP	class:XSTokenizerScws	access:public	signature:($yes = true)
+setFacets	extension/xunsearch/lib/XS.php	/^	public function setFacets($field, $exact = false)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($field, $exact = false)
+setField	extension/xunsearch/lib/XS.php	/^	public function setField($name, $value, $isMeta = false)$/;"	f	language:PHP	class:XSDocument	access:public	signature:($name, $value, $isMeta = false)
+setFields	extension/xunsearch/lib/XS.php	/^	public function setFields($data)$/;"	f	language:PHP	class:XSDocument	access:public	signature:($data)
+setFuzzy	extension/xunsearch/lib/XS.php	/^	public function setFuzzy($value = true)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($value = true)
+setIgnore	extension/xunsearch/lib/XS.php	/^	public function setIgnore($yes = true)$/;"	f	language:PHP	class:XSTokenizerScws	access:public	signature:($yes = true)
+setLimit	extension/xunsearch/lib/XS.php	/^	public function setLimit($limit, $offset = 0)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($limit, $offset = 0)
+setMulti	extension/xunsearch/lib/XS.php	/^	public function setMulti($mode = 3)$/;"	f	language:PHP	class:XSTokenizerScws	access:public	signature:($mode = 3)
+setMultiSort	extension/xunsearch/lib/XS.php	/^	public function setMultiSort($fields, $reverse = false, $relevance_first = false)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($fields, $reverse = false, $relevance_first = false)
+setName	extension/xunsearch/lib/XS.php	/^	public function setName($name)$/;"	f	language:PHP	class:XS	access:public	signature:($name)
+setProject	extension/xunsearch/lib/XS.php	/^	public function setProject($name, $home = '')$/;"	f	language:PHP	class:XSServer	access:public	signature:($name, $home = '')
+setQuery	extension/xunsearch/lib/XS.php	/^	public function setQuery($query)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($query)
+setRequireMatchedTerm	extension/xunsearch/lib/XS.php	/^	public function setRequireMatchedTerm($value = true)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($value = true)
+setScheme	extension/xunsearch/lib/XS.php	/^	public function setScheme(XSFieldScheme $fs)$/;"	f	language:PHP	class:XS	access:public	signature:(XSFieldScheme $fs)
+setScwsMulti	extension/xunsearch/lib/XS.php	/^	public function setScwsMulti($level)$/;"	f	language:PHP	class:XSIndex	access:public	signature:($level)
+setScwsMulti	extension/xunsearch/lib/XS.php	/^	public function setScwsMulti($level)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($level)
+setSort	extension/xunsearch/lib/XS.php	/^	public function setSort($field, $asc = false, $relevance_first = false)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($field, $asc = false, $relevance_first = false)
+setSynonymScale	extension/xunsearch/lib/XS.php	/^	public function setSynonymScale($value)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($value)
+setTimeout	extension/xunsearch/lib/XS.php	/^	public function setTimeout($sec)$/;"	f	language:PHP	class:XSServer	access:public	signature:($sec)
+setUp	extension/Flight/tests/AutoloadTest.php	/^    function setUp() {$/;"	f	language:PHP	class:AutoloadTest	signature:()
+setUp	extension/Flight/tests/DispatcherTest.php	/^    function setUp(){$/;"	f	language:PHP	class:DispatcherTest	signature:()
+setUp	extension/Flight/tests/FilterTest.php	/^    function setUp() {$/;"	f	language:PHP	class:FilterTest	signature:()
+setUp	extension/Flight/tests/FlightTest.php	/^    function setUp() {$/;"	f	language:PHP	class:FlightTest	signature:()
+setUp	extension/Flight/tests/LoaderTest.php	/^    function setUp(){$/;"	f	language:PHP	class:LoaderTest	signature:()
+setUp	extension/Flight/tests/MapTest.php	/^    function setUp() {$/;"	f	language:PHP	class:MapTest	signature:()
+setUp	extension/Flight/tests/RedirectTest.php	/^    function setUp() {$/;"	f	language:PHP	class:RedirectTest	signature:()
+setUp	extension/Flight/tests/RegisterTest.php	/^    function setUp() {$/;"	f	language:PHP	class:RegisterTest	signature:()
+setUp	extension/Flight/tests/RenderTest.php	/^    function setUp() {$/;"	f	language:PHP	class:RenderTest	signature:()
+setUp	extension/Flight/tests/RequestTest.php	/^    function setUp() {$/;"	f	language:PHP	class:RequestTest	signature:()
+setUp	extension/Flight/tests/RouterTest.php	/^    function setUp(){$/;"	f	language:PHP	class:RouterTest	signature:()
+setUp	extension/Flight/tests/VariableTest.php	/^    function setUp() {$/;"	f	language:PHP	class:VariableTest	signature:()
+setUp	extension/Flight/tests/ViewTest.php	/^    function setUp() {$/;"	f	language:PHP	class:ViewTest	signature:()
+setUtf8	extension/xunsearch/util/XSDataSource.class.php	/^	public function setUtf8()$/;"	f	language:PHP	class:XSDatabase	access:public	signature:()
+setUtf8	extension/xunsearch/util/XSDataSource.class.php	/^	public function setUtf8()$/;"	f	language:PHP	class:XSDatabaseMySQL	access:public	signature:()
+setUtf8	extension/xunsearch/util/XSDataSource.class.php	/^	public function setUtf8()$/;"	f	language:PHP	class:XSDatabaseMySQLI	access:public	signature:()
+setUtf8	extension/xunsearch/util/XSDataSource.class.php	/^	public function setUtf8()$/;"	f	language:PHP	class:XSDatabasePDO_MySQL	access:public	signature:()
+setUtf8	extension/xunsearch/util/XSDataSource.class.php	/^	public function setUtf8()$/;"	f	language:PHP	class:XSDatabasePDO_PgSQL	access:public	signature:()
+setUtf8	extension/xunsearch/util/XSDataSource.class.php	/^	public function setUtf8()$/;"	f	language:PHP	class:XSDatabasePgSQL	access:public	signature:()
+shotUserById	service/userService.php	/^    public static function shotUserById($uid){$/;"	f	language:PHP	class:userService	access:public	signature:($uid)
+sort	extension/xunsearch/util/Quest.php	/^$sort = XSUtil::getOpt('s', 'sort');$/;"	v	language:PHP
+splat	extension/Flight/flight/net/Route.php	/^    public $splat = '';$/;"	v	language:PHP	class:flight\net::Route	access:public
+sqlExpressions	extension/ActiveRecord/ActiveRecord.php	/^    protected $sqlExpressions = array();$/;"	v	language:PHP	class:ActiveRecord	access:protected
+sqlParts	extension/ActiveRecord/ActiveRecord.php	/^    public static $sqlParts = array($/;"	v	language:PHP	class:ActiveRecord	access:public
+src	extension/xunsearch/util/Indexer.php	/^			$src = XSDataSource::instance($source, strpos($source, ':') ? $sql : $file);$/;"	v	language:PHP
+start	extension/xunsearch/util/Indexer.php	/^	$start = dirname(dirname(__FILE__));$/;"	v	language:PHP
+start	extension/xunsearch/util/Logger.php	/^	$start = dirname(dirname(__FILE__));$/;"	v	language:PHP
+start	extension/xunsearch/util/Quest.php	/^	$start = dirname(dirname(__FILE__));$/;"	v	language:PHP
+start	extension/xunsearch/util/SearchSkel.php	/^	$start = dirname(dirname(__FILE__)) . '\/';$/;"	v	language:PHP
+status	extension/Flight/flight/net/Response.php	/^    protected $status = 200;$/;"	v	language:PHP	class:flight\net::Response	access:protected
+status	extension/Flight/flight/net/Response.php	/^    public function status($code = null) {$/;"	f	language:PHP	class:flight\net::Response	access:public	signature:($code = null)
+stopRebuild	extension/xunsearch/lib/XS.php	/^	public function stopRebuild()$/;"	f	language:PHP	class:XSIndex	access:public	signature:()
+strip_head_line	extension/xunsearch/util/xs	/^function strip_head_line($buf)$/;"	f	language:PHP	signature:($buf)
+syn	extension/xunsearch/util/Indexer.php	/^					$syn = trim($syn);$/;"	v	language:PHP
+syn	extension/xunsearch/util/Indexer.php	/^				$syn = '';$/;"	v	language:PHP
+syn	extension/xunsearch/util/Indexer.php	/^				$syn = trim($syn);$/;"	v	language:PHP
+syn	extension/xunsearch/util/Quest.php	/^		$syn = XSUtil::getOpt(null, 'synonym');$/;"	v	language:PHP
+synonyms	extension/xunsearch/util/Quest.php	/^		$synonyms = $search->getAllSynonyms($limit1, $offset, $synonyms === 'stemmed');$/;"	v	language:PHP
+synonyms	extension/xunsearch/util/Quest.php	/^		$synonyms = $search->getSynonyms($synonyms);$/;"	v	language:PHP
+synonyms	extension/xunsearch/util/Quest.php	/^$synonyms = XSUtil::getOpt(null, 'list-synonyms', false);$/;"	v	language:PHP
+table	extension/ActiveRecord/ActiveRecord.php	/^    public $table;$/;"	v	language:PHP	class:ActiveRecord	access:public
+table	extension/ActiveRecord/test.php	/^	public $table = 'contact';$/;"	v	language:PHP	class:Contact	access:public
+table	extension/ActiveRecord/test.php	/^	public $table = 'user';$/;"	v	language:PHP	class:User	access:public
+table	extension/ActiveRecord/test/ActiveRecordTest.php	/^    public $table = 'contact';$/;"	v	language:PHP	class:Contact	access:public
+table	extension/ActiveRecord/test/ActiveRecordTest.php	/^    public $table = 'user';$/;"	v	language:PHP	class:User	access:public
+table	model/cancelInfoModel.php	/^    public $table = 'cancel_info';$/;"	v	language:PHP	class:cancelInfoModel	access:public
+table	model/customerModel.php	/^    public $table = 'customer';$/;"	v	language:PHP	class:customerModel	access:public
+table	model/productModel.php	/^    public $table = 'product';$/;"	v	language:PHP	class:productModel	access:public
+table	model/providerModel.php	/^    public $table = 'provider';$/;"	v	language:PHP	class:providerModel	access:public
+table	model/purchaseInfoModel.php	/^    public $table = 'purchase_info';$/;"	v	language:PHP	class:purchaseInfoModel	access:public
+table	model/sellInfoModel.php	/^    public $table = 'sell_info';$/;"	v	language:PHP	class:sellInfoModel	access:public
+table	model/userModel.php	/^    public $table = 'user';$/;"	v	language:PHP	class:userModel	access:public
+table_type	view/chart.html.php	/^$table_type = array($/;"	v	language:PHP
+table_type	view/customerManage.html.php	/^$table_type = array($/;"	v	language:PHP
+table_type	view/manage.html.php	/^$table_type = array($/;"	v	language:PHP
+table_type	view/providerManage.html.php	/^$table_type = array($/;"	v	language:PHP
+table_type	view/search.html.php	/^$table_type = array($/;"	v	language:PHP
+table_type	view/showall.html.php	/^$table_type = array($/;"	v	language:PHP
+template	extension/Flight/flight/template/View.php	/^    private $template;$/;"	v	language:PHP	class:flight\template::View	access:private
+terms	extension/xunsearch/lib/XS.php	/^	public function terms($query = null, $convert = true)$/;"	f	language:PHP	class:XSSearch	access:public	signature:($query = null, $convert = true)
+terms	extension/xunsearch/util/Quest.php	/^$terms = XSUtil::getOpt(null, 'terms');$/;"	v	language:PHP
+test	service/userService.php	/^    public function test(){$/;"	f	language:PHP	class:userService	access:public	signature:()
+testAbsoluteUrl	extension/Flight/tests/RedirectTest.php	/^    function testAbsoluteUrl(){$/;"	f	language:PHP	class:RedirectTest	signature:()
+testAutoload	extension/Flight/tests/AutoloadTest.php	/^    function testAutoload(){$/;"	f	language:PHP	class:AutoloadTest	signature:()
+testAutoload	extension/Flight/tests/LoaderTest.php	/^    function testAutoload(){$/;"	f	language:PHP	class:LoaderTest	signature:()
+testBase	extension/Flight/tests/RedirectTest.php	/^    function testBase(){$/;"	f	language:PHP	class:RedirectTest	signature:()
+testBaseOverride	extension/Flight/tests/RedirectTest.php	/^    function testBaseOverride(){$/;"	f	language:PHP	class:RedirectTest	signature:()
+testBeforeAndAfter	extension/Flight/tests/DispatcherTest.php	/^    function testBeforeAndAfter() {$/;"	f	language:PHP	class:DispatcherTest	signature:()
+testBeforeAndAfter	extension/Flight/tests/FilterTest.php	/^    function testBeforeAndAfter() {$/;"	f	language:PHP	class:FilterTest	signature:()
+testCaseSensitivity	extension/Flight/tests/RouterTest.php	/^    function testCaseSensitivity() {$/;"	f	language:PHP	class:RouterTest	signature:()
+testClassMethodMapping	extension/Flight/tests/DispatcherTest.php	/^    function testClassMethodMapping(){$/;"	f	language:PHP	class:DispatcherTest	signature:()
+testClassMethodMapping	extension/Flight/tests/MapTest.php	/^    function testClassMethodMapping(){$/;"	f	language:PHP	class:MapTest	signature:()
+testClear	extension/Flight/tests/VariableTest.php	/^    function testClear() {$/;"	f	language:PHP	class:VariableTest	signature:()
+testClearAll	extension/Flight/tests/VariableTest.php	/^    function testClearAll() {$/;"	f	language:PHP	class:VariableTest	signature:()
+testClosureMapping	extension/Flight/tests/DispatcherTest.php	/^    function testClosureMapping(){$/;"	f	language:PHP	class:DispatcherTest	signature:()
+testClosureMapping	extension/Flight/tests/MapTest.php	/^    function testClosureMapping(){$/;"	f	language:PHP	class:MapTest	signature:()
+testCollections	extension/Flight/tests/RequestTest.php	/^    function testCollections() {$/;"	f	language:PHP	class:RequestTest	signature:()
+testDefaultComponents	extension/Flight/tests/FlightTest.php	/^    function testDefaultComponents(){$/;"	f	language:PHP	class:FlightTest	signature:()
+testDefaultRoute	extension/Flight/tests/RouterTest.php	/^    function testDefaultRoute(){$/;"	f	language:PHP	class:RouterTest	signature:()
+testDefaults	extension/Flight/tests/RequestTest.php	/^    function testDefaults() {$/;"	f	language:PHP	class:RequestTest	signature:()
+testDelete	extension/ActiveRecord/test/ActiveRecordTest.php	/^    public function testDelete($contact){$/;"	f	language:PHP	class:ActiveRecordTest	access:public	signature:($contact)
+testEditContact	extension/ActiveRecord/test/ActiveRecordTest.php	/^    public function testEditContact($contact){$/;"	f	language:PHP	class:ActiveRecordTest	access:public	signature:($contact)
+testEdittUser	extension/ActiveRecord/test/ActiveRecordTest.php	/^    public function testEdittUser($user){$/;"	f	language:PHP	class:ActiveRecordTest	access:public	signature:($user)
+testError	extension/ActiveRecord/test/ActiveRecordTest.php	/^    public function testError(){$/;"	f	language:PHP	class:ActiveRecordTest	access:public	signature:()
+testFetch	extension/Flight/tests/ViewTest.php	/^    function testFetch() {$/;"	f	language:PHP	class:ViewTest	signature:()
+testFilterChaining	extension/Flight/tests/FilterTest.php	/^    function testFilterChaining() {$/;"	f	language:PHP	class:FilterTest	signature:()
+testFunctionMapping	extension/Flight/tests/DispatcherTest.php	/^    function testFunctionMapping(){$/;"	f	language:PHP	class:DispatcherTest	signature:()
+testFunctionMapping	extension/Flight/tests/MapTest.php	/^    function testFunctionMapping(){$/;"	f	language:PHP	class:MapTest	signature:()
+testGetAndSet	extension/Flight/tests/FlightTest.php	/^    function testGetAndSet(){$/;"	f	language:PHP	class:FlightTest	signature:()
+testGetPostRoute	extension/Flight/tests/RouterTest.php	/^    function testGetPostRoute(){$/;"	f	language:PHP	class:RouterTest	signature:()
+testHas	extension/Flight/tests/VariableTest.php	/^    function testHas() {$/;"	f	language:PHP	class:VariableTest	signature:()
+testHttpUrl	extension/Flight/tests/RedirectTest.php	/^    function testHttpUrl(){$/;"	f	language:PHP	class:RedirectTest	signature:()
+testInit	extension/ActiveRecord/test/ActiveRecordTest.php	/^    public function testInit(){$/;"	f	language:PHP	class:ActiveRecordTest	access:public	signature:()
+testInsertContact	extension/ActiveRecord/test/ActiveRecordTest.php	/^    public function testInsertContact($user){$/;"	f	language:PHP	class:ActiveRecordTest	access:public	signature:($user)
+testInsertUser	extension/ActiveRecord/test/ActiveRecordTest.php	/^    public function testInsertUser(){$/;"	f	language:PHP	class:ActiveRecordTest	access:public	signature:()
+testInvalidCallback	extension/Flight/tests/DispatcherTest.php	/^    function testInvalidCallback() {$/;"	f	language:PHP	class:DispatcherTest	signature:()
+testIpAddress	extension/Flight/tests/RequestTest.php	/^    function testIpAddress() {$/;"	f	language:PHP	class:RequestTest	signature:()
+testMap	extension/Flight/tests/FlightTest.php	/^    function testMap(){$/;"	f	language:PHP	class:FlightTest	signature:()
+testMapOverridesRegister	extension/Flight/tests/RegisterTest.php	/^    function testMapOverridesRegister(){$/;"	f	language:PHP	class:RegisterTest	signature:()
+testMethodOverrideWithHeader	extension/Flight/tests/RequestTest.php	/^    function testMethodOverrideWithHeader() {$/;"	f	language:PHP	class:RequestTest	signature:()
+testMethodOverrideWithPost	extension/Flight/tests/RequestTest.php	/^    function testMethodOverrideWithPost() {$/;"	f	language:PHP	class:RequestTest	signature:()
+testMissingClass	extension/Flight/tests/AutoloadTest.php	/^    function testMissingClass(){$/;"	f	language:PHP	class:AutoloadTest	signature:()
+testNotFound	extension/Flight/tests/RouterTest.php	/^    function testNotFound() {$/;"	f	language:PHP	class:RouterTest	signature:()
+testOptionalParameters	extension/Flight/tests/RouterTest.php	/^    function testOptionalParameters(){$/;"	f	language:PHP	class:RouterTest	signature:()
+testPathRoute	extension/Flight/tests/RouterTest.php	/^    function testPathRoute(){$/;"	f	language:PHP	class:RouterTest	signature:()
+testPostRoute	extension/Flight/tests/RouterTest.php	/^    function testPostRoute(){$/;"	f	language:PHP	class:RouterTest	signature:()
+testQuery	extension/ActiveRecord/test/ActiveRecordTest.php	/^    public function testQuery($contact){$/;"	f	language:PHP	class:ActiveRecordTest	access:public	signature:($contact)
+testQueryParameters	extension/Flight/tests/RequestTest.php	/^    function testQueryParameters() {$/;"	f	language:PHP	class:RequestTest	signature:()
+testRegEx	extension/Flight/tests/RouterTest.php	/^    function testRegEx(){$/;"	f	language:PHP	class:RouterTest	signature:()
+testRegExParameters	extension/Flight/tests/RouterTest.php	/^    function testRegExParameters(){$/;"	f	language:PHP	class:RouterTest	signature:()
+testRegexEmptyOptionalParameters	extension/Flight/tests/RouterTest.php	/^    function testRegexEmptyOptionalParameters(){$/;"	f	language:PHP	class:RouterTest	signature:()
+testRegexOptionalParameters	extension/Flight/tests/RouterTest.php	/^    function testRegexOptionalParameters(){$/;"	f	language:PHP	class:RouterTest	signature:()
+testRegister	extension/Flight/tests/FlightTest.php	/^    function testRegister(){$/;"	f	language:PHP	class:FlightTest	signature:()
+testRegister	extension/Flight/tests/LoaderTest.php	/^    function testRegister(){$/;"	f	language:PHP	class:LoaderTest	signature:()
+testRegister	extension/Flight/tests/RegisterTest.php	/^    function testRegister(){$/;"	f	language:PHP	class:RegisterTest	signature:()
+testRegisterUsingCallable	extension/Flight/tests/LoaderTest.php	/^    function testRegisterUsingCallable(){$/;"	f	language:PHP	class:LoaderTest	signature:()
+testRegisterUsingCallback	extension/Flight/tests/LoaderTest.php	/^    function testRegisterUsingCallback(){$/;"	f	language:PHP	class:LoaderTest	signature:()
+testRegisterWithConstructor	extension/Flight/tests/LoaderTest.php	/^    function testRegisterWithConstructor(){$/;"	f	language:PHP	class:LoaderTest	signature:()
+testRegisterWithConstructor	extension/Flight/tests/RegisterTest.php	/^    function testRegisterWithConstructor(){$/;"	f	language:PHP	class:RegisterTest	signature:()
+testRegisterWithInitialization	extension/Flight/tests/LoaderTest.php	/^    function testRegisterWithInitialization(){$/;"	f	language:PHP	class:LoaderTest	signature:()
+testRegisterWithInitialization	extension/Flight/tests/RegisterTest.php	/^    function testRegisterWithInitialization(){$/;"	f	language:PHP	class:RegisterTest	signature:()
+testRelations	extension/ActiveRecord/test/ActiveRecordTest.php	/^    public function testRelations($contact){$/;"	f	language:PHP	class:ActiveRecordTest	access:public	signature:($contact)
+testRelativeUrl	extension/Flight/tests/RedirectTest.php	/^    function testRelativeUrl(){$/;"	f	language:PHP	class:RedirectTest	signature:()
+testRender	extension/Flight/tests/ViewTest.php	/^    function testRender() {$/;"	f	language:PHP	class:ViewTest	signature:()
+testRenderLayout	extension/Flight/tests/RenderTest.php	/^    function testRenderLayout(){$/;"	f	language:PHP	class:RenderTest	signature:()
+testRenderView	extension/Flight/tests/RenderTest.php	/^    function testRenderView(){$/;"	f	language:PHP	class:RenderTest	signature:()
+testRouteObjectPassing	extension/Flight/tests/RouterTest.php	/^    function testRouteObjectPassing(){$/;"	f	language:PHP	class:RouterTest	signature:()
+testSetAndGet	extension/Flight/tests/VariableTest.php	/^    function testSetAndGet() {$/;"	f	language:PHP	class:VariableTest	signature:()
+testSharedInstance	extension/Flight/tests/LoaderTest.php	/^    function testSharedInstance() {$/;"	f	language:PHP	class:LoaderTest	signature:()
+testSharedInstance	extension/Flight/tests/RegisterTest.php	/^    function testSharedInstance() {$/;"	f	language:PHP	class:RegisterTest	signature:()
+testSplatNamedPlusWildcard	extension/Flight/tests/RouterTest.php	/^    function testSplatNamedPlusWildcard(){$/;"	f	language:PHP	class:RouterTest	signature:()
+testSplatWildcard	extension/Flight/tests/RouterTest.php	/^    function testSplatWildcard(){$/;"	f	language:PHP	class:RouterTest	signature:()
+testSplatWildcardTrailingSlash	extension/Flight/tests/RouterTest.php	/^    function testSplatWildcardTrailingSlash(){$/;"	f	language:PHP	class:RouterTest	signature:()
+testStaticClassMethodMapping	extension/Flight/tests/DispatcherTest.php	/^    function testStaticClassMethodMapping(){$/;"	f	language:PHP	class:DispatcherTest	signature:()
+testStaticClassMethodMapping	extension/Flight/tests/MapTest.php	/^    function testStaticClassMethodMapping(){$/;"	f	language:PHP	class:MapTest	signature:()
+testSubdirectory	extension/Flight/tests/RequestTest.php	/^    function testSubdirectory() {$/;"	f	language:PHP	class:RequestTest	signature:()
+testTemplateExists	extension/Flight/tests/ViewTest.php	/^    function testTemplateExists() {$/;"	f	language:PHP	class:ViewTest	signature:()
+testTemplateWithCustomExtension	extension/Flight/tests/ViewTest.php	/^    function testTemplateWithCustomExtension() {$/;"	f	language:PHP	class:ViewTest	signature:()
+testTemplateWithExtension	extension/Flight/tests/ViewTest.php	/^    function testTemplateWithExtension() {$/;"	f	language:PHP	class:ViewTest	signature:()
+testUrlParameters	extension/Flight/tests/RouterTest.php	/^    function testUrlParameters(){$/;"	f	language:PHP	class:RouterTest	signature:()
+testVariables	extension/Flight/tests/ViewTest.php	/^    function testVariables() {$/;"	f	language:PHP	class:ViewTest	signature:()
+testWildcard	extension/Flight/tests/RouterTest.php	/^    function testWildcard(){$/;"	f	language:PHP	class:RouterTest	signature:()
+title	extension/xunsearch/util/Quest.php	/^				$title = cliHighlight($doc->f($ftitle));$/;"	v	language:PHP
+title	extension/xunsearch/util/Quest.php	/^			$body = $title = '';$/;"	v	language:PHP
+title	view/chart.html.php	/^                        elseif($gaptime==30){$title='当月';echo '单月';}?>$/;"	v	language:PHP
+title	view/chart.html.php	/^                        elseif($gaptime==7){$title='当周';echo '单周';}$/;"	v	language:PHP
+title	view/chart.html.php	/^                    <caption><?php if($gaptime==1){$title='当日';echo '单日';}$/;"	v	language:PHP
+tmp	extension/xunsearch/util/Quest.php	/^				$tmp = explode(':', trim($tmp));$/;"	v	language:PHP
+tmp	extension/xunsearch/util/Quest.php	/^				$tmp = trim($tmp);$/;"	v	language:PHP
+tmp	extension/xunsearch/util/Quest.php	/^				$tmp = ucfirst($field->name) . ':' . cliHighlight($doc->f($field));$/;"	v	language:PHP
+tmps	extension/xunsearch/util/Quest.php	/^			$tmps = explode(',', $sort);$/;"	v	language:PHP
+toConfig	extension/xunsearch/lib/XS.php	/^	public function toConfig()$/;"	f	language:PHP	class:XSFieldMeta	access:public	signature:()
+toProjectIni	extension/xunsearch/util/XSUtil.class.php	/^	public static function toProjectIni($project)$/;"	f	language:PHP	class:XSUtil	access:public	signature:($project)
+tokenizer	extension/xunsearch/lib/XS.php	/^	private $tokenizer = XSTokenizer::DFL;$/;"	v	language:PHP	class:XSFieldMeta	access:private
+total	extension/xunsearch/util/Indexer.php	/^			$total = $total_ok = $total_failed = 0;$/;"	v	language:PHP
+total	extension/xunsearch/util/Logger.php	/^			for ($i = 0, $total = count($result); $i < $total; $i++) {$/;"	v	language:PHP
+total	extension/xunsearch/util/Quest.php	/^		$total = $search->getDbTotal();$/;"	v	language:PHP
+total_failed	extension/xunsearch/util/Indexer.php	/^			$total = $total_ok = $total_failed = 0;$/;"	v	language:PHP
+total_ok	extension/xunsearch/util/Indexer.php	/^			$total = $total_ok = $total_failed = 0;$/;"	v	language:PHP
+totalcost	view/chart.html.php	/^                    $totalcost = 0;$/;"	v	language:PHP
+totaldata	view/chart.html.php	/^                    $totaldata = 0;$/;"	v	language:PHP
+traceString	extension/xunsearch/util/Indexer.php	/^	$traceString = $e->getTraceAsString();$/;"	v	language:PHP
+traceString	extension/xunsearch/util/Indexer.php	/^	$traceString = str_replace($start . ($relative === '' ? '\/' : ''), $relative, $traceString);$/;"	v	language:PHP
+traceString	extension/xunsearch/util/Indexer.php	/^	$traceString = str_replace(dirname(__FILE__) . '\/', '', $traceString);$/;"	v	language:PHP
+traceString	extension/xunsearch/util/Logger.php	/^	$traceString = $e->getTraceAsString();$/;"	v	language:PHP
+traceString	extension/xunsearch/util/Logger.php	/^	$traceString = str_replace($start . ($relative === '' ? '\/' : ''), $relative, $traceString);$/;"	v	language:PHP
+traceString	extension/xunsearch/util/Logger.php	/^	$traceString = str_replace(dirname(__FILE__) . '\/', '', $traceString);$/;"	v	language:PHP
+traceString	extension/xunsearch/util/Quest.php	/^	$traceString = $e->getTraceAsString();$/;"	v	language:PHP
+traceString	extension/xunsearch/util/Quest.php	/^	$traceString = str_replace($start . ($relative === '' ? '\/' : ''), $relative, $traceString);$/;"	v	language:PHP
+traceString	extension/xunsearch/util/Quest.php	/^	$traceString = str_replace(dirname(__FILE__) . '\/', '', $traceString);$/;"	v	language:PHP
+traceString	extension/xunsearch/util/SearchSkel.php	/^	$traceString = $e->getTraceAsString();$/;"	v	language:PHP
+traceString	extension/xunsearch/util/SearchSkel.php	/^	$traceString = str_replace($start, $relative, $traceString);$/;"	v	language:PHP
+traceString	extension/xunsearch/util/SearchSkel.php	/^	$traceString = str_replace(dirname(__FILE__) . '\/', '', $traceString);$/;"	v	language:PHP
+type	extension/Flight/flight/net/Request.php	/^    public $type;$/;"	v	language:PHP	class:flight\net::Request	access:public
+type	extension/xunsearch/lib/XS.php	/^	public $type = 0;$/;"	v	language:PHP	class:XSFieldMeta	access:public
+type	extension/xunsearch/util/Logger.php	/^		$type = $hot === 'cur' ? 'currnum' : ($hot === 'last' ? 'lastnum' : 'total');$/;"	v	language:PHP
+type	extension/xunsearch/util/Quest.php	/^		$type = $hot === 'cur' ? 'currnum' : ($hot === 'last' ? 'lastnum' : 'total');$/;"	v	language:PHP
+type	index.php	/^        $type = $_POST['searchtype'];$/;"	v	language:PHP
+type	index.php	/^    $type = $_GET['type'];$/;"	v	language:PHP
+type	index.php	/^    $type = $map[$type];$/;"	v	language:PHP
+type	index.php	/^    $type = Core::r("type");$/;"	v	language:PHP
+type	index.php	/^    $type = Core::r('type');$/;"	v	language:PHP
+uid	index.php	/^    $uid = $_GET['id'];$/;"	v	language:PHP
+uid	index.php	/^    $uid = Core::r('userid');$/;"	v	language:PHP
+unregister	extension/Flight/flight/core/Loader.php	/^    public function unregister($name) {$/;"	f	language:PHP	class:flight\core::Loader	access:public	signature:($name)
+unshotUserById	service/userService.php	/^    public static function unshotUserById($uid){$/;"	f	language:PHP	class:userService	access:public	signature:($uid)
+update	extension/ActiveRecord/ActiveRecord.php	/^    public function update() {$/;"	f	language:PHP	class:ActiveRecord	access:public	signature:()
+update	extension/xunsearch/lib/XS.php	/^	public function update(XSDocument $doc, $add = false)$/;"	f	language:PHP	class:XSIndex	access:public	signature:(XSDocument $doc, $add = false)
+updateCustomerInfo	service/userService.php	/^    public static function updateCustomerInfo($customer_id,$customer_company_name,$customer_company_phone,$customer_contact_address,$/;"	f	language:PHP	class:userService	access:public	signature:($customer_id, $customer_company_name, $customer_company_phone, $customer_contact_address, $customer_contact_address, $customer_contact_qq, $customer_contact_phone, $customer_contact_name)
+updateUserInfo	service/userService.php	/^    public static function updateUserInfo($user_id,$user_password,$user_name,$user_state){$/;"	f	language:PHP	class:userService	access:public	signature:($user_id, $user_password, $user_name, $user_state)
+url	extension/Flight/flight/net/Request.php	/^    public $url;$/;"	v	language:PHP	class:flight\net::Request	access:public
+user	extension/ActiveRecord/test.php	/^$user = new User();$/;"	v	language:PHP
+userModel	index.php	/^        $userModel = userService::getUserModelByPk($user_id);$/;"	v	language:PHP
+userModel	index.php	/^    $userModel = userService::findUserById($uid);$/;"	v	language:PHP
+userModel	index.php	/^    $userModel = userService::getUserModelByPk($user_id);$/;"	v	language:PHP
+userModel	index.php	/^    $userModel = userService::getUserModelByPk(Core::getSessionId());$/;"	v	language:PHP
+userModel	index.php	/^    $userModel = userService::verifyLogin($username,$password);$/;"	v	language:PHP
+userModel	model/userModel.php	/^class userModel extends ActiveRecord{$/;"	c	language:PHP	inherits:ActiveRecord
+userService	service/userService.php	/^class userService$/;"	c	language:PHP
+user_1	index.php	/^        $user_1 = userService::getUser(1);$/;"	v	language:PHP
+user_2	index.php	/^        $user_2 = userService::getUser(2);$/;"	v	language:PHP
+user_3	index.php	/^        $user_3 = userService::getUser(3);$/;"	v	language:PHP
+user_agent	extension/Flight/flight/net/Request.php	/^    public $user_agent;$/;"	v	language:PHP	class:flight\net::Request	access:public
+user_id	index.php	/^        $user_id = Core::getSessionId();$/;"	v	language:PHP
+user_id	index.php	/^    $user_id = Core::getSessionId();$/;"	v	language:PHP
+user_id	index.php	/^    $user_id = Core::r('id');$/;"	v	language:PHP
+user_id	index.php	/^    $user_id = Core::r('user_id');$/;"	v	language:PHP
+user_id	index.php	/^    $user_id =Core::r('user_id');$/;"	v	language:PHP
+user_name	index.php	/^    $user_name = Core::r('user_name');$/;"	v	language:PHP
+user_password	index.php	/^    $user_password = Core::r('user_password');$/;"	v	language:PHP
+user_state	index.php	/^    $user_state = Core::r('user_state');$/;"	v	language:PHP
+user_type_name	view/addPeople.html.php	/^$user_type_name = array($/;"	v	language:PHP
+user_type_name	view/addUser.html.php	/^$user_type_name = array($/;"	v	language:PHP
+user_type_name	view/chart.html.php	/^$user_type_name = array($/;"	v	language:PHP
+user_type_name	view/customerManage.html.php	/^$user_type_name = array($/;"	v	language:PHP
+user_type_name	view/customerManageModify.html.php	/^$user_type_name = array($/;"	v	language:PHP
+user_type_name	view/main.html.php	/^$user_type_name = array($/;"	v	language:PHP
+user_type_name	view/manage.html.php	/^$user_type_name = array($/;"	v	language:PHP
+user_type_name	view/modify.html.php	/^$user_type_name = array($/;"	v	language:PHP
+user_type_name	view/providerManage.html.php	/^$user_type_name = array($/;"	v	language:PHP
+user_type_name	view/providerManageModify.html.php	/^$user_type_name = array($/;"	v	language:PHP
+user_type_name	view/purcharse.html.php	/^$user_type_name = array($/;"	v	language:PHP
+user_type_name	view/search.html.php	/^$user_type_name = array($/;"	v	language:PHP
+user_type_name	view/sell.html.php	/^$user_type_name = array($/;"	v	language:PHP
+user_type_name	view/showall.html.php	/^$user_type_name = array($/;"	v	language:PHP
+username	index.php	/^    $username = Core::r('username');$/;"	v	language:PHP
+val	extension/xunsearch/lib/XS.php	/^	public function val($value)$/;"	f	language:PHP	class:XSFieldMeta	access:public	signature:($value)
+valid	extension/Flight/flight/util/Collection.php	/^    public function valid()$/;"	f	language:PHP	class:flight\util::Collection	access:public	signature:()
+vars	extension/Flight/flight/Engine.php	/^    protected $vars;$/;"	v	language:PHP	class:flight::Engine	access:protected
+vars	extension/Flight/flight/template/View.php	/^    protected $vars = array();$/;"	v	language:PHP	class:flight\template::View	access:protected
+vars	extension/xunsearch/util/SearchSkel.php	/^	$vars = array();$/;"	v	language:PHP
+verifyLogin	service/userService.php	/^    public static function verifyLogin($username,$password){$/;"	f	language:PHP	class:userService	access:public	signature:($username, $password)
+version	extension/xunsearch/util/Indexer.php	/^	$version = XS_PACKAGE_NAME . '\/' . XS_PACKAGE_VERSION;$/;"	v	language:PHP
+version	extension/xunsearch/util/Logger.php	/^	$version = XS_PACKAGE_NAME . '\/' . XS_PACKAGE_VERSION;$/;"	v	language:PHP
+version	extension/xunsearch/util/Quest.php	/^	$version = XS_PACKAGE_NAME . '\/' . XS_PACKAGE_VERSION;$/;"	v	language:PHP
+version	extension/xunsearch/util/SearchSkel.php	/^	$version = XS_PACKAGE_NAME . '\/' . XS_PACKAGE_VERSION;$/;"	v	language:PHP
+view	extension/Flight/tests/ViewTest.php	/^    private $view;$/;"	v	language:PHP	class:ViewTest	access:private
+vno	extension/xunsearch/lib/XS.php	/^	public $vno = 0;$/;"	v	language:PHP	class:XSFieldMeta	access:public
+wdf	extension/xunsearch/util/Logger.php	/^						$wdf = 1;$/;"	v	language:PHP
+wdf	extension/xunsearch/util/Logger.php	/^						$wdf = intval(substr($line, $pos + 1));$/;"	v	language:PHP
+wdf	extension/xunsearch/util/Logger.php	/^					$wdf = 1;$/;"	v	language:PHP
+wdf	extension/xunsearch/util/Logger.php	/^					$wdf = intval(substr($tmp, $pos + 1));$/;"	v	language:PHP
+weight	extension/xunsearch/lib/XS.php	/^	public $weight = 1;$/;"	v	language:PHP	class:XSFieldMeta	access:public
+weights	extension/xunsearch/util/Quest.php	/^$weights = XSUtil::getOpt(null, 'add-weight');$/;"	v	language:PHP
+withPos	extension/xunsearch/lib/XS.php	/^	public function withPos()$/;"	f	language:PHP	class:XSFieldMeta	access:public	signature:()
+word	extension/xunsearch/util/Logger.php	/^						$word = trim($line);$/;"	v	language:PHP
+word	extension/xunsearch/util/Logger.php	/^						$word = trim(substr($line, 0, $pos));$/;"	v	language:PHP
+word	extension/xunsearch/util/Logger.php	/^					$word = trim($tmp);$/;"	v	language:PHP
+word	extension/xunsearch/util/Logger.php	/^					$word = trim(substr($tmp, 0, $pos));$/;"	v	language:PHP
+word	extension/xunsearch/util/Logger.php	/^				$word = trim($word);$/;"	v	language:PHP
+wrap	extension/ActiveRecord/ActiveRecord.php	/^    public function wrap($op = null) {$/;"	f	language:PHP	class:ActiveRecord	access:public	signature:($op = null)
+write	extension/Flight/flight/net/Response.php	/^    public function write($str) {$/;"	f	language:PHP	class:flight\net::Response	access:public	signature:($str)
+write	extension/xunsearch/lib/XS.php	/^	protected function write($buf, $len = 0)$/;"	f	language:PHP	class:XSServer	access:protected	signature:($buf, $len = 0)
+xapianUnserialise	extension/xunsearch/lib/XS.php	/^	private function xapianUnserialise($value)$/;"	f	language:PHP	class:XSSearch	access:private	signature:($value)
+xs	extension/xunsearch/lib/XS.php	/^	public $xs;$/;"	v	language:PHP	class:XSServer	access:public
+xs	extension/xunsearch/util/Indexer.php	/^	$xs = new XS($ini);$/;"	v	language:PHP
+xs	extension/xunsearch/util/Logger.php	/^	$xs = new XS($ini);$/;"	v	language:PHP
+xs	extension/xunsearch/util/Quest.php	/^	$xs = new XS($ini);$/;"	v	language:PHP
+xs	extension/xunsearch/util/SearchSkel.php	/^	$xs = new XS($ini);$/;"	v	language:PHP
+xsErrorHandler	extension/xunsearch/lib/XS.php	/^function xsErrorHandler($errno, $error, $file, $line)$/;"	f	language:PHP	signature:($errno, $error, $file, $line)

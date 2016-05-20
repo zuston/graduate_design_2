@@ -16,6 +16,24 @@ $user_type_name = array(
 
 <head>
     <?php include 'view/layout/header.layout.html.php';?>
+    <style type="text/css">
+        .list_box {
+            position:relative;
+            /*width:200px;*/
+            /*margin-left:200px;*/
+            background:#f3f3f3;
+            border:1px solid #CCC;
+        }
+        .keywords_list {
+            margin:0;
+            padding:0;
+            list-style:none;
+        }
+        .hover {
+            background:#33CCFF;
+            color:#333333;
+        }
+    </style>
 </head>
 
 <body>
@@ -46,17 +64,15 @@ $user_type_name = array(
                         <p class="help-block">Example block-level help text here.</p>
                     </div>
                     <div class="form-group">
-                        <label>出货订单号</label>
-                        <input class="form-control" name="sell_order_id">
-                    </div>
-                    <div class="form-group">
                         <label>商品名</label>
-                        <input class="form-control" name="product_id" id="product_listen">
-<!--                        <ul class="nav nav-second-level">-->
-<!--                            <li>-->
-<!--                                <a href="#" id="test">退出登录</a>-->
-<!--                            </li>-->
-<!--                        </ul>-->
+                        <input class="form-control" id="product_listen">
+                        <div class="list_box">
+                            <div class="keywords_list"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group" hidden>
+                        <input class="form-control" name="product_id" id="product_listen_real">
                     </div>
 
 
@@ -105,16 +121,28 @@ $user_type_name = array(
             responsive: true
         });
 
-        $('#product_listen').bind('input propertychange', function() {
-            var input = $("#product_listen").val();
-//            $.post('/productNotify',{productInfo: input},function(data,status){
-//                if(data){
-//                    alert(data);
-//                    $('#product_test').val(data);
-//                }else{
-//                    alert('请重试');
-//                }
-//            });
+        $('.list_box').hide();
+        $('#product_listen').keyup(function(){
+            var keywords = $('#product_listen').val();
+            $.post('/productNotify',{productInfo: keywords},function(data,status){
+                if(data!=null){
+                    $('.list_box').show();
+                    $('.keywords_list').html(data);
+                    $('li').hover(function(){
+                        $(this).addClass('hover');
+                    },function(){
+                        $(this).removeClass('hover');
+                    });
+                    $('li').click(function(){
+                        $('#product_listen').val($(this).text());
+                        $('#product_listen_real').val($(this).attr('id'));
+                        $('.list_box').hide();
+                    });
+                }else{
+                    alert('请重试');
+                }
+            });
+            return false;
         });
     });
 </script>

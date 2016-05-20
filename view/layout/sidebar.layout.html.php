@@ -16,7 +16,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/">登录用户</a>
+        <a class="navbar-brand" href="/">进销存管理系统</a>
     </div>
     <!-- /.navbar-header -->
 

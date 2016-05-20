@@ -150,16 +150,14 @@ Flight::route('/account',function(){
 
 Flight::route('/search',function(){
     $res = null;
-    $content = 0;
-    if(isset($_POST['searchtype'])||isset($_POST['keyword'])){
+    $content = 100;
+    if(isset($_POST['searchtype'])&&isset($_POST['keyword'])){
         $type = $_POST['searchtype'];
         $keyword = $_POST['keyword'];
         $res = userService::getSearchRes($type,$keyword);
-        $content = 1;
-        if($type==2){
-            $content = 2;
-        }
+		$content = $type;
     }
+	
     $userModel = userService::getUserModelByPk(Core::getSessionId());
     $array_object = array(
         'res' => $res,
@@ -365,8 +363,14 @@ Flight::route('/productNotify',function(){
 //    $product_name = $_GET['productInfo'];
     $product_name = Core::r('productInfo');
 //    echo $product_name;
+	if($product_name==null){
+		echo null;
+		return true;
+	}
     $productModel = userService::getAllProduct($product_name);
-    echo $productModel;
+    foreach($productModel as $model){
+        echo '<li id="'.$model->product_id.'">'.$model->product_name.'</li>';
+    }
 });
 
 Flight::start();

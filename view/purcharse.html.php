@@ -16,6 +16,24 @@ $user_type_name = array(
 
 <head>
     <?php include 'view/layout/header.layout.html.php';?>
+    <style type="text/css">
+        .list_box {
+            position:relative;
+            /*width:200px;*/
+            /*margin-left:200px;*/
+            background:#f3f3f3;
+            border:1px solid #CCC;
+        }
+        .keywords_list {
+            margin:0;
+            padding:0;
+            list-style:none;
+        }
+        .hover {
+            background:#33CCFF;
+            color:#333333;
+        }
+    </style>
 </head>
 
 <body>
@@ -105,7 +123,15 @@ $user_type_name = array(
                     </div>
                     <div class="form-group">
                         <label>商品id号</label>
-                        <input class="form-control" name="product_id">
+                        <input class="form-control" id="product_listen">
+                        <div class="list_box">
+                            <div class="keywords_list"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group" hidden>
+                        <label>商品id号</label>
+                        <input class="form-control" name="product_id" id="product_listen_real">
                     </div>
 
 
@@ -142,6 +168,30 @@ $user_type_name = array(
     $(document).ready(function() {
         $('#dataTables-example').DataTable({
             responsive: true
+        });
+
+        $('.list_box').hide();
+        $('#product_listen').keyup(function(){
+            var keywords = $('#product_listen').val();
+            $.post('/productNotify',{productInfo: keywords},function(data,status){
+                if(data!=null){
+                    $('.list_box').show();
+                    $('.keywords_list').html(data);
+                    $('li').hover(function(){
+                        $(this).addClass('hover');
+                    },function(){
+                        $(this).removeClass('hover');
+                    });
+                    $('li').click(function(){
+                        $('#product_listen').val($(this).text());
+                        $('#product_listen_real').val($(this).attr('id'));
+                        $('.list_box').hide();
+                    });
+                }else{
+                    alert('请重试');
+                }
+            });
+            return false;
         });
     });
 </script>

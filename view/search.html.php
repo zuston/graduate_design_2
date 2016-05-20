@@ -78,7 +78,7 @@ $table_type = array(
 <!--        PRIMARY KEY (`product_id`)-->
 <!--        ) ENGINE=MyISAM DEFAULT CHARSET=utf8;-->
 <!--        -->
-        <?php if($content==1){?>
+        <?php if($content%3==0){?>
         <div class="row">
             <div class="col-md-12">
                 <table class="table">
@@ -114,41 +114,70 @@ $table_type = array(
         </div>
         <?php }?>
 
-        <?php if($content==2){?>
+        <?php if($content%3==1){?>
             <div class="row">
                 <div class="col-md-12">
                     <table class="table">
                         <caption>=============查询结果==============</caption>
                         <?php if($res!=null){?>
                             <thead>
-<!---->
-<!--                            Field                 | Type             | Null | Key | Default | Extra          |-->
-<!--                            +-----------------------+------------------+------+-----+---------+----------------+-->
-<!--                            | sell_id               | int(11) unsigned | NO   | PRI | NULL    | auto_increment |-->
-<!--                            | customer_company_name | varchar(24)      | YES  |     | NULL    |                |-->
-<!--                            | product_id            | int(11)          | YES  |     | NULL    |                |-->
-<!--                            | sell_count            | int(11)          | YES  |     | NULL    |                |-->
-<!--                            | sell_order_id         | int(11)          | YES  |     | NULL    |                |-->
-<!--                            | create_time           | datetime         | YES  |     | NULL    |                |-->
-<!--                            | user_id               | int(11)          | YES  |     | NULL    |-->
-<!--                            -->
                             <tr>
-                                <th>销售编号</th>
-                                <th>零售公司</th>
-                                <th>商品编号</th>
-                                <th>零售数量</th>
-                                <th>零售订单</th>
-                                <th>创建时间</th>
+                                <th>出货编号</th>
+                                <th>出货人</th>
+                                <th>出货渠道</th>
+                                <th>商品名称</th>
+                                <th>出货数量</th>
+                                <th>订单号</th>
+                                <th>出货时间</th>
                             </tr>
                             </thead>
                             <tbody>
                             <?php foreach($res as $key => $u1){?>
                                 <tr class="<?php echo $table_type[$key%3];?>">
                                     <td class="id"><?php echo $u1->sell_id;?></td>
-                                    <td><?php echo $u1->customer_company_name;?></td>
-                                    <td><?php echo $u1->product_id;?></td>
+                                    <td class="id"><?php echo $u1->user->user_name;?></td>
+                                    <td><?php echo $u1->customer->customer_company_name;?></td>
+                                    <td><?php echo $u1->product->product_name;?></td>
                                     <td><?php echo $u1->sell_count;?></td>
                                     <td><?php echo $u1->sell_order_id;?></td>
+                                    <td><?php echo $u1->create_time;?></td>
+                                </tr>
+                            <?php }?>
+                            </tbody>
+                        <?php }else{?>
+                            <h5>无此库存</h5>
+                        <?php }?>
+                    </table>
+                </div>
+            </div>
+        <?php }?>
+
+        <?php if($content%3==2){?>
+            <div class="row">
+                <div class="col-md-12">
+                    <table class="table">
+                        <caption>=============查询结果==============</caption>
+                        <?php if($res!=null){?>
+                            <thead>
+                            <tr>
+                                <th>进货编号</th>
+                                <th>进货人</th>
+                                <th>进货渠道</th>
+                                <th>商品名称</th>
+                                <th>进货数量</th>
+                                <th>订单号</th>
+                                <th>进货时间</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <?php foreach($res as $key => $u1){?>
+                                <tr class="<?php echo $table_type[$key%3];?>">
+                                    <td class="id"><?php echo $u1->purchase_id;?></td>
+                                    <td><?php echo $u1->user->user_name;?></td>
+                                    <td><?php echo $u1->provider->provider_company_name;?></td>
+                                    <td><?php echo $u1->product->product_name;?></td>
+                                    <td><?php echo $u1->purchase_count;?></td>
+                                    <td><?php echo $u1->purchase_order_id;?></td>
                                     <td><?php echo $u1->create_time;?></td>
                                 </tr>
                             <?php }?>

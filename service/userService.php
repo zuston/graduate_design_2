@@ -321,13 +321,24 @@ class userService
             if($type==2){
                 $userModel = new userModel();
                 $resModels = $userModel -> eq('user_name',$keyword) -> find();
-                var_dump($resModels->sellinfo);exit;
+				$resModels = $resModels -> purchaseinfo;
             }
             if($type==5){
-                $sellModel = new sellInfoModel();
-                $resModels = $sellModel -> eq('sell_order_id',$keyword)->find();
+                $purchaseModel = new purchaseInfoModel();
+                $resModels = $purchaseModel -> eq('purchase_order_id',$keyword)->findAll();
+//                var_dump($resModels);exit;
             }
         }elseif($type%3==1){
+            if($type==4){
+                $userModel = new userModel();
+                $resModels = $userModel -> eq('user_name',$keyword) -> find();
+                // var_dump($resModels);exit;
+				$resModels = $resModels -> sellinfo;
+            }
+            if($type==7){
+                $sellModel = new sellInfoModel();
+                $resModels = $sellModel -> eq('sell_order_id',$keyword)->findAll();
+            }
             
         }
         return $resModels;
@@ -365,8 +376,9 @@ class userService
         $productInfo .= '';
         $product = new productModel();
         $productModel = $product -> like('product_name',$productInfo.'%')->findAll();
-        $productModel = self::object_array($productModel);
-        return json_encode($productModel);
+//        $productModel = self::object_array($productModel);
+//        return json_encode($productModel);
+        return $productModel;
     }
 
     private function object_array($array) {

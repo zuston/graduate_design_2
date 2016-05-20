@@ -13,7 +13,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<!--<title>--><?php //echo  $userModel->user_name;?><!--进销存管理系统</title>-->
+<title>进销存管理系统</title>
 
 <!-- Bootstrap Core CSS -->
 <link href="view/static/css/bootstrap.min.css" rel="stylesheet" type="text/css">
