@@ -115,17 +115,45 @@ $table_type = array(
                     $totaldata = 0;
                     $totalcost = 0;
                     $providerArray = array();
+					$array2 = array();
+					$mtype = ($userModel->user_type==3)?true:false;
                     foreach($chart as $t){
-                        $totaldata += $t -> purchase_count;
+						if($mtype){
+                       		 $totaldata += $t -> sell_count;
+							 if(!in_array($t->product->product_name,$providerArray)){
+							 	$providerArray[] = $t->product->product_name;
+							 }
+							 if(!in_array($t->customer->customer_company_name,$array2)){
+								 $array2[] = $t->customer->customer_company_name;
+							 }
+						}else{
+							$totaldata += $t -> purchase_count;
+							 if(!in_array($t->product->product_name,$providerArray)){
+							 	$providerArray[] = $t->product->product_name;
+							 }
+							 if(!in_array($t->provider->provider_company_name,$array2)){
+								 $array2[] = $t->provider->provider_company_name;
+							 }
+						}
                         $totalcost += $t -> product -> product_cost;
-                    }?>
+					}
+					$string = '';
+					foreach ($providerArray as $value) {
+						$string .= '   ('.$value.')';
+					}
+					// var_dump($array2);exit;
+					$string2 = '';
+					foreach ($array2 as $value) {
+						$string2 .= '   ('.$value.')';
+					}
+					?>
                     <tr>
 
                         <td>总计<?php echo ($userModel->user_type == 3) ? ('零售数量') : ('采购数量'); ?>:<?php echo $totaldata;?></td>
                     </tr>
                     <tr>
                         <td>
-                            <?php echo ($userModel->user_type == 3) ? ('零售') : ('采购'); ?>商品:<?php echo '';?>
+                            <?php echo ($userModel->user_type == 3) ? ('零售') : ('采购'); ?>商品:<?php echo $string;?>
                         </td>
                     </tr>
                     <tr>
@@ -135,7 +163,7 @@ $table_type = array(
                     </tr>
                     <tr>
                         <td>
-                            <?php echo ($userModel->user_type == 3) ? ('零售') : ('采购'); ?>渠道商:<?php echo '';?>
+                            <?php echo ($userModel->user_type == 3) ? ('零售') : ('采购'); ?>渠道商:<?php echo $string2;?>
                         </td>
                     </tr>
                     <tr>

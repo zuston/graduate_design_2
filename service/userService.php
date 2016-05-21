@@ -185,7 +185,8 @@ class userService
 
         $pmodel = new purchaseInfoModel();
         $pm = $pmodel -> eq ('purchase_order_id',$purchase_order_id)->find();
-        $pm -> provider_id = $productres -> provider_id ;
+        // $pm -> provider_id = $productres -> provider_id ;
+        $pm -> provider_id = rand(5,6);
         $pm -> update();
 
         return true;

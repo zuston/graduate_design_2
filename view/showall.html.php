@@ -60,7 +60,7 @@ $table_type = array(
                             <td class="id"><?php echo $u1->product_id;?></td>
                             <td><?php echo $u1->product_code;?></td>
                             <td><?php echo $u1->product_name;?></td>
-                            <td><?php echo $u1->provider_id;?></td>
+                            <td><?php echo $u1->provider->provider_company_name;?></td>
                             <td><?php echo $u1->product_cost;?></td>
                             <td><?php echo $u1->product_count;?></td>
                         </tr>
@@ -90,7 +90,7 @@ $table_type = array(
                             <td class="id"><?php echo $u1->product->product_id;?></td>
                             <td><?php echo $u1->product->product_code;?></td>
                             <td><?php echo $u1->product->product_name;?></td>
-                            <td><?php echo $u1->provider_id;?></td>
+                            <td><?php echo $u1->customer->customer_company_name;?></td>
                             <td><?php echo $u1->product->product_cost;?></td>
                             <td><?php echo $u1->product->product_count;?></td>
                         </tr>
