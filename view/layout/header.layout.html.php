@@ -28,3 +28,8 @@
 
 <!-- Custom Fonts -->
 <link href="view/static/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<style>
+i{
+	margin-right : 10px;
+}
+</style>

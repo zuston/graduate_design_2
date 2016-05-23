@@ -27,49 +27,49 @@
         <div class="sidebar-nav navbar-collapse">
             <ul class="nav" id="side-menu">
                 <li>
-                    <a href="/showall"><i class="fa fa-dashboard fa-fw"></i>仓库信息</a>
+                    <a href="/showall"><i class="glyphicon  glyphicon-alert"></i>仓库信息</a>
                 </li>
                 <?php if($userModel->user_type==2){?>
                 <li>
-                    <a href="/purchase"><i class="fa fa-dashboard fa-fw"></i>进货登记</a>
+                    <a href="/purchase"><i class="glyphicon glyphicon-list-alt"></i>进货登记</a>
                 </li>
                 <?php }?>
 
                 <?php if($userModel->user_type==3){?>
                 <li>
-                    <a href="/sell"><i class="fa fa-dashboard fa-fw"></i>销售登记</a>
+                    <a href="/sell"><i class="glyphicon glyphicon-tags"></i>销售登记</a>
                 </li>
                 <?php }?>
 
                 <li>
-                    <a href="/search"><i class="fa fa-dashboard fa-fw"></i>信息查询</a>
+                    <a href="/search"><i class="glyphicon glyphicon-search"></i>信息查询</a>
                 </li>
 
                 <?php if($userModel->user_type == 2 || $userModel->user_type ==3){?>
                 <li>
-                    <a href="/account"><i class="fa fa-dashboard fa-fw"></i>总体统计</a>
+                    <a href="/account"><i class="glyphicon glyphicon-list"></i>总体统计</a>
                 </li>
                 <?php }?>
 
                 <?php if($userModel->user_type == 1 || 1){?>
                 <li>
-                    <a href="/userManage"><i class="fa fa-dashboard fa-fw"></i>用户管理</a>
+                    <a href="/userManage"><i class="glyphicon glyphicon-cog"></i>用户管理</a>
                 </li>
                 <?php } ?>
 
                 <?php if($userModel->user_type == 2 || $userModel->user_type == 1){?>
                 <li>
-                    <a href="/providerManage"><i class="fa fa-table fa-fw"></i>供应商管理</a>
+                    <a href="/providerManage"><i class="glyphicon glyphicon-magnet"></i>供应商管理</a>
                 </li>
                 <?php }?>
 
                 <?php if($userModel->user_type == 3 || $userModel->user_type == 1){?>
                 <li>
-                    <a href="/customerManage"><i class="fa fa-table fa-fw"></i>零售商管理</a>
+                    <a href="/customerManage"><i class="glyphicon glyphicon-wrench"></i>零售商管理</a>
                 </li>
                 <?php }?>
                 <li>
-                    <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>个人信息管理<span class="fa arrow"></span></a>
+                    <a href="#"><i class="glyphicon-user glyphicon"></i>个人信息管理<span class="glyphicon-chevron-down glyphicon" style='float:right;'></span></a>
                     <ul class="nav nav-second-level">
                         <li>
                             <a href="/logout">退出登录</a>

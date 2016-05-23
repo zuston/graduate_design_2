@@ -122,7 +122,7 @@ $user_type_name = array(
                         <p class="help-block">Example block-level help text here.</p>
                     </div>
                     <div class="form-group">
-                        <label>商品id号</label>
+                        <label>商品名</label>
                         <input class="form-control" id="product_listen">
                         <div class="list_box">
                             <div class="keywords_list"></div>
@@ -130,7 +130,7 @@ $user_type_name = array(
                     </div>
 
                     <div class="form-group" hidden>
-                        <label>商品id号</label>
+                        <label>商品名</label>
                         <input class="form-control" name="product_id" id="product_listen_real">
                     </div>
 
