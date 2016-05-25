@@ -51,7 +51,7 @@ $user_type_name = array(
                 <div class="col-lg-12">
                     <h1 class="page-header">新商品进货登记</h1>
                 </div>
-                <form role="form" action="/purchase/add/2" method="post">
+                <form role="form" action="/purchase/add/2" method="post" id="form">
                     <div class="form-group" hidden>
                         <label>人员id</label>
                         <input class="form-control"  name="id" value='<?php echo $userModel->id;?>'>
@@ -59,12 +59,13 @@ $user_type_name = array(
                     </div>
                     <div class="form-group">
                         <label>进货数量</label>
-                        <input class="form-control"  name="purchase_count">
-                        <p class="help-block">Example block-level help text here.</p>
+                        <input class="form-control required number"  name="purchase_count">
+                        <p class="help-block"></p>
                     </div>
                     <div class="form-group">
                         <label>商品名</label>
-                        <input class="form-control" name="product_name">
+                        <input class="form-control required" name="product_name">
+                        <p class="help-block"></p>
                     </div>
                     <div class="form-group">
                         <label>商品类别(如无供应商,请先进行添加)</label>
@@ -94,11 +95,13 @@ $user_type_name = array(
                     </div>
                     <div class="form-group">
                         <label>商品品牌</label>
-                        <input class="form-control" name="product_brand">
+                        <input class="form-control required" name="product_brand">
+                        <p class="help-block"></p>
                     </div>
                     <div class="form-group">
                         <label>商品成本</label>
-                        <input class="form-control" name="product_cost">
+                        <input class="form-control required number" name="product_cost">
+                        <p class="help-block"></p>
                     </div>
 
 
@@ -110,7 +113,7 @@ $user_type_name = array(
                 <div class="col-lg-12">
                     <h1 class="page-header">增加库存登记</h1>
                 </div>
-                <form role="form" action="/purchase/add/1" method="post">
+                <form role="form" action="/purchase/add/1" method="post" id="form2">
                     <div class="form-group" hidden>
                         <label>人员id</label>
                         <input class="form-control"  name="id" value='<?php echo $userModel->id;?>'>
@@ -118,12 +121,13 @@ $user_type_name = array(
                     </div>
                     <div class="form-group">
                         <label>进货数量</label>
-                        <input class="form-control"  name="purchase_count">
-                        <p class="help-block">Example block-level help text here.</p>
+                        <input class="form-control required number"  name="purchase_count">
+                        <p class="help-block"></p>
                     </div>
                     <div class="form-group">
                         <label>商品名</label>
-                        <input class="form-control" id="product_listen">
+                        <input class="form-control required" id="product_listen">
+                        <p class="help-block"></p>
                         <div class="list_box">
                             <div class="keywords_list"></div>
                         </div>
@@ -162,6 +166,7 @@ $user_type_name = array(
 
 <!-- Custom Theme JavaScript -->
 <script src="view/static/js/sb-admin-2.js"></script>
+<script src="view/static/js/jquery.validate.min.js"></script>
 
 <!-- Page-Level Demo Scripts - Tables - Use for reference -->
 <script>
@@ -193,6 +198,9 @@ $user_type_name = array(
             });
             return false;
         });
+
+        $("#form").validate();
+        $("#form2").validate();
     });
 </script>
 

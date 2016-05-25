@@ -23,4 +23,5 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="view/static/js/sb-admin-2.js"></script>
+<script src="view/static/js/jquery.validate.min.js"></script>
 

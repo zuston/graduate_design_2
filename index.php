@@ -297,6 +297,7 @@ Flight::route('/modify/customerManage',function(){
     }
 });
 Flight::route('/purchase/add/1',function(){
+//    exit;
     $user_id = Core::r('id');
     $purchase_count = Core::r('purchase_count');
     $purchase_order_id = 'F'.time().rand(100,999);
@@ -309,6 +310,7 @@ Flight::route('/purchase/add/1',function(){
     }
 });
 Flight::route('/purchase/add/2',function(){
+//    exit;
     $user_id = Core::r('id');
     $purchase_count = Core::r('purchase_count');
     $purchase_order_id = 'F'.time().rand(100,999);

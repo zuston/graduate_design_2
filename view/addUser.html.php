@@ -34,25 +34,25 @@ $user_type_name = array(
         </div>
         <div class="row">
             <div class="col-md-6">
-                <form role="form" action="/modify/adduser" method="post">
+                <form role="form" action="/modify/adduser" method="post" id="form">
                     <div class="form-group">
                         <label>编号</label>
                         <input class="form-control"  name="user_id" disabled>
-                        <p class="help-block">Example block-level help text here.</p>
+                        <p class="help-block"></p>
                     </div>
                     <div class="form-group">
                         <label>姓名</label>
-                        <input class="form-control" name="user_name">
+                        <input class="form-control required" name="user_name">
                     </div>
                     <div class="form-group">
                         <label>身份</label>
                         <input class="form-control" value="<?php echo $user_type_name[$type];?>"  name="type">
-                        <p class="help-block">Example block-level help text here.</p>
+                        <p class="help-block"></p>
                     </div>
                     <div class="form-group">
                         <label>密码</label>
-                        <input class="form-control"  name="user_password">
-                        <p class="help-block">Example block-level help text here.</p>
+                        <input class="form-control required"  name="user_password">
+                        <p class="help-block"></p>
                     </div>
 
                     <button type="submit" class="btn btn-default" style="float: right">保存</button>
@@ -81,6 +81,7 @@ $user_type_name = array(
 
 <!-- Custom Theme JavaScript -->
 <script src="view/static/js/sb-admin-2.js"></script>
+<script src="view/static/js/jquery.validate.min.js"></script>
 
 <!-- Page-Level Demo Scripts - Tables - Use for reference -->
 <script>
@@ -88,6 +89,7 @@ $user_type_name = array(
         $('#dataTables-example').DataTable({
             responsive: true
         });
+        $("#form").validate();
     });
 </script>
 

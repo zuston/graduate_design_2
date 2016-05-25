@@ -45,7 +45,7 @@ $user_type_name = array(
 <!--                `provider_state` tinyint(11) DEFAULT NULL COMMENT '0:删除1：未删除',-->
 <!--                PRIMARY KEY (`provider_id`)-->
 <!--                ) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;-->
-                <form role="form" action="/addPeople/add" method="post">
+                <form role="form" action="/addPeople/add" method="post" id="form">
                     <div class="form-group" hidden>
                         <label>type id</label>
                         <input class="form-control"  name="type" value="<?php echo $type;?>">
@@ -53,32 +53,32 @@ $user_type_name = array(
                     </div>
                     <div class="form-group">
                         <label>公司名称</label>
-                        <input class="form-control"  name="company_name" class="required" id="string">
-                        <p class="help-block">Example block-level help text here.</p>
+                        <input class="form-control required"  name="company_name" class="required" id="string">
+                        <p class="help-block"></p>
                     </div>
                     <div class="form-group">
                         <label>公司电话</label>
-                        <input class="form-control" name="company_phone">
+                        <input class="form-control required" name="company_phone" minlength="5">
                     </div>
                     <div class="form-group">
                         <label>联系人名称</label>
-                        <input class="form-control"  name="contact_name">
-                        <p class="help-block">Example block-level help text here.</p>
+                        <input class="form-control required"  name="contact_name">
+                        <p class="help-block"></p>
                     </div>
                     <div class="form-group">
                         <label>联系人电话</label>
-                        <input class="form-control"  name="contact_phone">
-                        <p class="help-block">Example block-level help text here.</p>
+                        <input class="form-control required" minlength="5"  name="contact_phone">
+                        <p class="help-block"></p>
                     </div>
                     <div class="form-group">
                         <label>联系人qq</label>
-                        <input class="form-control" name="contact_qq">
-                        <p class="help-block">Example block-level help text here.</p>
+                        <input class="form-control required" minlength="5" name="contact_qq">
+                        <p class="help-block"></p>
                     </div>
                     <div class="form-group">
                         <label>联系人地址</label>
-                        <input class="form-control"  name="contact_address">
-                        <p class="help-block">Example block-level help text here.</p>
+                        <input class="form-control required"  name="contact_address">
+                        <p class="help-block"></p>
                     </div>
 
                     <button type="submit" class="btn btn-default" style="float: right">新增</button>
@@ -107,6 +107,8 @@ $user_type_name = array(
 
 <!-- Custom Theme JavaScript -->
 <script src="view/static/js/sb-admin-2.js"></script>
+<script src="view/static/js/jquery.validate.min.js"></script>
+
 
 <!-- Page-Level Demo Scripts - Tables - Use for reference -->
 <script>
@@ -114,6 +116,7 @@ $user_type_name = array(
         $('#dataTables-example').DataTable({
             responsive: true
         });
+        $("#form").validate();
 
     });
 </script>

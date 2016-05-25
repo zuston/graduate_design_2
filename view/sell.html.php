@@ -52,7 +52,7 @@ $user_type_name = array(
         </div>
         <div class="row">
             <div class="col-md-6">
-                <form role="form" action="/sell/add" method="post">
+                <form role="form" action="/sell/add" method="post" id="form">
                      <div class="form-group" hidden>
                         <label>人员id</label>
                         <input class="form-control"  name="id" value='<?php echo $userModel->id;?>'>
@@ -60,12 +60,13 @@ $user_type_name = array(
                     </div>
                     <div class="form-group">
                         <label>出货数量</label>
-                        <input class="form-control"  name="sell_count">
-                        <p class="help-block">Example block-level help text here.</p>
+                        <input class="form-control required number"  name="sell_count">
+                        <p class="help-block"></p>
                     </div>
                     <div class="form-group">
                         <label>商品名</label>
-                        <input class="form-control" id="product_listen">
+                        <input class="form-control required" id="product_listen">
+                        <p class="help-block"></p>
                         <div class="list_box">
                             <div class="keywords_list"></div>
                         </div>
@@ -113,6 +114,7 @@ $user_type_name = array(
 
 <!-- Custom Theme JavaScript -->
 <script src="view/static/js/sb-admin-2.js"></script>
+<script src="view/static/js/jquery.validate.min.js"></script>
 
 <!-- Page-Level Demo Scripts - Tables - Use for reference -->
 <script>
@@ -144,6 +146,8 @@ $user_type_name = array(
             });
             return false;
         });
+
+        $("#form").validate();
     });
 </script>
 
