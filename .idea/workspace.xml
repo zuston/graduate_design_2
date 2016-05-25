@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c3d0eeb-b4ac-4f01-abbb-824de7d00112" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/addPeople.html.php" afterPath="$PROJECT_DIR$/view/addPeople.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/addUser.html.php" afterPath="$PROJECT_DIR$/view/addUser.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/layout/footer.js.html.php" afterPath="$PROJECT_DIR$/view/layout/footer.js.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/purcharse.html.php" afterPath="$PROJECT_DIR$/view/purcharse.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/sell.html.php" afterPath="$PROJECT_DIR$/view/sell.html.php" />
-    </list>
+    <list default="true" id="2c3d0eeb-b4ac-4f01-abbb-824de7d00112" name="Default" comment="" />
     <ignored path="graduate_design.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -83,8 +75,8 @@
       <file leaf-file-name="sell.html.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/sell.html.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43037975">
-              <caret line="79" column="42" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.20253165">
+              <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -794,8 +786,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/sell.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43037975">
-          <caret line="79" column="42" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.20253165">
+          <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
           <folding />
         </state>
       </provider>

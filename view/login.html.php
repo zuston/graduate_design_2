@@ -21,11 +21,10 @@
     <fieldset class="boxBody">
         <label>用户名</label>
         <input type="text" tabindex="1" placeholder="请输入您的用户名" required name="username">
-        <label><a href="#" class="rLink" tabindex="5">忘记密码?</a>密码</label>
+        <label>密码</label>
         <input type="password" tabindex="2" required name="password">
     </fieldset>
     <footer>
-        <label><input type="checkbox" tabindex="3" name="keeplogin">保持登录</label>
         <input type="submit" class="btnLogin" value="登录" tabindex="4">
     </footer>
 </form>
